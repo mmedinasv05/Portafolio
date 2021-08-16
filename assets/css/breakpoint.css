@@ -1,0 +1,247 @@
+/**********  Small -Done **********/
+@media screen and (max-width: 640px){
+    .header-mobile{
+        width: 100%;
+        height: var(--height-menu-sm);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: var(--black);
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        padding: 0 20px;
+    }
+    .link-menu-mobile{
+        font-size: 25px;
+        color: var(--white);
+    }
+    .header-container{
+        display: none;        
+    }
+
+    .link-brand{
+        width: 150px !important;
+        display: none;
+    }
+
+    /****************** Main Container *****************/
+    .main-container{
+        height: 100vh;
+        margin: 0 0 0 0 !important;
+        justify-content: center;
+        flex-direction: column-reverse;
+        padding: 0 20px 150px 20px;
+
+    }
+    .wave{
+        display: none !important;
+    }
+
+    .fa-arrow-down{
+        position: absolute;
+        right: 48%;
+        bottom: 0;
+        color: var(--gray);
+        transform: translateY(-110px);
+        font-size: 30px;
+        animation: arrow 1.5s linear infinite;
+    
+    }
+    @keyframes arrow {
+        0%{
+            transform: translateY(-110px);
+            opacity: 1;
+        }
+        20%{
+            transform: translateY(-90px);
+            opacity: 0.8;
+        }
+        40%{
+            transform: translateY(-70px);
+            opacity: 0.6;
+        }
+        60%{
+            transform: translateY(-50px);
+            opacity: 0.4;
+        }
+        80%{
+            transform: translateY(-30px);
+            opacity: 0.2;
+        }
+        100%{
+            transform: translateY(-10px);
+            opacity: 0;
+        }
+    }
+
+
+    .main-image{
+        height: 65%;
+    }
+    .main-title{
+        line-height: 50px;
+        text-align: center;
+        margin: 25px 0 5px 0;
+    }
+    .main-text{
+        font-size: 18px;
+
+        text-align: center;
+    }
+
+    /****************** About Container - Done *****************/
+    .about-container{
+        height: auto;
+        padding: 50px 25px;
+    }
+    .about-description{
+        text-align: center;
+    }
+
+    .about-tecnology{
+        padding: 0 20px;
+        flex-wrap: wrap;
+    }
+    .about-tecnology svg{
+        width: 20%;
+        margin: 0 15px 35px 15px;
+    }
+    .about-tecnology svg:nth-child(1),
+    .about-tecnology svg:nth-child(2),
+    .about-tecnology svg:nth-child(5),
+    .about-tecnology svg:nth-child(7){
+        width: 15%;
+    }
+
+    /****************** Portfolio Container *****************/
+    .portfolio-container{
+        padding: 50px 20px;
+    }
+    .portfolio-description{
+        padding: 0;
+        text-align: center;
+    }
+    .work{
+        width: 100%;
+        margin: 0 0 30px 0;
+    }
+
+    .work-tecnology{
+        font-size: 14px;
+    }
+    .work-link{
+        font-size: 16px;
+    }
+
+    /****************** Contact Container - Done *****************/
+    .contact-container{
+        padding: 50px 25px;
+    }
+    .contact-email-link{
+        font-size: 16px;
+    }
+
+    /****************** Social  Media Container - Done *****************/
+    .social-media{
+        width: 50%;
+        height: 40vh;
+    }
+    .social-media svg{
+        width: 12%;
+    }
+    .instagram svg,
+    .linkedin svg,
+    .github svg{
+        width: 15%;
+    }
+    .social-media-title{
+        font-size: 27px;
+    }
+
+    /****************** Footer Container - Done *****************/
+    .footer-text{
+        font-size: 16px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********  Medium **********/
+@media screen and (min-width: 641px) and (max-width: 768px){
+
+
+}
+
+
+
+
+
+
+
+
+
+/**********  large **********/
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .header-mobile{
+        display: none;
+    }
+
+    /****************** header Container - Done *****************/
+    .header-container{
+        padding: 0 35px 0 40px;
+    }
+
+    /****************** Main Container *****************/
+    .main-container{
+        padding: 0 100px 0 40px
+    }
+    .main-title{
+        line-height: 70px;
+        margin: 0 0 5px 0;
+    }
+
+    /****************** About Container - Done *****************/
+    .about-container{
+        padding: 100px 40px;
+    }
+
+    /****************** Portfolio Container *****************/
+    .portfolio-container{
+        padding: 100px 40px 55px 40px;
+    }
+
+    /****************** Contact Container - Done *****************/
+    .contact-container{
+        padding: 40px 200px 75px 200px;
+    }
+
+    /****************** Social  Media Container - Done *****************/
+    .social-media svg{
+        width: 9%;
+    }
+    .instagram svg,
+    .linkedin svg,
+    .github svg{
+        width: 12%;
+    }
+}

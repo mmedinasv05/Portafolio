@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+    /* Typography */
+    /* --font-title: 'Space Mono', monospace; */
+    --font-title: 'Rubik', sans-serif;
+    --font-title-alt: 'Space Mono', monospace;
+    --font-menu: 'Rubik', sans-serif;
+    --font-paragraph: 'Montserrat', sans-serif;
+
+    /* Colors */
+    --blue-dark: #2D6187;
+    --white: #FDFDFD;
+    --black: #0E1A2A;
+    --gray: #CFCFCF;
+    --orange: #FF4C29;
+    --red: #FF3847;
+
+    --html: #F4470B;
+    --css: #0068BA;
+    --js: #E9D44D;
+    --bootstrap: #754FAD;
+    --sass: #CE6B9E;
+    --react: #00D1F7;
+
+    --facebook: #38529A;
+    --instagram: radial-gradient(circle at 10% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    --linkedin: #016FAB;
+    --github: #000000;
+
+    /* Size */
+    --height-header: 13vh;
+    --size-item-menu: 15px;
+    --size-h1: 70px;
+    --size-h2: 40px;
+    --size-h3: 16px;
+    --size-h5: 25px;
+    --sise-h6: 21px;
+    --size-paragraph: 16px;
+    --line-height: 25px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body::-webkit-scrollbar{
+    width: 3px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: var(--black);
+}
+a{
+    text-decoration: none;
+}
+.about-title,
+.portfolio-title{
+    font-size: var(--size-h2);
+    font-family: var(--font-title);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+#about,
+#portfolio{
+    scroll-margin-top: 6ex;
+}
+#contact{
+    scroll-margin-top: 12ex;
+}
+
+
+
+@media screen and (max-width: 640px){
+
+    :root{
+
+        --height-menu-sm: 11vh;
+        --size-h1: 45px;
+        --size-h2: 40px;
+        --sise-h6: 27px;
+        --size-paragraph: 17px;
+        --line-height: 25px;
+    }
+
+    .about-title,
+    .portfolio-title{
+        text-align: center;
+    }
+    #about,
+    #portfolio{
+        scroll-margin-top: 0ex;
+    }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    :root{
+        --size-h1: 60px;
+        --size-h2: 35px;
+        --size-paragraph: 15px;
+        --line-height: 24px;
+    }
+}
