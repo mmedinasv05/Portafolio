@@ -1,0 +1,34 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "Fun Weather.",
+            "image": "Project1",
+            "alt": "Project 1"
+        },
+        {
+            "id": 2,
+            "title": "Story HTML.",
+            "image": "../Image/2-min.png",
+            "alt": "Project 2"
+        },
+        {
+            "id": 3,
+            "title": "Commerce.",
+            "image": "../Image/3-min.png",
+            "alt": "Project 3"
+        },
+        {
+            "id": 4,
+            "title": "Bitlab Academy.",
+            "image": "../Image/4-min.png",
+            "alt": "Project 4"
+        },
+        {
+            "id": 5,
+            "title": "Amazon Lite.",
+            "image": "../Image/5-min.png",
+            "alt": "Project 5"
+        }
+    ]
+}

@@ -1,0 +1,152 @@
+.description-container{
+    width: 100%;
+    max-width: 1360px;
+    height: auto;
+    background-color: var(--white);
+    margin: var(--height-header) 0 0 0;
+}
+.descrption-content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.description-image{
+    width: 35%;
+    height: auto;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 0 0;
+}
+.image-profile{
+    height: 60vh;
+    width: auto;
+}
+.description-text{
+    width: 65%;
+    height: auto;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 30px 50px 0 30px;
+    letter-spacing: 0.5px;
+}
+.description-text h2{
+    color: var(--black);
+    text-transform: uppercase;
+    margin: 0 0 15px 0;
+}
+.description{
+    font-family: var(--font-paragraph);
+    font-size: var(--size-paragraph);
+    line-height: var(--line-height);
+    color: var(--gray-dark);
+    margin: 0;
+}
+.description-tecnology{
+    width: 100%;
+    height: auto;
+    padding: 70px 120px 70px 120px;
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tecnologys{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.tecnology-icon{
+    font-size: 60px;
+    -webkit-transition:opacity  .5s;
+    -moz-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    margin: 0;
+}
+.tecnology-title{
+    font-family: var(--font-alt);
+    font-size: 25px;
+    opacity: 0;
+    letter-spacing: 1px;
+    -webkit-transition: opacity .5s;
+    -moz-transition: o pacity 0.5s;
+    -o-transition: o pacity 0.5s;
+    position: absolute;
+    margin: 0;
+    font-weight: bold;
+}
+.tecnologys:hover .tecnology-title{
+    opacity: 1;
+}
+.tecnologys:hover svg{
+    opacity: 0;
+}
+.title-html{
+    color: var(--html);
+}
+.title-css{
+    color: var(--css);
+}
+.title-sass{
+    color: var(--sass);
+}
+.title-bootstrap{
+    color: var(--bootstrap);
+}
+.title-js{
+    color: var(--js);
+}
+.title-react{
+    color: var(--react);
+}
+.title-github{
+    color: var(--black);
+}
+.box-tecnology:hover .title-tecnology{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+/*Breakpoints*/
+@media screen and (max-width: 1024px){
+
+    .description-image{
+        padding: 50px 0 0 0;
+    }
+    .image-profile{
+        height: 70vh;
+        width: auto;
+    }
+    .description-text{
+        padding: 55px 50px 0 10px;
+    }
+      
+    .description-tecnology{
+        padding: 80px 50px 50px 50px;
+    }
+    .tecnology-icon{
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 800px){}
+
+@media screen and (max-width: 600px){}
+
+@media screen and (max-width: 480px){}
+
+@media screen and (max-width: 360px){}

@@ -1,0 +1,14 @@
+.notfound-container{
+    width: 100%;
+    max-width: 1360px;
+    height: calc(87vh - var(--height-header));
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: var(--height-header) 0 0 0;
+}
+.notfound-image{
+    will-change: 100%;
+}

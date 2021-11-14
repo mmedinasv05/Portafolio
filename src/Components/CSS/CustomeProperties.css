@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+:root{
+    
+    --height-header: 13vh;
+
+    --size-brand: 28px;
+    --size-menu: 16.5px;
+    --size-title-h1: 125px;
+    --size-title-h2: 40px; /*Title section*/
+    --size-title-h3: 35px;
+    --size-title-h5: 23px;
+
+    --size-paragraph: 16px;
+    --line-height: 27px;
+
+
+    --white-alt: #F8F8F9;
+    --white: #FFFFFF;
+    --black: #0E1A2A;
+    --blue-dark: #020D81;
+    --blue: #233DF9;
+    --gray: #999999;
+    --gray-dark: #4A5568;
+    --pink: #FC199D;
+    --sky-blue: #FBD7E0;
+
+    --html: #F4470B;
+    --css: #0068BA;
+    --js: #E9D44D;
+    --bootstrap: #754FAD;
+    --sass: #CE6B9E;
+    --react: #00D1F7;
+    --facebook: #38529A;
+    /* --instagram: radial-gradient(circle at 10% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF); */
+    --instagram: #F71E9E;
+    --linkedin: #016FAB;
+    --github: #000000;
+    --twitter: #3993ED;
+    --email: #F2463C;
+
+    --font-brand: 'Rubik', sans-serif;
+    --font-menu: "Nunito Sans", sans-serif;
+    --font-title: 'Rubik', sans-serif;
+    /* --font-paragraph: 'Montserrat', sans-serif; */
+    --font-paragraph: "Nunito Sans", sans-serif;
+    --font-alt: 'Space Mono', monospace;
+}
+.title-h2{
+    font-family: var(--font-title);
+    font-size: var(--size-title-h2);
+    letter-spacing: 1px;
+    margin: 0 0 15px 0;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+/*Breakpoints*/
+@media screen and (max-width: 1024px){
+    :root{
+        --size-title-h1: 115px;
+        --size-title-h2: 40px; /*Title section*/
+        --size-title-h3: 40px;
+
+        --size-paragraph: 15px;
+    }
+}
+
+@media screen and (max-width: 800px){}
+
+@media screen and (max-width: 600px){}
+
+@media screen and (max-width: 480px){}
+
+@media screen and (max-width: 360px){}

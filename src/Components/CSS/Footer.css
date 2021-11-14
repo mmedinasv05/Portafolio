@@ -1,0 +1,72 @@
+.footer-container{
+    width: 100%;
+    max-width: 1360px;
+    height: 13vh;
+    padding: 0 50px;
+    background-color: var(--white);
+    border-top: 0.5px solid #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-content{
+    width: auto;
+    height: auto;
+}
+.footer-description{
+    margin: 0;
+    color: #8EA2B9;
+    font-size: 15px;
+    margin: 0;
+    font-family: var(--font-menu);
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.footer-social-media{
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+.footer-icon-social-media{
+    font-size: 22px;
+    margin: 0 0 0 25px;
+    color: #8EA2B9;
+    -webkit-transition: color 0.5s;
+    -moz-transition:  color 0.5s;
+    -o-transition:  color 0.5s;
+}
+.facebook:hover{
+    color: var(--facebook);
+}
+.instagram:hover{
+    color: var(--instagram);
+}
+.email:hover{
+    color: var(--email);
+}
+.linkedin:hover{
+    color: var(--linkedin);
+}
+.github:hover{
+    color: var(--github);
+}
+
+
+
+
+
+/*Breakpoints*/
+@media screen and (max-width: 1024px){
+    .footer-container{
+        padding: 0 30px;
+    }
+}
+
+@media screen and (max-width: 800px){}
+
+@media screen and (max-width: 600px){}
+
+@media screen and (max-width: 480px){}
+
+@media screen and (max-width: 360px){}

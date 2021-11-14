@@ -1,0 +1,67 @@
+.welcome-container{
+    width: 100%;
+    max-width: 1360px;
+    height: calc(87vh - var(--height-header));
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: var(--height-header) 0 0 0;
+}
+.welcome-text{
+    width: auto;
+    height: auto;
+}
+.welcome-title{
+    font-size: var(--size-title-h1);
+    font-family: var(--font-title);
+    line-height: 115px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--black);
+    margin: 0;
+}
+.welcome-content{
+    font-family: var(--font-title);
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+    text-align: right;
+    letter-spacing: 1px;
+    color: var(--black);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Breakpoints*/
+@media screen and (max-width: 1024px){
+    .welcome-title{
+        line-height: 100px;
+    }
+}
+
+@media screen and (max-width: 800px){}
+
+@media screen and (max-width: 600px){}
+
+@media screen and (max-width: 480px){}
+
+@media screen and (max-width: 360px){}
