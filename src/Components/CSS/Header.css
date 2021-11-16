@@ -1,7 +1,7 @@
 
 .header-menu{
     width: 100%;
-    max-width: 1360px;
+    max-width: 1500px;
     height: var(--height-header);
     background-color: var(--white);
     display: flex;
