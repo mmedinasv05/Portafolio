@@ -18,7 +18,7 @@ export default function Footer(){
                     <a href="https://www.instagram.com/__manuelchavez/" target="_blank" rel="noreferrer" title="Instagram">
                         <FontAwesomeIcon icon={faInstagram} className="footer-icon-social-media instagram"/>
                     </a>
-                    <a href="mailto:chavezofficial2015@gmail.com" target="_blank" rel="noreferrer" title="Email">
+                    <a href="mailto:chavezofficial2015@gmail.com" target="_blank" rel="noreferrer" title="Gmail">
                         <FontAwesomeIcon icon={faEnvelope} className="footer-icon-social-media email"/>
                     </a>
                     <a href="https://www.linkedin.com/in/manuel-chavez-ab0b711ab/" target="_blank" rel="noreferrer" title="Linkedin">

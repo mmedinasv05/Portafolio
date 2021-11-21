@@ -1,13 +1,16 @@
 .welcome-container{
     width: 100%;
-    max-width: 1500px;
-    height: calc(87vh - var(--height-header));
+    max-width: 1400px;
+    height: calc(100vh - var(--height-header));
     background-color: var(--white);
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     margin: var(--height-header) 0 0 0;
+}
+.icon-welcome{
+    display: none;
 }
 .welcome-text{
     width: auto;
@@ -24,12 +27,12 @@
 }
 .welcome-content{
     font-family: var(--font-title);
-    font-weight: bold;
-    font-size: 19px;
+    font-size: 21px;
     margin: 0;
     text-align: right;
     letter-spacing: 1px;
     color: var(--black);
+    text-transform: uppercase;
 }
 
 
@@ -52,16 +55,55 @@
 
 
 /*Breakpoints*/
+/*DONE - OK*/
 @media screen and (max-width: 1024px){
     .welcome-title{
-        line-height: 100px;
+        line-height: 110px;
     }
 }
 
-@media screen and (max-width: 800px){}
 
-@media screen and (max-width: 600px){}
+/*DONE - OK*/
+@media screen and (max-width: 800px){
+    .welcome-title{
+        line-height: 90px;
+    }
+    .welcome-content{
+        font-size: 19px;
+    }
+}
 
-@media screen and (max-width: 480px){}
 
-@media screen and (max-width: 360px){}
+/*DONE - OK*/
+@media screen and (max-width: 600px){
+    .welcome-title{
+        line-height: 80px;
+    }
+}
+
+
+
+/*DONE - OK*/
+@media screen and (max-width: 480px){
+    .welcome-container{
+        padding: 0 0 40px 0;
+    }
+    .icon-welcome{
+        display: block;
+        width: 70%;
+    }
+    .welcome-title,
+    .welcome-content{
+        display: none;
+    }
+}
+
+/*DONE - OK*/
+@media screen and (max-width: 360px){
+    .welcome-container{
+        padding: 0 0 60px 0;
+    }
+    .icon-welcome{
+        width: 72%;
+    }
+}

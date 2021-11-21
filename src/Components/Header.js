@@ -14,7 +14,7 @@ export default function Header(){
                 <nav className="nav-menu">
                     <NavLink to="/" className="nav-menu-link" title="Inicio">Inicio</NavLink>
                     <NavLink to="/acerca" className="nav-menu-link" title="Acerca">Acerca</NavLink>
-                    <NavLink to="/portafolio" className="nav-menu-link" title="Portafolio">Portafolio</NavLink>
+                    <NavLink to="/proyectos" className="nav-menu-link" title="proyectos">Proyectos</NavLink>
                 </nav>
             </header>
         </>

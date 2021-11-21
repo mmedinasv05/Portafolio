@@ -6,15 +6,12 @@
 :root{
     
     --height-header: 13vh;
-
-    --size-brand: 28px;
-    --size-menu: 16.5px;
-    --size-title-h1: 125px;
-    --size-title-h2: 40px; /*Title section*/
+    --size-menu: 17px;
+    --size-title-h1: 135px;
+    --size-title-h2: 45px;
     --size-title-h3: 35px;
     --size-title-h5: 23px;
-
-    --size-paragraph: 16px;
+    --size-paragraph: 15.5px;
     --line-height: 27px;
 
 
@@ -45,15 +42,13 @@
     --font-brand: 'Rubik', sans-serif;
     --font-menu: "Nunito Sans", sans-serif;
     --font-title: 'Rubik', sans-serif;
-    /* --font-paragraph: 'Montserrat', sans-serif; */
-    --font-paragraph: "Nunito Sans", sans-serif;
+    /* --font-paragraph: "Nunito Sans", sans-serif; */
+    --font-paragraph: 'Montserrat', sans-serif;
     --font-alt: 'Space Mono', monospace;
 }
 .title-h2{
     font-family: var(--font-title);
     font-size: var(--size-title-h2);
-    letter-spacing: 1px;
-    margin: 0 0 15px 0;
     letter-spacing: 1px;
 }
 
@@ -62,20 +57,63 @@
 
 
 /*Breakpoints*/
+/*DONE - OK*/
 @media screen and (max-width: 1024px){
     :root{
-        --size-title-h1: 115px;
-        --size-title-h2: 40px; /*Title section*/
-        --size-title-h3: 40px;
-
+        --size-title-h1: 125px;
+        --size-title-h2: 40px;
+        --size-title-h3: 35px;
         --size-paragraph: 15px;
     }
 }
 
-@media screen and (max-width: 800px){}
+/*DONE - OK*/
+@media screen and (max-width: 800px){
+    :root{
+        --height-header: 15vh;
+        --size-title-h1: 100px;
+        --size-title-h2: 40px;
+        --size-title-h3: 30px;
+        --size-paragraph: 15px;
+    }
+}
 
-@media screen and (max-width: 600px){}
 
-@media screen and (max-width: 480px){}
 
-@media screen and (max-width: 360px){}
+
+
+@media screen and (max-width: 630px){
+    :root{
+        --height-header: 20vh;
+        --size-title-h3: 40px;
+    }
+}
+
+
+
+
+
+
+/*DONE - OK*/
+@media screen and (max-width: 480px){
+    :root{
+        --height-header: 20vh;
+        --size-menu: 18px;
+        --size-paragraph: 17px;
+        --size-title-h1: 85px;
+        --size-title-h2: 42px;
+        --size-title-h3: 35px;
+        --line-height: 29px;
+    }
+}
+
+/*DONE - OKOK*/
+@media screen and (max-width: 360px){
+    :root{
+        --height-header: 20vh;
+        --size-menu: 17px;
+        --size-paragraph: 16px;
+        --size-title-h2: 40px;
+        --size-title-h3: 32px;
+    }
+}

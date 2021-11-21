@@ -2,7 +2,7 @@
     width: 100%;
     max-width: 1500px;
     height: 13vh;
-    padding: 0 50px;
+    padding: 0 40px;
     background-color: var(--white);
     border-top: 0.5px solid #E5E7EB;
     display: flex;
@@ -16,11 +16,11 @@
 .footer-description{
     margin: 0;
     color: #8EA2B9;
-    font-size: 15px;
+    font-size: 16px;
     margin: 0;
     font-family: var(--font-menu);
     letter-spacing: 1px;
-    font-weight: bold;
+    font-weight: bold
 }
 
 .footer-social-media{
@@ -54,19 +54,69 @@
 
 
 
-
-
 /*Breakpoints*/
-@media screen and (max-width: 1024px){
+/*DONE - DONE*/
+@media screen and (max-width: 1100px){
     .footer-container{
         padding: 0 30px;
     }
 }
 
-@media screen and (max-width: 800px){}
+/*DONE - DONE*/
+@media screen and (max-width: 800px){
+    .footer-container{
+        padding: 0 25px;
+    }
+}
 
-@media screen and (max-width: 600px){}
+/*DONE - DONE*/
+@media screen and (max-width: 630px){
+    .footer-container{
+        height: 18vh;
+        padding: 0;
+        justify-content: center;
+        flex-direction: column-reverse;
+        border-top: 1px solid #E5E7EB;
+    }
+    .footer-description{
+        text-align: center;
+        font-size: 18px;
+        letter-spacing: 1px;
+        margin: 0;
+    }
+    .footer-social-media{
+        padding: 0;
+        margin: 3px 0 15px 0;
+    }
+    .footer-icon-social-media{
+        font-size: 28px;
+        margin: 0 22px;
+    }
+}
 
-@media screen and (max-width: 480px){}
+/*DONE - DONE*/
+@media screen and (max-width: 480px){
+    .footer-container{
+        height: 15vh;
+    }
+    .footer-description{
+        font-size: 16.5px;
+    }
+    .footer-social-media{
+        margin: 3px 0 18px 0;
+    }
+    .footer-icon-social-media{
+        font-size: 28px;
+        margin: 0 20px;
+    }
+}
 
-@media screen and (max-width: 360px){}
+/*DONE - DONE*//*DONE - OK*/
+@media screen and (max-width: 360px){
+    .footer-description{
+        font-size: 16px;
+    }
+    .footer-icon-social-media{
+        font-size: 24px;
+    }
+}

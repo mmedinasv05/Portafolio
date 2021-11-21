@@ -21,11 +21,10 @@ export default function Projects(){
                     </h2>
                     <p>
                         Hace 2 años comence a realizar proyectos a nivel personal para poder ir reforzando mis 
-                        conocimientos y asi poco a poco poder ir mejorando y poder ir adquiriendo experiencia 
+                        conocimientos y asi poco a poco poder ir mejorando e ir adquiriendo experiencia 
                         a travez de nuevos retos.
                     </p>
                 </section>
-
                 <section className="projects">
                     {/* Fun Weather. */}
                     <figure className="project">
