@@ -128,10 +128,13 @@
     }
     .description-text{
         width: 100%;
-        height: calc(100vh - (var(--height-header) + 13vh));
+        height: calc(100vh - var(--height-header));
         padding: 0 30px;
         justify-content: center;
         align-items: flex-start;
+    }
+    .description-text h2{
+        margin: 0 0 10px 0;
     }
     .description-tecnology{
         width: 100%;
