@@ -60,6 +60,9 @@
     .welcome-title{
         line-height: 110px;
     }
+    .welcome-content{
+        font-size: 20px;
+    }
 }
 
 
