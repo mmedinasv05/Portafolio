@@ -10,5 +10,31 @@
     margin: var(--height-header) 0 0 0;
 }
 .notfound-image{
-    will-change: 100%;
+   max-width: 100%;
 }
+
+
+
+/*Breakpoints*/
+/*DONE - OK*/
+@media screen and (max-width: 1024px){
+    
+}
+
+/*DONE - OK*/
+@media screen and (max-width: 800px){
+    
+}
+
+/*DONE - OK*/
+@media screen and (max-width: 600px){
+    
+}
+
+/*DONE - OK*/
+@media screen and (max-width: 480px){
+    
+}
+
+/*DONE - OK*/
+@media screen and (max-width: 360px){}

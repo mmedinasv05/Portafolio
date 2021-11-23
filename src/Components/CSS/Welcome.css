@@ -2,7 +2,7 @@
     width: 100%;
     max-width: 1400px;
     height: calc(100vh - var(--height-header));
-    background-color: var(--white);
+    background-color: var(--white-alt);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +27,7 @@
 }
 .welcome-content{
     font-family: var(--font-title);
-    font-size: 21px;
+    font-size: 20px;
     margin: 0;
     text-align: right;
     letter-spacing: 1px;
@@ -39,24 +39,9 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Breakpoints*/
-/*DONE - OK*/
-@media screen and (max-width: 1024px){
+/***************  Breakpoints  ***************/
+/*DONE - DONE*/
+@media screen and (max-width: 1100px){
     .welcome-title{
         line-height: 110px;
     }
@@ -65,35 +50,35 @@
     }
 }
 
-
-/*DONE - OK*/
-@media screen and (max-width: 800px){
+/*DONE - DONE*/
+@media screen and (max-width: 900px){
     .welcome-title{
-        line-height: 90px;
+        line-height: 95px;
     }
     .welcome-content{
-        font-size: 19px;
+        font-size: 20px;
     }
 }
 
-
-/*DONE - OK*/
-@media screen and (max-width: 600px){
+/*DONE - DONE*/
+@media screen and (max-width: 630px){
     .welcome-title{
-        line-height: 80px;
+        line-height: 85px;
+    }
+    .welcome-content{
+        font-size: 18px;
     }
 }
 
-
-
-/*DONE - OK*/
-@media screen and (max-width: 480px){
+/*DONE - DONE*/
+@media screen and (max-width: 515px){
     .welcome-container{
-        padding: 0 0 40px 0;
+        padding: 0 0 70px 0;
     }
     .icon-welcome{
         display: block;
         width: 70%;
+        height: auto;
     }
     .welcome-title,
     .welcome-content{
@@ -101,12 +86,13 @@
     }
 }
 
-/*DONE - OK*/
+/*DONE - DONE*/
 @media screen and (max-width: 360px){
     .welcome-container{
         padding: 0 0 60px 0;
     }
     .icon-welcome{
-        width: 72%;
+        height: 80%;
+        width: auto;
     }
 }

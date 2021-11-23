@@ -1,10 +1,10 @@
 .footer-container{
     width: 100%;
-    max-width: 1500px;
+    max-width: 1400px;
     height: 13vh;
     padding: 0 40px;
-    background-color: var(--white);
-    border-top: 0.5px solid #E5E7EB;
+    background-color: var(--white-alt);
+    border-top: 1.5px solid #e5e7eb;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,12 +15,12 @@
 }
 .footer-description{
     margin: 0;
-    color: #8EA2B9;
+    color: var(--gray-alt);
     font-size: 16px;
     margin: 0;
     font-family: var(--font-menu);
     letter-spacing: 1px;
-    font-weight: bold
+    font-weight: bold;
 }
 
 .footer-social-media{
@@ -31,7 +31,7 @@
 .footer-icon-social-media{
     font-size: 22px;
     margin: 0 0 0 25px;
-    color: #8EA2B9;
+    color: var(--gray-alt);
     -webkit-transition: color 0.5s;
     -moz-transition:  color 0.5s;
     -o-transition:  color 0.5s;
@@ -54,7 +54,9 @@
 
 
 
-/*Breakpoints*/
+
+
+/***************  Breakpoints  ***************/
 /*DONE - DONE*/
 @media screen and (max-width: 1100px){
     .footer-container{
@@ -63,7 +65,7 @@
 }
 
 /*DONE - DONE*/
-@media screen and (max-width: 800px){
+@media screen and (max-width: 900px){
     .footer-container{
         padding: 0 25px;
     }
@@ -76,11 +78,11 @@
         padding: 0;
         justify-content: center;
         flex-direction: column-reverse;
-        border-top: 1px solid #E5E7EB;
+        border-top: 1px solid --var(gray-alt);
     }
     .footer-description{
         text-align: center;
-        font-size: 18px;
+        font-size: 17px;
         letter-spacing: 1px;
         margin: 0;
     }
@@ -89,13 +91,13 @@
         margin: 3px 0 15px 0;
     }
     .footer-icon-social-media{
-        font-size: 28px;
+        font-size: 26px;
         margin: 0 22px;
     }
 }
 
 /*DONE - DONE*/
-@media screen and (max-width: 480px){
+@media screen and (max-width: 515px){
     .footer-container{
         height: 15vh;
     }
@@ -106,17 +108,17 @@
         margin: 3px 0 18px 0;
     }
     .footer-icon-social-media{
-        font-size: 28px;
+        font-size: 26px;
         margin: 0 20px;
     }
 }
 
-/*DONE - DONE*//*DONE - OK*/
+/*DONE - DONE*/
 @media screen and (max-width: 360px){
     .footer-description{
         font-size: 16px;
     }
     .footer-icon-social-media{
-        font-size: 24px;
+        font-size: 25px;
     }
 }

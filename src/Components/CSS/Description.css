@@ -1,8 +1,8 @@
 .description-container{
     width: 100%;
-    max-width: 1500px;
+    max-width: 1400px;
     height: auto;
-    background-color: var(--white);
+    background-color: var(--white-alt);
     margin: var(--height-header) 0 0 0;
 }
 .descrption-content{
@@ -14,7 +14,7 @@
 .description-image{
     width: 35%;
     height: auto;
-    background-color: var(--white);
+    background-color: var(--white-alt);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,12 +27,12 @@
 .description-text{
     width: 65%;
     height: auto;
-    background-color: var(--white);
+    background-color: var(--white-alt);
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    padding: 0 40px 0 30px;
+    padding: 0 40px 0 20px;
 }
 .description-text h2{
     color: var(--black);
@@ -49,7 +49,7 @@
 .description-tecnology{
     width: 100%;
     height: auto;
-    background-color: var(--white);
+    background-color: var(--white-alt);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -117,10 +117,7 @@
 
 
 
-
-
-
-/*Breakpoints*/
+/***************  Breakpoints  ***************/
 /*DONE - DONE*/
 @media screen and (max-width: 1100px){
     .description-image{
@@ -138,12 +135,12 @@
     }
     .description-tecnology{
         width: 100%;
-        margin: 35px 0 0 0;
+        margin: 40px 0 0 0;
     }
 
 }
 
-/*DONE - OK*/
+/*DONE - DONE*/
 @media screen and (max-width: 900px){
     .description-text{
         height: auto;
@@ -153,13 +150,13 @@
         margin: 0 0 10px 0;
     }
     .description-tecnology{
-        padding: 0 0 25px 0;
+        padding: 0 0 10px 0;
         justify-content: space-around;
         flex-wrap: wrap;
     }
     .tecnologys{
-        width: 25%;
-        margin: 20px 0 40px 0;
+        width: 22%;
+        margin: 15px 0 50px 0;
     }
     .tecnology-title{
         font-size: 23px;
@@ -172,12 +169,11 @@
 /*DONE - DONE*/
 @media screen and (max-width: 630px){}
 
-
 /*DONE - DONE*/
-@media screen and (max-width: 480px){
+@media screen and (max-width: 515px){
     .description-text{
         height: auto;
-        padding: 40px 15px 15px 15px;
+        padding: 40px 20px 20px 20px;
     }
     .description-text h2{
         margin: 0 0 10px 0;
@@ -202,7 +198,7 @@
 /*DONE - DONE*/
 @media screen and (max-width: 360px){
     .tecnology-title{
-        font-size: 22px;
+        font-size: 20px;
     }
     .tecnology-icon{
         font-size: 60px;

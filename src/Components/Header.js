@@ -1,6 +1,6 @@
 import '../Components/CSS/Header.css';
 import '../Components/CSS/CustomeProperties.css';
-import brand from './Image/logo-brand2-min.png'
+import brand from './Image/brand-min.png'
 import { NavLink } from 'react-router-dom';
 
 export default function Header(){

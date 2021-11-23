@@ -5,16 +5,17 @@
 
 :root{
     
+    /*Size*/
     --height-header: 13vh;
     --size-menu: 17px;
     --size-title-h1: 135px;
-    --size-title-h2: 45px;
-    --size-title-h3: 35px;
+    --size-title-h2: 42px;
+    --size-title-h3: 33px;
     --size-title-h5: 23px;
     --size-paragraph: 15.5px;
     --line-height: 27px;
 
-
+    /*Colors*/
     --white-alt: #F8F8F9;
     --white: #FFFFFF;
     --black: #0E1A2A;
@@ -22,6 +23,7 @@
     --blue: #233DF9;
     --gray: #999999;
     --gray-dark: #4A5568;
+    --gray-alt: #8EA2B9;
     --pink: #FC199D;
     --sky-blue: #FBD7E0;
 
@@ -39,10 +41,10 @@
     --twitter: #3993ED;
     --email: #F2463C;
 
+    /*Typography*/
     --font-brand: 'Rubik', sans-serif;
     --font-menu: "Nunito Sans", sans-serif;
     --font-title: 'Rubik', sans-serif;
-    /* --font-paragraph: "Nunito Sans", sans-serif; */
     --font-paragraph: 'Montserrat', sans-serif;
     --font-alt: 'Space Mono', monospace;
 }
@@ -56,48 +58,47 @@
 
 
 
-/*Breakpoints*/
-/*DONE - OK*/
-@media screen and (max-width: 1024px){
+/***************  Breakpoints  ***************/
+/*DONE - DONE*/
+@media screen and (max-width: 1100px){
     :root{
         --size-title-h1: 125px;
         --size-title-h2: 40px;
         --size-title-h3: 35px;
-        --size-paragraph: 15px;
+        --size-paragraph: 15.5px;
+        --line-height: 28px;
     }
 }
 
-/*DONE - OK*/
-@media screen and (max-width: 800px){
+/*DONE - DONE*/
+@media screen and (max-width: 900px){
     :root{
         --height-header: 15vh;
-        --size-title-h1: 100px;
+        --size-title-h1: 110px;
         --size-title-h2: 40px;
-        --size-title-h3: 30px;
-        --size-paragraph: 15px;
+        --size-title-h3: 33px;
+        --size-paragraph: 15.5px;
+        --size-menu: 16.5px;
     }
 }
 
-
-
-
-
+/*DONE - DONE*/
 @media screen and (max-width: 630px){
     :root{
         --height-header: 20vh;
-        --size-title-h3: 40px;
+        --size-title-h1: 105px;
+        --size-title-h2: 40px;
+        --size-title-h3: 42px;
+        --size-paragraph: 16px;
+        --size-menu: 17px;
+        --line-height: 29px;
     }
 }
 
-
-
-
-
-
-/*DONE - OK*/
-@media screen and (max-width: 480px){
+/*DONE - DONE*/
+@media screen and (max-width: 515px){
     :root{
-        --height-header: 20vh;
+        --height-header: 15vh;
         --size-menu: 18px;
         --size-paragraph: 17px;
         --size-title-h1: 85px;
@@ -107,13 +108,14 @@
     }
 }
 
-/*DONE - OKOK*/
+
+/*DONE - DONE*/
 @media screen and (max-width: 360px){
     :root{
-        --height-header: 20vh;
-        --size-menu: 17px;
+        --height-header: 15vh;
+        --size-menu: 16px;
         --size-paragraph: 16px;
-        --size-title-h2: 40px;
-        --size-title-h3: 32px;
+        --size-title-h2: 38px;
+        --size-title-h3: 35px;
     }
 }

@@ -1,9 +1,8 @@
-
 .header-menu{
     width: 100%;
-    max-width: 1500px;
+    max-width: 1400px;
     height: var(--height-header);
-    background-color: var(--white);
+    background-color: var(--white-alt);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,7 +15,7 @@
     z-index: 1000;
 }
 .header-brand{
-    width: 180px;
+    width: 210px;
 }
 .nav-menu{
     width: auto;
@@ -41,7 +40,10 @@
 }
 
 
-/*Breakpoints*/
+
+
+
+/***************  Breakpoints  ***************/
 /*DONE - DONE*/
 @media screen and (max-width: 1100px){
     .header-menu{
@@ -50,9 +52,12 @@
 }
 
 /*DONE - DONE*/
-@media screen and (max-width: 800px){
+@media screen and (max-width: 900px){
     .header-menu{
         padding: 0 25px;
+    }
+    .header-brand{
+        width: 200px;
     }
 }
 
@@ -67,7 +72,7 @@
     }
     .header-brand{
         width: 190px;
-        margin: 0 0 7px 0;
+        margin: 0 0 9px 0;
     }
     .nav-menu-link{
         margin: 0 20px;
@@ -75,16 +80,16 @@
 }
 
 /*DONE - DONE*/
-@media screen and (max-width: 480px){
+@media screen and (max-width: 515px){
     .header-menu{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding: 0 15px 5px 15px;
+        padding: 0 10px 5px 10px;
         box-shadow: 0 3px 8px rgb(0 0 0 / 20%);
     }
     .header-brand{
-        width: 190px;
+        width: 200px;
         margin: 0 0 7px 0;
     }
     .nav-menu-link{
@@ -95,7 +100,7 @@
 /*DONE - DONE*/
 @media screen and (max-width: 360px){
     .header-brand{
-        width: 180px;
-        margin: 0 0 8px 0;
+        width: 210px;
+        margin: 0 0 6px 0;
     }
 }
