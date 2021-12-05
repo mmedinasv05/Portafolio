@@ -16,8 +16,8 @@ export default function Header(){
 
                 <nav className="nav-menu">
                     <NavLink to="/" className="nav-menu-link" title="Home">Home</NavLink>
-                    <NavLink to="/acerca" className="nav-menu-link" title="About">About</NavLink>
-                    <NavLink to="/proyectos" className="nav-menu-link" title="Portfolio">Portfolio</NavLink>
+                    <NavLink to="/about" className="nav-menu-link" title="About">About</NavLink>
+                    <NavLink to="/portfolio" className="nav-menu-link" title="Portfolio">Portfolio</NavLink>
                     <a href={cv} download className="link-cv">
                         <FontAwesomeIcon icon={faDownload} className="icon-download"/> Curriculum</a>
                 </nav>
