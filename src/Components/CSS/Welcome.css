@@ -1,6 +1,6 @@
 .welcome-container{
     width: 100%;
-    max-width: 1400px;
+    max-width: 1500px;
     height: calc(100vh - var(--height-header));
     background-color: var(--white-alt);
     display: flex;
@@ -19,9 +19,8 @@
 .welcome-title{
     font-size: var(--size-title-h1);
     font-family: var(--font-title);
-    line-height: 115px;
+    line-height: 105px;
     text-transform: uppercase;
-    letter-spacing: 2px;
     color: var(--black);
     margin: 0;
 }
@@ -30,7 +29,6 @@
     font-size: 20px;
     margin: 0;
     text-align: right;
-    letter-spacing: 1px;
     color: var(--black);
     text-transform: uppercase;
 }
@@ -40,44 +38,44 @@
 
 
 /***************  Breakpoints  ***************/
-/*DONE - DONE*/
+/*DONE*/
 @media screen and (max-width: 1100px){
     .welcome-title{
-        line-height: 110px;
+        line-height: 100px;
     }
     .welcome-content{
         font-size: 20px;
     }
 }
 
-/*DONE - DONE*/
+/*DONE*/
 @media screen and (max-width: 900px){
     .welcome-title{
-        line-height: 95px;
+        line-height: 97px;
+    }
+    .welcome-content{
+        font-size: 21px;
+    }
+}
+
+/*DONE*/
+@media screen and (max-width: 761px){
+    .welcome-title{
+        line-height: 100px;
     }
     .welcome-content{
         font-size: 20px;
     }
 }
 
-/*DONE - DONE*/
-@media screen and (max-width: 630px){
-    .welcome-title{
-        line-height: 85px;
-    }
-    .welcome-content{
-        font-size: 18px;
-    }
-}
-
-/*DONE - DONE*/
-@media screen and (max-width: 515px){
+/*DONE*/
+@media screen and (max-width: 551px){
     .welcome-container{
-        padding: 0 0 70px 0;
+        padding: 0 0 50px 0;
     }
     .icon-welcome{
         display: block;
-        width: 70%;
+        width: 68%;
         height: auto;
     }
     .welcome-title,
@@ -86,13 +84,13 @@
     }
 }
 
-/*DONE - DONE*/
+/*DONE*/
 @media screen and (max-width: 360px){
     .welcome-container{
         padding: 0 0 60px 0;
     }
     .icon-welcome{
-        height: 80%;
+        height: 75%;
         width: auto;
     }
 }

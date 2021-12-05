@@ -8,24 +8,21 @@
     /*Size*/
     --height-header: 13vh;
     --size-menu: 17px;
-    --size-title-h1: 135px;
-    --size-title-h2: 42px;
-    --size-title-h3: 33px;
+    --size-title-h1: 130px;
+    --size-title-h2: 40px;
+    --size-title-h3: 35px;
     --size-title-h5: 23px;
-    --size-paragraph: 15.5px;
+    --size-paragraph: 16.5px;
     --line-height: 27px;
 
     /*Colors*/
-    --white-alt: #F8F8F9;
     --white: #FFFFFF;
-    --black: #0E1A2A;
-    --blue-dark: #020D81;
-    --blue: #233DF9;
-    --gray: #999999;
-    --gray-dark: #4A5568;
+    --black: #080C25;
+    --blue: #020D81;
+    --gray: #4A5568;
     --gray-alt: #8EA2B9;
     --pink: #FC199D;
-    --sky-blue: #FBD7E0;
+    --orange: #FB6B30;
 
     --html: #F4470B;
     --css: #0068BA;
@@ -34,7 +31,6 @@
     --sass: #CE6B9E;
     --react: #00D1F7;
     --facebook: #38529A;
-    /* --instagram: radial-gradient(circle at 10% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF); */
     --instagram: #F71E9E;
     --linkedin: #016FAB;
     --github: #000000;
@@ -43,9 +39,9 @@
 
     /*Typography*/
     --font-brand: 'Rubik', sans-serif;
-    --font-menu: "Nunito Sans", sans-serif;
+    --font-menu: 'Nunito Sans', sans-serif;
     --font-title: 'Rubik', sans-serif;
-    --font-paragraph: 'Montserrat', sans-serif;
+    --font-paragraph: 'Nunito Sans', sans-serif;
     --font-alt: 'Space Mono', monospace;
 }
 .title-h2{
@@ -55,66 +51,62 @@
 }
 
 
-
-
-
 /***************  Breakpoints  ***************/
-/*DONE - DONE*/
+/*DONE*/
 @media screen and (max-width: 1100px){
     :root{
-        --size-title-h1: 125px;
+        --size-title-h1: 120px;
         --size-title-h2: 40px;
         --size-title-h3: 35px;
-        --size-paragraph: 15.5px;
-        --line-height: 28px;
+        --size-paragraph: 16px;
+        --line-height: 29px;
     }
 }
 
-/*DONE - DONE*/
+/*DONE*/
 @media screen and (max-width: 900px){
     :root{
         --height-header: 15vh;
-        --size-title-h1: 110px;
-        --size-title-h2: 40px;
-        --size-title-h3: 33px;
-        --size-paragraph: 15.5px;
-        --size-menu: 16.5px;
-    }
-}
-
-/*DONE - DONE*/
-@media screen and (max-width: 630px){
-    :root{
-        --height-header: 20vh;
-        --size-title-h1: 105px;
-        --size-title-h2: 40px;
-        --size-title-h3: 42px;
-        --size-paragraph: 16px;
-        --size-menu: 17px;
-        --line-height: 29px;
-    }
-}
-
-/*DONE - DONE*/
-@media screen and (max-width: 515px){
-    :root{
-        --height-header: 15vh;
-        --size-menu: 18px;
-        --size-paragraph: 17px;
-        --size-title-h1: 85px;
+        --size-title-h1: 120px;
         --size-title-h2: 42px;
         --size-title-h3: 35px;
+        --size-paragraph: 17px;
+        --size-menu: 16.5px;
         --line-height: 29px;
     }
 }
 
-
 /*DONE - DONE*/
+@media screen and (max-width: 761px){
+    :root{
+        --height-header: 16vh;
+        --size-title-h1: 120px;
+        --size-title-h2: 45px;
+        --size-title-h3: 50px;
+        --size-paragraph: 19px;
+        --size-menu: 18.5px;
+        --line-height: 30px;
+    }
+}
+
+/*DONE*/
+@media screen and (max-width: 551px){
+    :root{
+        --height-header: 16vh;
+        --size-menu: 19.5px;
+        --size-paragraph: 19px;
+        --size-title-h2: 42px;
+        --size-title-h3: 40px;
+        --line-height: 30px;
+    }
+}
+
+/*DONE*/
 @media screen and (max-width: 360px){
     :root{
-        --height-header: 15vh;
-        --size-menu: 16px;
-        --size-paragraph: 16px;
+        --height-header: 16vh;
+        --size-menu: 18px;
+        --size-paragraph: 18px;
         --size-title-h2: 38px;
         --size-title-h3: 35px;
     }

@@ -1,59 +1,65 @@
 .description-container{
     width: 100%;
-    max-width: 1400px;
-    height: auto;
-    background-color: var(--white-alt);
+    max-width: 1500px;
+    height: calc(100vh - var(--height-header));
+    background-color: var(--white);
     margin: var(--height-header) 0 0 0;
-}
-.descrption-content{
-    width: 100%;
-    height: auto;
+    padding: 0 30px;
     display: flex;
     flex-wrap: wrap;
 }
+
 .description-image{
     width: 35%;
     height: auto;
-    background-color: var(--white-alt);
+    background-color: var(--white);
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 0;
 }
 .image-profile{
     height: 70vh;
-    width: auto;
 }
+
 .description-text{
     width: 65%;
     height: auto;
-    background-color: var(--white-alt);
+    background-color: var(--white);
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    padding: 0 40px 0 20px;
+    padding: 0 20px 0 0;
 }
-.description-text h2{
+.description-title{
+    width: 100%;
+    height: auto;
+    background-color: var(--white);
+}
+.description-title h2{
     color: var(--black);
     text-transform: uppercase;
-    margin: 0 0 5px 0;
+    margin: 0 0 10px 0;
+    letter-spacing: 2px;
 }
 .description{
     font-family: var(--font-paragraph);
     font-size: var(--size-paragraph);
     line-height: var(--line-height);
-    color: var(--gray-dark);
+    color: var(--gray);
     margin: 0;
 }
+
 .description-tecnology{
     width: 100%;
     height: auto;
-    background-color: var(--white-alt);
+    background-color: var(--white);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     margin: 40px 0 0 0;
+    padding: 0 20px 0 20px;
 }
 .tecnologys{
     width: auto;
@@ -64,15 +70,15 @@
     position: relative;
 }
 .tecnology-icon{
-    font-size: 60px;
+    font-size: 55px;
     -webkit-transition:opacity  .5s;
     -moz-transition: opacity 0.5s;
     -o-transition: opacity 0.5s;
     margin: 0;
 }
 .tecnology-title{
-    font-family: var(--font-alt);
-    font-size: 23px;
+    font-family: var(--font-title);
+    font-size: 20px;
     opacity: 0;
     letter-spacing: 1px;
     -webkit-transition: opacity .5s;
@@ -118,62 +124,76 @@
 
 
 /***************  Breakpoints  ***************/
-/*DONE - DONE*/
+/*DONE*/
 @media screen and (max-width: 1100px){
+    .description-container{
+        padding: 0 80px;
+    }
     .description-image{
         display: none;
     }
     .description-text{
         width: 100%;
-        height: calc(100vh - var(--height-header));
-        padding: 0 30px;
+        padding: 0 ;
         justify-content: center;
         align-items: flex-start;
     }
-    .description-text h2{
-        margin: 0 0 10px 0;
-    }
     .description-tecnology{
         width: 100%;
-        margin: 40px 0 0 0;
+        margin: 35px 0 0 0;
     }
 
 }
 
-/*DONE - DONE*/
+/*DONE*/
 @media screen and (max-width: 900px){
+    .description-container{
+        height: auto;
+        padding: 50px 25px;
+    }
     .description-text{
         height: auto;
-        padding: 40px 25px 0 25px;
+        padding: 0;
     }
     .description-text h2{
         margin: 0 0 10px 0;
     }
     .description-tecnology{
-        padding: 0 0 10px 0;
-        justify-content: space-around;
+        padding: 0 10px;
+        justify-content: space-between;
         flex-wrap: wrap;
     }
     .tecnologys{
-        width: 22%;
-        margin: 15px 0 50px 0;
+        width: auto;
+        margin: 0;
     }
     .tecnology-title{
-        font-size: 23px;
+        font-size: 20px;
     }
     .tecnology-icon{
-        font-size: 65px;
+        font-size: 62px;
     }
 }
 
-/*DONE - DONE*/
-@media screen and (max-width: 630px){}
+/*DONE*/
+@media screen and (max-width: 761px){
+    .description-container{
+        padding: 30px 25px 15px 25px;
+    }
+    .description-tecnology{
+        padding: 0 50px;
+        margin: 50px 0 0 0;
+    }
+    .tecnologys{
+        width: 24%;
+        margin: 0 0 50px 0;
+    }
+}
 
-/*DONE - DONE*/
-@media screen and (max-width: 515px){
-    .description-text{
-        height: auto;
-        padding: 40px 20px 20px 20px;
+/*DONE*/
+@media screen and (max-width: 551px){
+    .description-container{
+        padding: 30px 20px 15px 20px;
     }
     .description-text h2{
         margin: 0 0 10px 0;
@@ -188,14 +208,14 @@
         margin: 0 0 40px 0;
     }
     .tecnology-title{
-        font-size: 23px;
+        font-size: 25px;
     }
     .tecnology-icon{
-        font-size: 65px;
+        font-size: 60px;
     }
 }
 
-/*DONE - DONE*/
+/*DONE*/
 @media screen and (max-width: 360px){
     .tecnology-title{
         font-size: 20px;

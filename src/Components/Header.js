@@ -2,6 +2,9 @@ import '../Components/CSS/Header.css';
 import '../Components/CSS/CustomeProperties.css';
 import brand from './Image/brand-min.png'
 import { NavLink } from 'react-router-dom';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faDownload} from '@fortawesome/free-solid-svg-icons'
+import cv from './Assets/Curriculum.pdf';
 
 export default function Header(){
     return(
@@ -12,9 +15,11 @@ export default function Header(){
                 </NavLink>
 
                 <nav className="nav-menu">
-                    <NavLink to="/" className="nav-menu-link" title="Inicio">Inicio</NavLink>
-                    <NavLink to="/acerca" className="nav-menu-link" title="Acerca">Acerca</NavLink>
-                    <NavLink to="/proyectos" className="nav-menu-link" title="proyectos">Proyectos</NavLink>
+                    <NavLink to="/" className="nav-menu-link" title="Home">Home</NavLink>
+                    <NavLink to="/acerca" className="nav-menu-link" title="About">About</NavLink>
+                    <NavLink to="/proyectos" className="nav-menu-link" title="Portfolio">Portfolio</NavLink>
+                    <a href={cv} download className="link-cv">
+                        <FontAwesomeIcon icon={faDownload} className="icon-download"/> Curriculum</a>
                 </nav>
             </header>
         </>

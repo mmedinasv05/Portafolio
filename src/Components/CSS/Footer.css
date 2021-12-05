@@ -1,10 +1,10 @@
 .footer-container{
     width: 100%;
-    max-width: 1400px;
+    max-width: 1500px;
     height: 13vh;
-    padding: 0 40px;
-    background-color: var(--white-alt);
-    border-top: 1.5px solid #e5e7eb;
+    padding: 0 30px;
+    background-color: var(--white);
+    border-top: 1px solid #e5e7eb;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,13 +16,12 @@
 .footer-description{
     margin: 0;
     color: var(--gray-alt);
-    font-size: 16px;
+    font-size: 15px;
     margin: 0;
     font-family: var(--font-menu);
     letter-spacing: 1px;
     font-weight: bold;
 }
-
 .footer-social-media{
     width: auto;
     height: auto;
@@ -57,22 +56,33 @@
 
 
 /***************  Breakpoints  ***************/
-/*DONE - DONE*/
+/*DONE*/
 @media screen and (max-width: 1100px){
     .footer-container{
-        padding: 0 30px;
+        padding: 0 20px;
     }
 }
 
-/*DONE - DONE*/
+/*DONE*/
 @media screen and (max-width: 900px){
     .footer-container{
-        padding: 0 25px;
+        padding: 0 20px;
+    }
+    .footer-description{
+        font-size: 17px;
+    }
+    .footer-icon-social-media{
+        font-size: 25px;
     }
 }
 
-/*DONE - DONE*/
-@media screen and (max-width: 630px){
+
+
+
+
+
+/*DONE - DONE - OK*/
+@media screen and (max-width: 761px){
     .footer-container{
         height: 18vh;
         padding: 0;
@@ -88,35 +98,41 @@
     }
     .footer-social-media{
         padding: 0;
-        margin: 3px 0 15px 0;
+        margin: 3px 0 12px 0;
     }
     .footer-icon-social-media{
-        font-size: 26px;
+        font-size: 25px;
         margin: 0 22px;
     }
 }
 
-/*DONE - DONE*/
-@media screen and (max-width: 515px){
+
+
+
+
+/*DONE*/
+@media screen and (max-width: 551px){
     .footer-container{
-        height: 15vh;
+        height: 16vh;
     }
     .footer-description{
-        font-size: 16.5px;
+        font-size: 18px;
     }
     .footer-social-media{
         margin: 3px 0 18px 0;
     }
     .footer-icon-social-media{
-        font-size: 26px;
-        margin: 0 20px;
+        font-size: 27px;
     }
 }
 
-/*DONE - DONE*/
+/*DONE*/
 @media screen and (max-width: 360px){
     .footer-description{
         font-size: 16px;
+    }
+    .footer-social-media{
+        margin: 0 0 10px 0;
     }
     .footer-icon-social-media{
         font-size: 25px;
