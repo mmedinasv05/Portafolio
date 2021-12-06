@@ -41,7 +41,7 @@
 .link-cv{
     padding: 5px 15px;
     background-color: var(--pink);
-    margin: 0 0 0 25px;
+    margin: 0 0 0 30px;
     text-decoration: none;
     color: var(--white);
     font-family: var(--font-alt);
@@ -51,6 +51,7 @@
     -moz-transition: opacity 0.5s;
     -o-transition: opacity 0.5s;
     letter-spacing: 1px;
+    font-weight: bold;
 }
 .link-cv:hover{
     color: var(--white);
@@ -59,6 +60,8 @@
 .icon-download{
     font-size: 13px;
 }
+
+
 
 
 
@@ -83,12 +86,6 @@
     }
 }
 
-
-
-
-
-
-
 /*DONE - DONE - OK*/
 @media screen and (max-width: 761px){
     .header-menu{
@@ -106,12 +103,6 @@
         margin: 0 20px 10px 20px;
     }
 }
-
-
-
-
-
-
 
 /*DONE*/
 @media screen and (max-width: 551px){

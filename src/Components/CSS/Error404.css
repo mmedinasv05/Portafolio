@@ -16,25 +16,17 @@
 
 
 /*Breakpoints*/
-/*DONE - OK*/
-@media screen and (max-width: 1024px){
-    
-}
+/*DONE*/
+@media screen and (max-width: 1100px){}
 
-/*DONE - OK*/
-@media screen and (max-width: 800px){
-    
-}
+/*DONE*/
+@media screen and (max-width: 900px){}
 
-/*DONE - OK*/
-@media screen and (max-width: 600px){
-    
-}
+/*DONE*/
+@media screen and (max-width: 761px){}
 
-/*DONE - OK*/
-@media screen and (max-width: 480px){
-    
-}
+/*DONE*/
+@media screen and (max-width: 551px){}
 
-/*DONE - OK*/
+/*DONE*/
 @media screen and (max-width: 360px){}

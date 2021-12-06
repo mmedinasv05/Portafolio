@@ -23,6 +23,7 @@
     --gray-alt: #8EA2B9;
     --pink: #FC199D;
     --orange: #FB6B30;
+    --sky-blue: #D7EFFC;
 
     --html: #F4470B;
     --css: #0068BA;
@@ -49,6 +50,9 @@
     font-size: var(--size-title-h2);
     letter-spacing: 1px;
 }
+
+
+
 
 
 /***************  Breakpoints  ***************/

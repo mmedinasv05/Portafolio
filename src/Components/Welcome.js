@@ -7,7 +7,8 @@ export default function Welcome(){
         <>
             <main className="welcome-container">
                 <img src={iconMe} className="icon-welcome" alt="I Love Code" loading="lazy"/>
-                <section className="welcome-text">                   
+                <section className="welcome-text">
+                    <div className="welcome-radius"></div>
                     <h1 className="welcome-title">Manu 
                         <br/>
                         Chavez.                

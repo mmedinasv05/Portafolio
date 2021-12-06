@@ -12,6 +12,17 @@
 .icon-welcome{
     display: none;
 }
+.welcome-radius{
+    width: 500px;
+    height: 370px;
+    border-radius: 30% 70% 70% 30% / 30% 37% 63% 70%;
+    background-color: var(--sky-blue);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
 .welcome-text{
     width: auto;
     height: auto;
@@ -45,6 +56,9 @@
     }
     .welcome-content{
         font-size: 20px;
+    }
+    .welcome-radius{
+        width: 470px;
     }
 }
 
@@ -80,6 +94,9 @@
     }
     .welcome-title,
     .welcome-content{
+        display: none;
+    }
+    .welcome-radius{
         display: none;
     }
 }
