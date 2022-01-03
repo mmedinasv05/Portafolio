@@ -1,11 +1,13 @@
 import Footer from "../Components/Footer";
-import Header from "../Components/Header";
+import Hamburguesa from "../Components/Hamburguesa";
+//import Header from "../Components/Header";
 import Projects from "../Components/Projects";
 
 export default function Portfolio(){
     return(
         <>
-            <Header/>
+            {/* <Header/> */}
+            <Hamburguesa/>
             <Projects/>
             <Footer/>
         </>

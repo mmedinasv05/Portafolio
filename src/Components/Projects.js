@@ -17,12 +17,12 @@ export default function Projects(){
 
                 <section className="title-project">
                     <h2 className="title-h2">
-                        Portfolio.
+                        Portafolio.
                     </h2>
                     <p>
-                        2 years ago I began to carry out projects on a personal level to be able to reinforce 
-                        my knowledge and thus little by little to be able to improve and gain experience 
-                        through new challenges.
+                        En el 2019 comencé a realizar proyectos a nivel personal para poder ir reforzando mis 
+                        conocimientos y así poco a poco poder ir mejorando mis hábilidades y también poder ganar experiencia a través de 
+                        nuevos retos.
                     </p>
                 </section>
                 <section className="projects">
@@ -50,12 +50,12 @@ export default function Projects(){
                                 </span>
                             </section>
                             <nav className="project-box-option">
-                                <a href="https://mmedinasv05.github.io/Weather-App/" title="View Demo" target="_blank" rel="noreferrer">
+                                <a href="https://mmedinasv05.github.io/Weather-App/" title="Ver Pagina" target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon icon={faGlobe} className="icon-tecnology"/>
-                                    View Demo</a>
-                                <a href="https://github.com/mmedinasv05/Weather-App" title="View Code" target="_blank" rel="noreferrer">
+                                    Ver Pagina</a>
+                                <a href="https://github.com/mmedinasv05/Weather-App" title="Ver Codigo" target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon icon={faGithub} className="icon-tecnology"/>
-                                    View Code
+                                    Ver Codigo
                                 </a>
                             </nav>
                         </figcaption>
@@ -85,12 +85,12 @@ export default function Projects(){
                                 </span>
                             </section>
                             <nav className="project-box-option">
-                                <a href="https://mmedinasv05.github.io/Story-HTML/" title="View Demo" target="_blank" rel="noreferrer">
+                                <a href="https://mmedinasv05.github.io/Story-HTML/" title="Ver Pagina" target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon icon={faGlobe} className="icon-tecnology"/>
-                                    View Demo</a>
-                                <a href="https://github.com/mmedinasv05/Story-HTML" title="View Code" target="_blank" rel="noreferrer">
+                                    Ver Pagina</a>
+                                <a href="https://github.com/mmedinasv05/Story-HTML" title="Ver Codigo" target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon icon={faGithub} className="icon-tecnology"/>
-                                    View Code
+                                    Ver Codigo
                                 </a>
                             </nav>
                         </figcaption>
@@ -120,12 +120,12 @@ export default function Projects(){
                                 </span>
                             </section>
                             <nav className="project-box-option">
-                                <a href="https://mmedinasv05.github.io/Landing-Page-Ecommerce-App/" title="View Demo" target="_blank" rel="noreferrer">
+                                <a href="https://mmedinasv05.github.io/Landing-Page-Ecommerce-App/" title="Ver Pagina" target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon icon={faGlobe} className="icon-tecnology"/>
-                                    View Demo</a>
-                                <a href="https://github.com/mmedinasv05/Landing-Page-Ecommerce-App" title="View Code" target="_blank" rel="noreferrer">
+                                    Ver Pagina</a>
+                                <a href="https://github.com/mmedinasv05/Landing-Page-Ecommerce-App" title="Ver Codigo" target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon icon={faGithub} className="icon-tecnology"/>
-                                    View Code
+                                    Ver Codigo
                                 </a>
                             </nav>
                         </figcaption>
@@ -155,12 +155,12 @@ export default function Projects(){
                                 </span>
                             </section>
                             <nav className="project-box-option">
-                                <a href="https://mmedinasv05.github.io/Lading-Page-Bitlab/" title="View Demo" target="_blank" rel="noreferrer">
+                                <a href="https://mmedinasv05.github.io/Lading-Page-Bitlab/" title="Ver Pagina" target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon icon={faGlobe} className="icon-tecnology"/>
-                                    View Demo</a>
-                                <a href="https://github.com/mmedinasv05/Lading-Page-Bitlab" title="View Code" target="_blank" rel="noreferrer">
+                                    Ver Pagina</a>
+                                <a href="https://github.com/mmedinasv05/Lading-Page-Bitlab" title="Ver Codigo" target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon icon={faGithub} className="icon-tecnology"/>
-                                    View Code
+                                    Ver Codigo
                                 </a>
                             </nav>
                         </figcaption>
@@ -190,12 +190,12 @@ export default function Projects(){
                                 </span>
                             </section>
                             <nav className="project-box-option">
-                                <a href="https://mmedinasv05.github.io/Landing-page-Amazon/" title="View Demo" target="_blank" rel="noreferrer">
+                                <a href="https://mmedinasv05.github.io/Landing-page-Amazon/" title="Ver Pagina" target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon icon={faGlobe} className="icon-tecnology"/>
-                                    View Demo</a>
-                                <a href="https://github.com/mmedinasv05/Landing-page-Amazon" title="View Code" target="_blank" rel="noreferrer">
+                                    Ver Pagina</a>
+                                <a href="https://github.com/mmedinasv05/Landing-page-Amazon" title="Ver Codigo" target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon icon={faGithub} className="icon-tecnology"/>
-                                    View Code
+                                    Ver Codigo
                                 </a>
                             </nav>
                         </figcaption>
@@ -221,12 +221,12 @@ export default function Projects(){
                                 </span>
                             </section>
                             <nav className="project-box-option">
-                                <a href="https://mmedinasv05.github.io/Portafolio/" title="View Demo" target="_blank" rel="noreferrer">
+                                <a href="https://mmedinasv05.github.io/Portafolio/" title="Ver Pagina" target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon icon={faGlobe} className="icon-tecnology"/>
-                                    View Demo</a>
-                                <a href="https://github.com/mmedinasv05/Portafolio" title="View Code" target="_blank" rel="noreferrer">
+                                    Ver Pagina</a>
+                                <a href="https://github.com/mmedinasv05/Portafolio" title="Ver Codigo" target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon icon={faGithub} className="icon-tecnology"/>
-                                    View Code
+                                    Ver Codigo
                                 </a>
                             </nav>
                         </figcaption>

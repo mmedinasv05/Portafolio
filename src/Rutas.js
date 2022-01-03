@@ -11,8 +11,8 @@ export default function Rutas(){
             <HashRouter>
                 <Routes>
                     <Route exact path="/" element={<Home/>} />
-                    <Route exact path="/about" element={<About/>} />
-                    <Route exact path="/portfolio" element={<Portfolio/>} />
+                    <Route exact path="/acerca" element={<About/>} />
+                    <Route exact path="/portafolio" element={<Portfolio/>} />
                     <Route path="*" element={<NotFound/>}/>
                 </Routes>
             </HashRouter>

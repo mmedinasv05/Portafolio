@@ -15,11 +15,11 @@ export default function Header(){
                 </NavLink>
 
                 <nav className="nav-menu">
-                    <NavLink to="/" className="nav-menu-link" title="Home">Home</NavLink>
-                    <NavLink to="/about" className="nav-menu-link" title="About">About</NavLink>
-                    <NavLink to="/portfolio" className="nav-menu-link" title="Portfolio">Portfolio</NavLink>
+                    <NavLink to="/" className="nav-menu-link" title="Home">Inicio</NavLink>
+                    <NavLink to="/acerca" className="nav-menu-link" title="About">Acerca</NavLink>
+                    <NavLink to="/portafolio" className="nav-menu-link" title="Portfolio">Portafolio</NavLink>
                     <a href={cv} download className="link-cv">
-                        <FontAwesomeIcon icon={faDownload} className="icon-download"/> Curriculum</a>
+                        <FontAwesomeIcon icon={faDownload} className="icon-download" title="Descargar Curriculum"/> Curriculum</a>
                 </nav>
             </header>
         </>

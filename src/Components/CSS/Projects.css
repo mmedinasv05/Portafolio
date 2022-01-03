@@ -8,7 +8,7 @@
 .title-project{
     width: 100%;
     height: auto;
-    padding: 40px 30px 0 30px;
+    padding: 30px 30px 0 30px;
 }
 .title-project h2{
     margin: 0 0 5px 0;
@@ -21,6 +21,7 @@
     font-family: var(--font-paragraph);
     line-height: var(--line-height);
     color: var(--gray);
+    letter-spacing: 0.5px;
 }
 .projects{
     width: 100%;
@@ -29,7 +30,7 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 25px 30px 30px 30px;
+    padding: 20px 30px 30px 30px;
 }
 .project{
     width: 32.5%;
@@ -52,7 +53,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(0 0 0 / 70%);
+    background-color: rgba(0 0 0 / 80%);
     left: 0;
     top: 0;
     border-radius: 5px;
@@ -93,9 +94,10 @@
     font-family: var(--font-alt);
     font-size: 15px;
     color: var(--white);
-    padding: 1px 10px;
+    padding: 2px 10px;
     border-radius: 5px;
     font-weight: bold;
+    letter-spacing: 1px;
 }
 .icon-tecnology{
     font-size: 14px;
@@ -110,7 +112,7 @@
 .project-box-option a{
     font-family: var(--font-alt);
     margin: 0 5px 0 0;
-    padding: 3px 10px;
+    padding: 3px 15px;
     border-radius: 3px;
     font-size: 15px;
     text-decoration: none;
@@ -120,6 +122,10 @@
     -moz-transition: color 0.5s, background-color 0.5s;
     -o-transition: color 0.5s, background-color 0.5s;
 }
+.project-box-option a:nth-child(1){
+    color: var(--pink);
+    background-color: var(--white);
+}
 .project-box-option a:hover{
     color: var(--pink);
     background-color: var(--white);
@@ -128,12 +134,11 @@
 
 
 
-
 /***************  Breakpoints  ***************/
-/*DONE*/
+/*DONE - OK*/
 @media screen and (max-width: 1100px){
     .title-project{
-        padding: 40px 20px 25px 20px;
+        padding: 40px 20px 15px 20px;
     }
     .projects{
         padding: 5px 20px 20px 20px;
@@ -148,7 +153,7 @@
     }
 }
 
-/*DONE*/
+/*DONE - OK*/
 @media screen and (max-width: 900px){
     .title-project{
         padding: 40px 20px 0 20px;
@@ -161,12 +166,12 @@
     }
     .tecnology,
     .project-box-option a{
-        font-size: 15.5px;
+        font-size: 16px;
     }
 }
 
-/*DONE*/
-@media screen and (max-width: 761px){
+/*DONE - OK*/
+@media screen and (max-width: 780px){
     .projects{
         justify-content: center;
     }
@@ -183,16 +188,16 @@
     }
 }
 
-/*DONE*/
-@media screen and (max-width: 551px){
+/*DONE - OKOKOKOKOK*/
+@media screen and (max-width: 582px){
     .title-project{
-        padding: 30px 20px 0 20px;
+        padding: 30px 15px 0 15px;
     }
     .title-project h2{
-        margin: 0 0 10px 0;
+        margin: 0 0 5px 0;
     }
     .projects{
-        padding: 40px 10px 50px 10px;
+        padding: 30px 10px 40px 10px;
     }
     .project{
         width: 100%;
@@ -202,13 +207,13 @@
         padding: 0 10px;
     }
     .tecnology{
-        font-size: 16.px;
+        font-size: 15px;
         padding: 2px 10px;
-        border-radius: 10px;
+        border-radius: 5px;
     }
     .project-box-option a{
-        padding: 5px 15px;
-        font-size: 17px;
+        padding: 5px 20px;
+        font-size: 15.5px;
     }
 }
 

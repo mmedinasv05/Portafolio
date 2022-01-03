@@ -13,7 +13,7 @@
     display: none;
 }
 .welcome-radius{
-    width: 500px;
+    width: 550px;
     height: 370px;
     border-radius: 30% 70% 70% 30% / 30% 37% 63% 70%;
     background-color: var(--sky-blue);
@@ -49,7 +49,7 @@
 
 
 /***************  Breakpoints  ***************/
-/*DONE*/
+/*DONE - OK*/
 @media screen and (max-width: 1100px){
     .welcome-title{
         line-height: 100px;
@@ -59,10 +59,11 @@
     }
     .welcome-radius{
         width: 470px;
+        height: 350px;
     }
 }
 
-/*DONE*/
+/*DONE - OK*/
 @media screen and (max-width: 900px){
     .welcome-title{
         line-height: 97px;
@@ -70,10 +71,14 @@
     .welcome-content{
         font-size: 21px;
     }
+    .welcome-radius{
+        width: 520px;
+        height: 400px;
+    }
 }
 
-/*DONE*/
-@media screen and (max-width: 761px){
+/*DONE - OK*/
+@media screen and (max-width: 780px){
     .welcome-title{
         line-height: 100px;
     }
@@ -82,14 +87,14 @@
     }
 }
 
-/*DONE*/
-@media screen and (max-width: 551px){
+/*DONE - OKOKOKOKOK*/
+@media screen and (max-width: 582px){
     .welcome-container{
-        padding: 0 0 50px 0;
+        padding: 0 0 40px 0;
     }
     .icon-welcome{
         display: block;
-        width: 68%;
+        width: 74%;
         height: auto;
     }
     .welcome-title,
@@ -107,7 +112,7 @@
         padding: 0 0 60px 0;
     }
     .icon-welcome{
-        height: 75%;
+        height: 80%;
         width: auto;
     }
 }

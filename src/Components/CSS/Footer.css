@@ -1,7 +1,7 @@
 .footer-container{
     width: 100%;
     max-width: 1500px;
-    height: 13vh;
+    height: 10vh;
     padding: 0 30px;
     background-color: var(--white);
     border-top: 1px solid #e5e7eb;
@@ -16,7 +16,7 @@
 .footer-description{
     margin: 0;
     color: var(--gray-alt);
-    font-size: 15px;
+    font-size: 16px;
     margin: 0;
     font-family: var(--font-menu);
     letter-spacing: 1px;
@@ -28,15 +28,12 @@
     padding: 10px;
 }
 .footer-icon-social-media{
-    font-size: 22px;
+    font-size: 23px;
     margin: 0 0 0 25px;
     color: var(--gray-alt);
     -webkit-transition: color 0.5s;
     -moz-transition:  color 0.5s;
     -o-transition:  color 0.5s;
-}
-.facebook:hover{
-    color: var(--facebook);
 }
 .instagram:hover{
     color: var(--instagram);
@@ -56,14 +53,22 @@
 
 
 /***************  Breakpoints  ***************/
-/*DONE*/
+/*DONE - OK*/
 @media screen and (max-width: 1100px){
     .footer-container{
         padding: 0 20px;
+        height: 12vh;
+    }
+    .footer-description{
+        font-size: 15px;
+    }
+    .footer-icon-social-media{
+        font-size: 24px;
+        margin: 0 0 0 30px;
     }
 }
 
-/*DONE*/
+/*DONE - OK*/
 @media screen and (max-width: 900px){
     .footer-container{
         padding: 0 20px;
@@ -72,12 +77,12 @@
         font-size: 17px;
     }
     .footer-icon-social-media{
-        font-size: 25px;
+        font-size: 27px;
     }
 }
 
-/*DONE - DONE - OK*/
-@media screen and (max-width: 761px){
+/*DONE - OK*/
+@media screen and (max-width: 780px){
     .footer-container{
         height: 18vh;
         padding: 0;
@@ -101,19 +106,25 @@
     }
 }
 
-/*DONE*/
-@media screen and (max-width: 551px){
+/*DONE - OKOKOKOKOK*/
+@media screen and (max-width: 582px){
     .footer-container{
-        height: 16vh;
+        height: 15vh;
+        padding: 0 0;
+        justify-content: center !important;
+        align-items: center;
+        flex-direction: column-reverse;
     }
     .footer-description{
-        font-size: 18px;
+        font-size: 17px;
     }
     .footer-social-media{
-        margin: 3px 0 18px 0;
+        margin: 0 0 15px 0;
+        padding: 0 0 !important;
     }
     .footer-icon-social-media{
-        font-size: 27px;
+        font-size: 31px;
+        margin: 0 0 0 35px;
     }
 }
 

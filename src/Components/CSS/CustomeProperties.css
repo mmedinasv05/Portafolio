@@ -6,18 +6,17 @@
 :root{
     
     /*Size*/
-    --height-header: 13vh;
-    --size-menu: 17px;
-    --size-title-h1: 130px;
-    --size-title-h2: 40px;
-    --size-title-h3: 35px;
-    --size-title-h5: 23px;
-    --size-paragraph: 16.5px;
-    --line-height: 27px;
+    --height-header: 12vh;/***/
+    --size-menu: 17px;/**/
+    --size-title-h1: 130px;/**/
+    --size-title-h2: 40px;/**/
+    --size-title-h3: 33px;/**/
+    --size-paragraph: 16px;/**/
+    --line-height: 25px;/**/
 
     /*Colors*/
     --white: #FFFFFF;
-    --black: #080C25;
+    --black: #11182A;
     --blue: #020D81;
     --gray: #4A5568;
     --gray-alt: #8EA2B9;
@@ -56,32 +55,32 @@
 
 
 /***************  Breakpoints  ***************/
-/*DONE*/
+/*DONE - OK*/
 @media screen and (max-width: 1100px){
     :root{
         --size-title-h1: 120px;
-        --size-title-h2: 40px;
+        --size-title-h2: 38px;
         --size-title-h3: 35px;
-        --size-paragraph: 16px;
+        --size-paragraph: 16.5px;
         --line-height: 29px;
     }
 }
 
-/*DONE*/
+/*DONE - OK*/
 @media screen and (max-width: 900px){
     :root{
         --height-header: 15vh;
         --size-title-h1: 120px;
-        --size-title-h2: 42px;
+        --size-title-h2: 40px;
         --size-title-h3: 35px;
-        --size-paragraph: 17px;
-        --size-menu: 16.5px;
-        --line-height: 29px;
+        --size-paragraph: 18.5px;
+        --size-menu: 17px;
+        --line-height: 30px;
     }
 }
 
-/*DONE - DONE*/
-@media screen and (max-width: 761px){
+/*DONE - OK*/
+@media screen and (max-width: 780px){
     :root{
         --height-header: 16vh;
         --size-title-h1: 120px;
@@ -93,15 +92,15 @@
     }
 }
 
-/*DONE*/
-@media screen and (max-width: 551px){
+/*DONE - OKOKOKOKOK*/
+@media screen and (max-width: 582px){
     :root{
-        --height-header: 16vh;
-        --size-menu: 19.5px;
-        --size-paragraph: 19px;
-        --size-title-h2: 42px;
-        --size-title-h3: 40px;
-        --line-height: 30px;
+        --height-header: 10vh;/**/
+        --size-menu: 35px;/**/
+        --size-paragraph: 19px;/**/
+        --size-title-h2: 40px;/**/
+        --size-title-h3: 35px;/**/
+        --line-height: 30px;/**/
     }
 }
 

@@ -14,21 +14,21 @@ export default function Description(){
                 <section className="description-text">
                     <section className="description-title">
                         <h2 className="title-h2">
-                            About me.
+                           Acerca.
                         </h2>                        
                     </section>                      
                     <p className="description">
-                        Hi, I'm Manuel Chavez and you can call me Manu, a student of the Technological University,
-                        I consider myself a person passionate about web development since in 2019 I had the
-                        experience of being able to create my first web page only using HTML and CSS from there I felt
-                        a great passion since you can do impressive things knowing how to use HTML, CSS,
-                        Javascript and to this day I still feel that same passion when I create a page
-                        additional web I consider myself a self-taught person since I like to be learning things
-                        new day by day and be able to put them into practice, at the moment I have no experience
-                        on a professional level only on a personal level through challenges and I'm looking for a professional opportunity to be able to put
-                        in practice all the additional learned I have also had the opportunity to be part of some online courses and
-                        in person to be able to know a little more about this beautiful world of the
-                        technology.
+                        Hola soy Manuel Chavez y me puedes llamar Manu, estudiante de la Universidad Tecnológica,
+                        Me considero una persona apasionada por el desarrollo web ya que en 2019 tuve la
+                        experiencia de poder crear mi primera página web solo usando HTML y CSS desde allí, sentí
+                        una gran pasión, ya que puedes hacer cosas impresionantes sabiendo cómo usar HTML, CSS,
+                        Javascript y hasta el día de hoy sigo sintiendo esa misma pasión cuando creo una página
+                        web adicional me considero una persona autodidacta ya que me gusta ir aprendiendo cosas
+                        nuevos dia a dia y poder ponerlos en practica, de momento no tengo experiencia
+                        a nivel profesional solo a nivel personal a través de retos y busco una oportunidad profesional para poder poner
+                        en la práctica todo lo aprendido adicionalmente también he tenido la oportunidad de ser parte de algunos cursos en línea y
+                        de manera presencial para poder conocer un poco más de este hermoso mundo del
+                        tecnología.
                     </p>
                     <aside className="description-tecnology">                  
                         {/* HTML */}

@@ -1,7 +1,7 @@
 import '../Components/CSS/Footer.css';
 import '../Components/CSS/CustomeProperties.css';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faFacebookF, faInstagram, faLinkedin, faGithub,} from '@fortawesome/free-brands-svg-icons';
+import {faInstagram, faLinkedin, faGithub,} from '@fortawesome/free-brands-svg-icons';
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
 
 export default function Footer(){
@@ -12,9 +12,6 @@ export default function Footer(){
                     <p className="footer-description">2021 Manuel Chavez, Rights Reserved.</p>
                 </section>
                 <section className="footer-social-media">
-                    <a href="https://www.facebook.com/mmedinasv" target="_blank" rel="noreferrer" title="Facebook">
-                        <FontAwesomeIcon icon={faFacebookF} className="footer-icon-social-media facebook"/>
-                    </a>
                     <a href="https://www.instagram.com/__manuelchavez/" target="_blank" rel="noreferrer" title="Instagram">
                         <FontAwesomeIcon icon={faInstagram} className="footer-icon-social-media instagram"/>
                     </a>
