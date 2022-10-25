@@ -1,10 +1,10 @@
-import { useEffect, useState } from "react";
-import Loader from "../Components/Loader";
+import React, { useEffect, useState } from "react";
 import Header from "../Components/Header";
-import Error404 from "../Components/Error404";
+import Loader from "../Components/Loader";
+import ContactForm from "../Components/ContactForm";
 import Footer from "../Components/Footer";
 
-export default function NotFound() {
+export default function Contact() {
   const [loader, setLoader] = useState(true);
 
   useEffect(() => {
@@ -16,7 +16,7 @@ export default function NotFound() {
   return (
     <>
       <Header />
-      {(loader) ? <Loader /> : <Error404 />}
+      {(loader) ? <Loader /> : <ContactForm />}
       <Footer />
     </>
   )

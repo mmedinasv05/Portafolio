@@ -1,0 +1,190 @@
+/* **********  About Section  ********** */
+.about-section {
+  width: 100%;
+  max-width: var(--max-width);
+  height: calc(100vh - var(--height-header));
+  background-color: var(--white);
+  margin-top: var(--height-header);
+  padding: 0 var(--padding-x);
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* **********  About Image  ********** */
+.about-image {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-image img {
+  width: 75%;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  box-shadow: 0.15rem 0.20rem 0.40rem rgba(0, 0, 0, 0.5);
+  margin-bottom: 3rem;
+}
+
+
+/* **********  About Desctiption  ********** */
+.about-description {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  padding: 0 2rem ;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* **********  Skills Section  ********** */
+
+.skills-section {
+  width: 100%;
+  height: auto;
+  columns: 3;
+  margin: 2rem 0 0 0;
+}
+.list-skills {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.skills {
+  margin: 0 0 0.7rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* **********  Media Queries  ********** */
+
+/*OKOK - DONE*/
+@media screen and (max-width: 1360px) {
+  /* **********  About Image  ********** */
+  .about-image img {
+    width: 70%;
+  }
+}
+
+/*OKOK - DONE*/
+@media screen and (max-width: 1200px) {
+  /* **********  About Section  ********** */
+  .about-section {
+    padding: 0 5rem;
+    height: auto;
+    flex-direction: column;
+  }
+
+  /* **********  About Image  ********** */
+  .about-image {
+    width: 100%;
+    height: auto;
+    padding: 3rem 0;
+  }
+  .about-image img {
+    width: 15%;
+    margin: 0;
+  }
+
+  /* **********  About Desctiption  ********** */
+  .about-description {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    padding: 0 0 2.5rem 0;
+  }
+
+  /* **********  Skills Section  ********** */
+  .skills-section {
+    columns: 3;
+    margin: 2rem 0 0 0;
+  }
+}
+
+/*OKOK - DONE*/
+@media screen and (max-width: 992px) {
+  /* **********  About Section  ********** */
+  .about-section {
+    padding: 0 3.5rem;
+  }
+
+  /* **********  About Image  ********** */
+  .about-image img {
+    width: 25%;
+    margin: 0;
+  }
+}
+
+/*OKOK - DONE*/
+@media screen and (max-width: 768px) {
+  /* **********  About Section  ********** */
+  .about-section {
+    padding: 0 2rem;
+  }
+  /* **********  About Image  ********** */
+  .about-image img {
+    width: 30%;
+  }
+}
+
+/*OKOK - DONE*/
+@media screen and (max-width: 576px) {
+  /* **********  About Section  ********** */
+  .about-section {
+    height: auto;
+    padding: 2rem var(--padding-x) 1rem var(--padding-x);
+    flex-wrap: wrap;
+  }
+  /* **********  About Image  ********** */
+  .about-image {
+    width: 100%;
+    height: auto;
+    padding: 1rem 0 2rem 0;
+  }
+  .about-image img {
+    width: 45%;
+    margin-bottom: 0;
+  }
+
+  /* **********  About Desctiption  ********** */
+  .about-description {
+    width: 100%;
+    height: auto;
+    padding: 0.8rem 0 2rem 0;
+  }
+
+  /* **********  Skills Section  ********** */
+  .skills-section {
+    width: 100%;
+    columns: 2;
+    margin: 2.5rem 0 0 0;
+  }
+  .skills {
+    margin: 0 0 0.8rem 0;
+  }
+}
+
+/*OKOK - DONE*/
+@media screen and (max-width: 360px) {
+  .about-image img {
+    width: 50%;
+  }
+}
+

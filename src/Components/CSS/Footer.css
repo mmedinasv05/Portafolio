@@ -1,142 +1,135 @@
-.footer-container{
-    width: 100%;
-    max-width: 1500px;
-    height: 10vh;
-    padding: 0 30px;
-    background-color: var(--white);
-    border-top: 1px solid #e5e7eb;
-    display: flex;
-    justify-content: space-between;
+/* **********  Footer Section  ********** */
+.footer-section {
+  width: 100%;
+  max-width: var(--max-width);
+  height: var(--height-footer);
+  background-color: var(--white);
+  padding: 0 var(--padding-x);
+  border-top: 0.1rem solid rgba(229, 231, 235,1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* **********  Footer Copy Right  ********** */
+.footer-copyright {
+  font-family: var(--font-paragraph);
+  font-size: 0.95rem;
+  color: var(--gray);
+  opacity: 0.8;
+  margin: 0;
+  text-align: center;
+}
+
+/* **********  Footer Social Media  ********** */
+.footer-social-media {
+  width: auto;
+  height: auto;
+  display: flex;
+  gap: 1.6rem;
+}
+.footer-social-media a {
+  font-size: 1.35rem;
+  color: var(--gray);
+  opacity: 0.8;
+  transition: color 0.5s;
+  margin: 0;
+}
+.instagram:hover {
+  color: var(--instagram);
+}
+.twitter:hover {
+  color: var(--twitter);
+}
+.codepen:hover {
+  color: var(--codepen);
+}
+.linkedin:hover {
+  color: var(--linkedin);
+}
+.github:hover {
+  color: var(--github);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* **********  Media Queries  ********** */
+
+/*OKOK - DONE*/
+@media screen and (max-width: 1360px) {
+  /* **********  Footer Copy Right  ********** */
+  .footer-copyright {
+    font-size: 0.95rem;
+  }
+
+  /* **********  Footer Social Media  ********** */
+  .footer-social-media {
+    gap: 1.4rem;
+  }
+  .footer-social-media a {
+    font-size: 1.3rem;
+  }
+}
+
+/*OKOK - DONE*/
+@media screen and (max-width: 1200px) {
+  /* **********  Footer Copy Right  ********** */
+    .footer-copyright {
+      font-size: 0.90rem;
+    }
+    
+  /* **********  Footer Social Media  ********** */
+  .footer-social-media {
+    gap: 1.4rem;
+  }
+}
+
+/*OKOK - DONE*/
+@media screen and (max-width: 902px) {
+}
+
+/*OKOK - DONE*/
+@media screen and (max-width: 762px) {
+}
+
+/*OKOK - DONE*/
+@media screen and (max-width: 576px) {
+  /* **********  Footer Section  ********** */
+  .footer-section {
+    justify-content: center;
     align-items: center;
-}
-.footer-content{
-    width: auto;
-    height: auto;
-}
-.footer-description{
-    margin: 0;
-    color: var(--gray-alt);
-    font-size: 16px;
-    margin: 0;
-    font-family: var(--font-menu);
-    letter-spacing: 1px;
-    font-weight: bold;
-}
-.footer-social-media{
-    width: auto;
-    height: auto;
-    padding: 10px;
-}
-.footer-icon-social-media{
-    font-size: 23px;
-    margin: 0 0 0 25px;
-    color: var(--gray-alt);
-    -webkit-transition: color 0.5s;
-    -moz-transition:  color 0.5s;
-    -o-transition:  color 0.5s;
-}
-.instagram:hover{
-    color: var(--instagram);
-}
-.email:hover{
-    color: var(--email);
-}
-.linkedin:hover{
-    color: var(--linkedin);
-}
-.github:hover{
-    color: var(--github);
+    flex-direction: column-reverse;
+    padding: 0 var(--padding-x);
+  }
+
+  /* **********  Footer Copy Right  ********** */
+  .footer-copyright {
+    font-size: var(--font-paragraph);
+    margin: 0 !important;
+  }
+
+  /* **********  Footer Social Media  ********** */
+  .footer-social-media {
+    margin-bottom: 0.5rem;
+    gap: 1.5rem;
+  }
+  .footer-social-media a {
+    font-size: 1.5rem;
+  }
 }
 
-
-
-
-
-/***************  Breakpoints  ***************/
-/*DONE - OK*/
-@media screen and (max-width: 1100px){
-    .footer-container{
-        padding: 0 20px;
-        height: 12vh;
-    }
-    .footer-description{
-        font-size: 15px;
-    }
-    .footer-icon-social-media{
-        font-size: 24px;
-        margin: 0 0 0 30px;
-    }
-}
-
-/*DONE - OK*/
-@media screen and (max-width: 900px){
-    .footer-container{
-        padding: 0 20px;
-    }
-    .footer-description{
-        font-size: 17px;
-    }
-    .footer-icon-social-media{
-        font-size: 27px;
-    }
-}
-
-/*DONE - OK*/
-@media screen and (max-width: 780px){
-    .footer-container{
-        height: 18vh;
-        padding: 0;
-        justify-content: center;
-        flex-direction: column-reverse;
-        border-top: 1px solid --var(gray-alt);
-    }
-    .footer-description{
-        text-align: center;
-        font-size: 17px;
-        letter-spacing: 1px;
-        margin: 0;
-    }
-    .footer-social-media{
-        padding: 0;
-        margin: 3px 0 12px 0;
-    }
-    .footer-icon-social-media{
-        font-size: 25px;
-        margin: 0 22px;
-    }
-}
-
-/*DONE - OKOKOKOKOK*/
-@media screen and (max-width: 582px){
-    .footer-container{
-        height: 15vh;
-        padding: 0 0;
-        justify-content: center !important;
-        align-items: center;
-        flex-direction: column-reverse;
-    }
-    .footer-description{
-        font-size: 17px;
-    }
-    .footer-social-media{
-        margin: 0 0 15px 0;
-        padding: 0 0 !important;
-    }
-    .footer-icon-social-media{
-        font-size: 31px;
-        margin: 0 0 0 35px;
-    }
-}
-
-/*DONE*/
-@media screen and (max-width: 360px){
-    .footer-description{
-        font-size: 16px;
-    }
-    .footer-social-media{
-        margin: 0 0 10px 0;
-    }
-    .footer-icon-social-media{
-        font-size: 25px;
-    }
+/*OKOK - DONE*/
+@media screen and (max-width: 360px) {
+  /* **********  Footer Social Media  ********** */
+  .footer-social-media {
+    margin-bottom: 0.5rem;
+  }
 }

@@ -1,27 +1,63 @@
-import '../Components/CSS/Header.css';
-import '../Components/CSS/CustomeProperties.css';
-import brand from './Image/brand-min.png'
-import { NavLink } from 'react-router-dom';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faDownload} from '@fortawesome/free-solid-svg-icons'
-import cv from './Assets/Curriculum.pdf';
+import React, { useRef } from "react";
+import { NavLink } from "react-router-dom";
+import Brand from "./Image/brand1-min.png";
+import "../Components/CSS/Header.css";
+import "../Components/CSS/CustomeProperties.css";
 
-export default function Header(){
-    return(
-        <>        
-            <header className="header-menu">
-                <NavLink className="header-brand" activeClassName="active" to="/" rel="noferrer" title="MMEDNA">
-                    <img src={brand} alt="Icon brand" className="header-brand"/>
-                </NavLink>
+const iconMenu = [
+  {
+    path: "/",
+    title: "Home"
+  },
+  {
+    path: "/About",
+    title: "About"
+  },
+  {
+    path: "/Projects",
+    title: "Projects"
+  },
+  {
+    path: "/Contact",
+    title: "Contact"
+  }
+];
 
-                <nav className="nav-menu">
-                    <NavLink to="/" className="nav-menu-link" title="Home">Inicio</NavLink>
-                    <NavLink to="/acerca" className="nav-menu-link" title="About">Acerca</NavLink>
-                    <NavLink to="/portafolio" className="nav-menu-link" title="Portfolio">Portafolio</NavLink>
-                    <a href={cv} download className="link-cv">
-                        <FontAwesomeIcon icon={faDownload} className="icon-download" title="Descargar Curriculum"/> Curriculum</a>
-                </nav>
-            </header>
-        </>
-    );
+export default function Header() {
+  const $btnMenu = useRef(),
+    $boxMenu = useRef();
+
+  function handleMenu() {
+    $boxMenu.current.classList.toggle("menu-active");
+    $btnMenu.current.classList.toggle("icon-menu-active");
+  }
+
+  window.addEventListener("scroll", () => {
+    const headerMenu = document.querySelector(".header-section");
+    if (document.documentElement.scrollTop > 0) {
+      headerMenu.classList.add("header-sticky");
+    } else {
+      headerMenu.classList.remove("header-sticky");
+    }
+  })
+
+  return (
+    <header className="header-section">
+
+      <NavLink className="header-brand" to="/" rel="noferrer" title="MMEDNA">
+        <img src={Brand} className="brand-image" alt="Logo mmedina" />
+      </NavLink>
+
+      <div className="menu-hamburguesa" onClick={handleMenu}>
+        <span className="icon-menu" ref={$btnMenu}></span>
+      </div>
+
+
+      <nav className="header-menu" ref={$boxMenu}>
+        {iconMenu.map((link, index) => {
+          return <NavLink key={index} to={link.path} title={link.title} className="menu-links">{link.title}</NavLink>
+        })}
+      </nav>
+    </header>
+  );
 }

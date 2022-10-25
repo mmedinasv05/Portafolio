@@ -1,32 +1,78 @@
-.notfound-container{
-    width: 100%;
-    max-width: 1500px;
-    height: calc(87vh - var(--height-header));
-    background-color: var(--white);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    margin: var(--height-header) 0 0 0;
+/* **********  Not Found Section  ********** */
+.notfound-section {
+  width: 100%;
+  max-width: var(--max-width);
+  height: calc(100vh - var(--height-header));
+  color: var(--gray);
+  font-family: var(--font-title);
+  margin-top: var(--height-header);
+  background-color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
 }
-.notfound-image{
-   max-width: 100%;
+.notfound-number{
+  font-size: 10rem;
+  margin: 0;
+}
+.notfound-description{
+  font-size: 3rem;
+  margin: -1rem 0 0 0;
 }
 
 
 
-/*Breakpoints*/
-/*DONE*/
-@media screen and (max-width: 1100px){}
 
-/*DONE*/
-@media screen and (max-width: 900px){}
 
-/*DONE*/
-@media screen and (max-width: 761px){}
 
-/*DONE*/
-@media screen and (max-width: 551px){}
 
-/*DONE*/
-@media screen and (max-width: 360px){}
+
+
+/* **********  Media Queries  ********** */
+
+
+/*OKOK - DONE*/
+@media screen and (max-width: 1360px) {}
+
+/*OKOK - DONE*/
+@media screen and (max-width: 1200px) {
+  /* **********  Not Found Section  ********** */
+  .notfound-number {
+    font-size: 9rem;
+  }
+  .notfound-description {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 902px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+/*OKOK - DONE*/
+@media screen and (max-width: 576px) {
+  /* **********  Not Found Section  ********** */
+  .notfound-section {
+    padding: 0 var(--padding-x) var(--height-header) var(--padding-x);
+  }
+  .notfound-number {
+    font-size: 8rem;
+  }
+  .notfound-description {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin: 0;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 360px) {
+
+}

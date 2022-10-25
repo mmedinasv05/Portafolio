@@ -1,16 +1,23 @@
-import Description from "../Components/Description";
+import { useEffect, useState } from "react";
+import Header from "../Components/Header";
+import Loader from "../Components/Loader";
+import Aboutme from "../Components/Aboutme";
 import Footer from "../Components/Footer";
-import Hamburguesa from "../Components/Hamburguesa";
-//import Header from "../Components/Header";
 
+export default function About() {
+  const [loader, setLoader] = useState(true);
 
-export default function About(){
-    return(
-        <>
-            <Hamburguesa/>
-			{/* //<Header /> */}
-            <Description/>
-            <Footer/>
-		</>
-    )
+  useEffect(() => {
+    setTimeout(() => {
+      setLoader(false)
+    }, 1000)
+  }, [loader])
+
+  return (
+    <>
+      <Header />
+      {(loader) ? <Loader /> : <Aboutme />}
+      <Footer />
+    </>
+  )
 }

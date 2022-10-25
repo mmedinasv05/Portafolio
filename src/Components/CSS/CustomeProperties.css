@@ -1,116 +1,131 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
 
-:root{
-    
-    /*Size*/
-    --height-header: 12vh;/***/
-    --size-menu: 17px;/**/
-    --size-title-h1: 130px;/**/
-    --size-title-h2: 40px;/**/
-    --size-title-h3: 33px;/**/
-    --size-paragraph: 16px;/**/
-    --line-height: 25px;/**/
-
-    /*Colors*/
-    --white: #FFFFFF;
-    --black: #11182A;
-    --blue: #020D81;
-    --gray: #4A5568;
-    --gray-alt: #8EA2B9;
-    --pink: #FC199D;
-    --orange: #FB6B30;
-    --sky-blue: #D7EFFC;
-
-    --html: #F4470B;
-    --css: #0068BA;
-    --js: #E9D44D;
-    --bootstrap: #754FAD;
-    --sass: #CE6B9E;
-    --react: #00D1F7;
-    --facebook: #38529A;
-    --instagram: #F71E9E;
-    --linkedin: #016FAB;
-    --github: #000000;
-    --twitter: #3993ED;
-    --email: #F2463C;
-
-    /*Typography*/
-    --font-brand: 'Rubik', sans-serif;
-    --font-menu: 'Nunito Sans', sans-serif;
-    --font-title: 'Rubik', sans-serif;
-    --font-paragraph: 'Nunito Sans', sans-serif;
-    --font-alt: 'Space Mono', monospace;
+body{
+  background-color: red !important;
 }
-.title-h2{
-    font-family: var(--font-title);
-    font-size: var(--size-title-h2);
-    letter-spacing: 1px;
+:root {
+  /* **********  Size  ********** */
+  --height-header: 12vh; /*DONE*/
+  --height-footer: 12vh; /*DONE*/
+  --max-width: 1400px; /*DONE*/
+  --padding-x: 2.5rem; /*DONE*/
+  --size-menu: 1rem; /*DONE*/
+  --size-paragraph: 1rem; /*DONE*/
+  --line-height: 1.65; /*DONE*/
+  --size-title-h1: 8.5rem;
+  --size-title-h2: 2.5rem; /*DONE*/
+  --size-title-h3: 1.75rem; /*DONE*/
+
+
+  /* **********  Typography  ********** */
+  --font-menu: "Space Mono", monospace; /*DONE*/
+  --font-title: "Rubik", sans-serif; 
+  --font-paragraph: "Space Mono", monospace; /*DONE*/
+
+
+  /* **********  Colors  ********** */
+  --white: #ffffff;
+  --black: #222222;
+  --blue: #243ef7;
+  --pink: #fc199d;
+  --gray: #4b5563;
+  --html: #f4470b;
+  --css: #0068ba;
+  --js: #e9d44d;
+  --bootstrap: #754fad;
+  --sass: #ce6b9e;
+  --react: #00d1f7;
+  --instagram: #f71e9e;
+  --twitter: #1d9bf0;
+  --linkedin: #016fab;
+  --github: #000000;
+  --codepen: #222222;
 }
-
-
-
-
-
-/***************  Breakpoints  ***************/
-/*DONE - OK*/
-@media screen and (max-width: 1100px){
-    :root{
-        --size-title-h1: 120px;
-        --size-title-h2: 38px;
-        --size-title-h3: 35px;
-        --size-paragraph: 16.5px;
-        --line-height: 29px;
-    }
+body{
+  background-color: var(--white) !important;
+}
+.paragraph {
+  font-size: var(--size-paragraph);
+  font-family: var(--font-paragraph);
+  line-height: var(--line-height);
+  color: var(--gray-800);
+  margin: 0;
+  opacity: 0.8;
 }
 
-/*DONE - OK*/
-@media screen and (max-width: 900px){
-    :root{
-        --height-header: 15vh;
-        --size-title-h1: 120px;
-        --size-title-h2: 40px;
-        --size-title-h3: 35px;
-        --size-paragraph: 18.5px;
-        --size-menu: 17px;
-        --line-height: 30px;
-    }
+
+
+
+
+
+
+
+
+
+/* **********  Media Queries  ********** */
+
+/*OKOK - DONE*/
+@media screen and (max-width: 1360px) {
+  :root{
+    --size-paragraph: 0.95rem; 
+    --size-menu: 0.95rem;
+  }
 }
 
-/*DONE - OK*/
-@media screen and (max-width: 780px){
-    :root{
-        --height-header: 16vh;
-        --size-title-h1: 120px;
-        --size-title-h2: 45px;
-        --size-title-h3: 50px;
-        --size-paragraph: 19px;
-        --size-menu: 18.5px;
-        --line-height: 30px;
-    }
+/*OKOK - DONE*/
+@media screen and (max-width: 1200px) {
+  :root {
+    --padding-x: 2rem;
+    --size-title-h3: 1.9rem;
+    --size-title-h1: 8rem;
+  }
 }
 
-/*DONE - OKOKOKOKOK*/
-@media screen and (max-width: 582px){
-    :root{
-        --height-header: 10vh;/**/
-        --size-menu: 35px;/**/
-        --size-paragraph: 19px;/**/
-        --size-title-h2: 40px;/**/
-        --size-title-h3: 35px;/**/
-        --line-height: 30px;/**/
-    }
+
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+  :root {
+    --size-title-h3: 35px;
+    --size-menu: 17px;
+  }
 }
 
-/*DONE*/
-@media screen and (max-width: 360px){
-    :root{
-        --height-header: 16vh;
-        --size-menu: 18px;
-        --size-paragraph: 18px;
-        --size-title-h2: 38px;
-        --size-title-h3: 35px;
-    }
+@media screen and (max-width: 768px) {
+  :root {
+    --size-menu: 1.5rem;
+
+    --padding-x: 1.2rem;
+    --size-title-h3: 1.95rem;
+  }
+}
+
+/*Small -- OKOK*/
+@media screen and (max-width: 576px) {
+  :root {
+    --height-header: 9vh;
+    --height-footer: 17vh;
+    --size-menu: 1.5rem;
+    --padding-x: 1.2rem;
+
+    --size-paragraph: 1rem;
+    --size-title-h1: 5.5rem;
+    --size-title-h3: 1.8rem;
+  }
+}
+
+
+
+
+
+
+@media screen and (max-width: 360px) {
+  :root {
+    --size-title-h1: 4.8rem;
+    --size-title-h2: 1.6rem;
+  }
 }

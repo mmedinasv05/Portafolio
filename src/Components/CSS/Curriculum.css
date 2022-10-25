@@ -1,0 +1,107 @@
+.link-curriculum {
+  background-color: var(--blue);
+  font-family: var(--font-paragraph);
+  width: 9.5rem;
+  height: 2.5rem;
+  text-decoration: none;
+  border-radius: 0.4rem;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: width 0.5s;
+}
+.icon-check {
+  display: none;
+  font-size: 1rem;
+  transition: display 0.5s;
+}
+.text-button {
+  margin: 0;
+  font-size: 0.9rem;
+  transition: all 0.5s;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.link-curriculum:hover {
+  color: var(--white);
+}
+
+.link-curriculum-active {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: green;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+.link-curriculum-active > .text-button {
+  display: none;
+}
+.link-curriculum-active > .icon-check {
+  display: block;
+}
+
+/* 
+  Media Queries
+*/
+/*Extra Large*/
+@media screen and (max-width: 1200px) {
+  /* 
+    Portfolio Section
+  */
+  .project-card {
+    width: 49%;
+  }
+
+  .project-content {
+    padding: 0 1.5rem 1.5rem 1rem;
+  }
+  .tecnology {
+    font-size: 0.85rem;
+  }
+  .project-links {
+    gap: 0.9rem;
+  }
+  .project-icon {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 902px) {
+}
+
+@media screen and (max-width: 768px) {
+  .projects {
+    justify-content: center;
+  }
+  .project {
+    width: 70% !important;
+    margin: 0 0 20px 0;
+  }
+  .project-content {
+    padding: 0 200px 0 10px;
+  }
+  .tecnology,
+  .project-box-option a {
+    font-size: 20px;
+  }
+}
+
+/* 
+  Media Queries
+*/
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 902px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+}
+
+@media screen and (max-width: 360px) {
+}

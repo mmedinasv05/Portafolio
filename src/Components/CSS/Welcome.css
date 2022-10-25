@@ -1,118 +1,96 @@
-.welcome-container{
+/* **********  Home Section  ********** */
+.home-section {
+  width: 100%;
+  max-width: var(--max-width);
+  height: calc(100vh - var(--height-header));
+  background-color: var(--white);
+  margin-top: var(--height-header);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.home-radius{
+  width: 35rem;
+  height: 22rem;
+  border-radius: 30% 70% 70% 30%/ 30% 37% 63% 70%;
+  background-color: #d7effc;
+  position: absolute;
+}
+
+.home-text{
+  width: auto;
+  height: auto;
+  z-index: 10;
+  font-family: var(--font-title);
+  text-transform: uppercase;
+}
+.home-text h1{
+  font-size: var(--size-title-h1);
+  line-height: 0.8;
+  margin: 0;
+}
+
+.home-text p{
+  font-size: 1.4rem;
+  margin: 0;
+  float: right;
+}
+
+
+
+
+
+
+
+
+/* **********  Media Queries  ********** */
+/*OKOK*/
+@media screen and (max-width: 1360px) {}
+
+/*OKOK*/
+@media screen and (max-width: 1200px) {
+  .home-radius {
+    width: 32rem;
+    height: 20rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 768px) {
+}
+
+/*OKOK*/
+@media screen and (max-width: 576px) {
+  /* **********  Home Section  ********** */
+  .home-section {
     width: 100%;
-    max-width: 1500px;
-    height: calc(100vh - var(--height-header));
-    background-color: var(--white-alt);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    margin: var(--height-header) 0 0 0;
-}
-.icon-welcome{
-    display: none;
-}
-.welcome-radius{
-    width: 550px;
-    height: 370px;
-    border-radius: 30% 70% 70% 30% / 30% 37% 63% 70%;
-    background-color: var(--sky-blue);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -1;
-}
-.welcome-text{
-    width: auto;
-    height: auto;
-}
-.welcome-title{
-    font-size: var(--size-title-h1);
-    font-family: var(--font-title);
-    line-height: 105px;
-    text-transform: uppercase;
-    color: var(--black);
-    margin: 0;
-}
-.welcome-content{
-    font-family: var(--font-title);
-    font-size: 20px;
-    margin: 0;
-    text-align: right;
-    color: var(--black);
-    text-transform: uppercase;
+    height: 74vh;
+    padding: 0 var(--padding-x);
+  }
+  .home-radius {
+    width: 25rem;
+    height: 15rem;
+  }
+
+ 
+  .home-section p {
+    font-size: 1.1rem;
+    margin: 0.2rem 0 0 0.30rem;
+    text-align: left;
+  }
 }
 
-
-
-
-
-/***************  Breakpoints  ***************/
-/*DONE - OK*/
-@media screen and (max-width: 1100px){
-    .welcome-title{
-        line-height: 100px;
-    }
-    .welcome-content{
-        font-size: 20px;
-    }
-    .welcome-radius{
-        width: 470px;
-        height: 350px;
-    }
-}
-
-/*DONE - OK*/
-@media screen and (max-width: 900px){
-    .welcome-title{
-        line-height: 97px;
-    }
-    .welcome-content{
-        font-size: 21px;
-    }
-    .welcome-radius{
-        width: 520px;
-        height: 400px;
-    }
-}
-
-/*DONE - OK*/
-@media screen and (max-width: 780px){
-    .welcome-title{
-        line-height: 100px;
-    }
-    .welcome-content{
-        font-size: 20px;
-    }
-}
-
-/*DONE - OKOKOKOKOK*/
-@media screen and (max-width: 582px){
-    .welcome-container{
-        padding: 0 0 40px 0;
-    }
-    .icon-welcome{
-        display: block;
-        width: 74%;
-        height: auto;
-    }
-    .welcome-title,
-    .welcome-content{
-        display: none;
-    }
-    .welcome-radius{
-        display: none;
-    }
-}
-
-/*DONE*/
-@media screen and (max-width: 360px){
-    .welcome-container{
-        padding: 0 0 60px 0;
-    }
-    .icon-welcome{
-        height: 80%;
-        width: auto;
-    }
+/*Extra Small -- OKOK*/
+@media screen and (max-width: 360px) {
+  /* 
+    Home Section
+  */
+  .home-description {
+    font-size: 0.95rem;
+  }
 }

@@ -1,21 +1,16 @@
+import React from 'react';
 import '../Components/CSS/Welcome.css';
 import '../Components/CSS/CustomeProperties.css';
-import iconMe from './Image/icon-welcome-min.png'
 
-export default function Welcome(){
-    return(
-        <>
-            <main className="welcome-container">
-                <img src={iconMe} className="icon-welcome" alt="I Love Code" loading="lazy"/>
-                <section className="welcome-text">
-                    <div className="welcome-radius"></div>
-                    <h1 className="welcome-title">Manu 
-                        <br/>
-                        Chavez.                
-                    </h1>                                        
-                    <p className="welcome-content">FRONTEND DEVELOPER JUNIOR.</p>
-                </section>
-            </main>
-        </>
-    )
+export default function Welcome() {
+
+  return (
+    <section className="home-section">
+      <section className='home-text'>
+        <h1>Manu <br /> Chavez </h1>
+        <p>Frontend develper junior.</p>
+      </section>
+      <section className='home-radius'></section>
+    </section>
+  )
 }
