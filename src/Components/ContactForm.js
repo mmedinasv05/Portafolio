@@ -57,7 +57,7 @@ export default function ContactForm() {
               </Form.Control.Feedback>
             </Form.Group>
           </Row>
-          <Button className='btn-form mt-2' type="submit">Send message</Button>
+          <Button className='btn-form mt-3' type="submit">Send message</Button>
 
           <input type="hidden" name="_next" value="https://mmedinasv05.github.io/Portafolio/#/Contact" />
           <input type="hidden" name="_captcha" value="false" />
