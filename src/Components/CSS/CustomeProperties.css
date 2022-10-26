@@ -7,14 +7,14 @@ body{
   /* **********  Size  ********** */
   --height-header: 12vh; /*DONE*/
   --height-footer: 12vh; /*DONE*/
-  --max-width: 1400px; /*DONE*/
+  --max-width: 1500px; /*DONE*/
   --padding-x: 2.5rem; /*DONE*/
-  --size-menu: 1rem; /*DONE*/
-  --size-paragraph: 1rem; /*DONE*/
-  --line-height: 1.65; /*DONE*/
+  --size-menu: 1.1rem; /*DONE*/
+  --size-paragraph: 1.1rem; /*DONE*/
+  --line-height: 1.75; /*DONE*/
   --size-title-h1: 8.5rem;
   --size-title-h2: 2.5rem; /*DONE*/
-  --size-title-h3: 1.75rem; /*DONE*/
+  --size-title-h3: 2rem; /*DONE*/
 
 
   /* **********  Typography  ********** */
@@ -69,6 +69,8 @@ body{
   :root{
     --size-paragraph: 0.95rem; 
     --size-menu: 0.95rem;
+    --size-title-h3: 1.75rem;
+      /*DONE*/
   }
 }
 

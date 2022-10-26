@@ -12,7 +12,7 @@
 
 /* **********  Contact Form  ********** */
 .contact-form{
-  width: 70%;
+  width: 65%;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -27,7 +27,7 @@
   font-family: var(--font-paragraph);
   font-size: var(--size-paragraph) !important;
   border-color: #4b556370 !important;
-  padding: 0.5rem 0.8rem !important;
+  padding: 0.7rem 0.8rem !important;
   color: var(--gray);
   opacity: 0.7;
 }
@@ -41,14 +41,14 @@
   font-size: var(--size-paragraph) !important;
   box-shadow: none !important;
   border: none !important;
-  padding: 0.9rem 0 !important;
+  padding: 1rem 0 !important;
   background-color: var(--blue) !important;
   width: 100%;
 }
 
 /* **********  Contact image  ********** */
 .contact-image{
-  width: 30%;
+  width: 35%;
   height: 100%;
   background-image: url(../Image//Pattern.svg);
   background-repeat: no-repeat;
@@ -79,6 +79,9 @@
 
 /*OKOK - DONE*/
 @media screen and (max-width: 1360px) {
+  .form-control {
+    padding: 0.5rem 0.8rem !important;
+  }
 }
 
 /*OKOK - DONE*/
