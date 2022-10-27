@@ -12,8 +12,8 @@
 }
 
 .home-radius{
-  width: 35rem;
-  height: 22rem;
+  width: 40rem;
+  height: 24rem;
   border-radius: 30% 70% 70% 30%/ 30% 37% 63% 70%;
   background-color: #d7effc;
   position: absolute;
@@ -47,7 +47,15 @@
 
 /* **********  Media Queries  ********** */
 /*OKOK*/
-@media screen and (max-width: 1360px) {}
+@media screen and (max-width: 1360px) {
+  .home-radius {
+    width: 37rem;
+    height: 22rem;
+  }
+  .home-text p {
+    font-size: 1.25rem;
+  }
+}
 
 /*OKOK*/
 @media screen and (max-width: 1200px) {

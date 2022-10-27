@@ -19,7 +19,7 @@
   align-items: center;
 }
 .about-image img {
-  width: 75%;
+  width: 80%;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   box-shadow: 0.15rem 0.20rem 0.40rem rgba(0, 0, 0, 0.5);
   margin-bottom: 3rem;
@@ -51,7 +51,7 @@
   padding: 0;
 }
 .skills {
-  margin: 0 0 0.7rem 0;
+  margin: 0 0 0.5rem 0;
 }
 
 
@@ -79,7 +79,7 @@
 @media screen and (max-width: 1360px) {
   /* **********  About Image  ********** */
   .about-image img {
-    width: 70%;
+    width: 75%;
   }
 }
 
