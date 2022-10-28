@@ -119,8 +119,11 @@
 
 /*OKOK - DONE*/
 @media screen and (max-width: 1360px) {
-.tecnology {
-    font-size: 0.9rem;
+  .tecnology {
+    font-size: 0.85rem;
+  }
+  .project-icon {
+    font-size: 1.35rem;
   }
 }
 

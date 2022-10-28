@@ -14,7 +14,7 @@ body{
   --line-height: 1.75; /*DONE*/
   --size-title-h1: 9.5rem;
   --size-title-h2: 2.5rem; /*DONE*/
-  --size-title-h3: 2rem; /*DONE*/
+  --size-title-h3: 1.8rem; /*DONE*/
 
 
   /* **********  Typography  ********** */
@@ -69,7 +69,7 @@ body{
   :root{
     --size-paragraph: 0.97rem; 
     --size-menu: 1rem;
-    --size-title-h3: 1.75rem;
+    --size-title-h3: 1.65rem;
     --size-title-h1: 8.6rem;
   }
 }

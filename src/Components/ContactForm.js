@@ -28,33 +28,21 @@ export default function ContactForm() {
           <Row className="mb-3">
             <Form.Group as={Col} md="12" controlId="validationCustom01">
               <Form.Control name="name" required type="text" placeholder='Name' />
-              <Form.Control.Feedback type="invalid">
-                Please choose a name.
-              </Form.Control.Feedback>
             </Form.Group>
           </Row>
           <Row className="mb-3">
             <Form.Group as={Col} md="12" controlId="validationCustom02">
               <Form.Control name="email" type="email" required placeholder='Email' />
-              <Form.Control.Feedback type="invalid">
-                Invalid email
-              </Form.Control.Feedback>
             </Form.Group>
           </Row>
           <Row className="mb-3">
             <Form.Group as={Col} md="12" controlId="validationCustom03">
               <Form.Control name="subject" required type="text" placeholder='Subject' />
-              <Form.Control.Feedback type="invalid">
-                Please choose a subject.
-              </Form.Control.Feedback>
             </Form.Group>
           </Row>
           <Row className="mb-3">
             <Form.Group controlId="exampleForm.ControlTextarea1">
               <Form.Control name="message" as="textarea" required rows={6} placeholder='Message' />
-              <Form.Control.Feedback type="invalid">
-                Please choose a username.
-              </Form.Control.Feedback>
             </Form.Group>
           </Row>
           <Button className='btn-form mt-2' type="submit">Send message</Button>
