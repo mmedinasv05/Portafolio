@@ -14,7 +14,7 @@
 /* **********  Footer Copy Right  ********** */
 .footer-copyright {
   font-family: var(--font-paragraph);
-  font-size: 1rem;
+  font-size: var(--size-paragraph);
   color: var(--gray);
   opacity: 0.8;
   margin: 0;
@@ -63,32 +63,22 @@
 
 /* **********  Media Queries  ********** */
 
-/*OKOK - DONE*/
+/*OKOK - DONE - DONE*/
 @media screen and (max-width: 1360px) {
-  /* **********  Footer Copy Right  ********** */
-  .footer-copyright {
-    font-size: 0.95rem;
+  /* **********  Footer Social Media  ********** */
+  .footer-social-media a {
+    font-size: 1.35rem;
   }
+}
 
+/*OKOK - DONE - DONE*/
+@media screen and (max-width: 1200px) {
   /* **********  Footer Social Media  ********** */
   .footer-social-media {
     gap: 1.4rem;
   }
   .footer-social-media a {
-    font-size: 1.3rem;
-  }
-}
-
-/*OKOK - DONE*/
-@media screen and (max-width: 1200px) {
-  /* **********  Footer Copy Right  ********** */
-    .footer-copyright {
-      font-size: 0.90rem;
-    }
-    
-  /* **********  Footer Social Media  ********** */
-  .footer-social-media {
-    gap: 1.4rem;
+    font-size: 1.30rem;
   }
 }
 

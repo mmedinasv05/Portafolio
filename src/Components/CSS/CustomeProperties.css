@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
 
-body{
-  background-color: red !important;
-}
 :root {
   /* **********  Size  ********** */
   --height-header: 12vh; /*DONE*/
@@ -41,9 +38,6 @@ body{
   --github: #000000;
   --codepen: #222222;
 }
-body{
-  background-color: var(--white) !important;
-}
 .paragraph {
   font-size: var(--size-paragraph);
   font-family: var(--font-paragraph);
@@ -67,62 +61,60 @@ body{
 /*OKOK - DONE*/
 @media screen and (max-width: 1360px) {
   :root{
-    --size-paragraph: 0.97rem; 
-    --size-menu: 1rem;
-    --size-title-h3: 1.65rem;
-    --size-title-h1: 8.6rem;
+    --size-paragraph: 1rem; /*OK - OK - Ok*/
+    --size-menu: 1rem; /*OK - OK - Ok*/
+    --size-title-h3: 1.70rem; /*OK - OK - Ok*/
+    --size-title-h1: 9rem; /*OK - OK - Ok*/
   }
 }
 
 /*OKOK - DONE*/
 @media screen and (max-width: 1200px) {
   :root {
-    --padding-x: 2rem;
-    --size-title-h3: 1.9rem;
-    --size-title-h1: 8rem;
+    --padding-x: 1.5rem; /*OK - OK - Ok*/
+    --size-paragraph: 0.95rem; /*OK - OK - Ok*/
+    --size-menu: 0.95rem; /*OK - OK - Ok*/
+    --size-title-h3: 1.4rem; /*OK - OK - Ok*/
+    --size-title-h1: 8rem; /*OK - OK - Ok*/
   }
 }
 
-
-
-
-
-
-
-
 @media screen and (max-width: 992px) {
   :root {
-    --size-title-h3: 35px;
-    --size-menu: 17px;
+    --size-title-h3: 1.7rem; /*OK - OK - Ok*/
+    --size-menu: 1.5rem; /*OK - OK - Ok*/
   }
 }
 
 @media screen and (max-width: 768px) {
   :root {
-    --size-menu: 1.5rem;
+    --size-title-h1: 7rem;/*OK - OK - Ok*/
+    --size-title-h3: 1.5rem; /*OK - OK - Ok*/
 
-    --padding-x: 1.2rem;
-    --size-title-h3: 1.95rem;
   }
 }
 
-/*Small -- OKOK*/
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 576px) {
   :root {
     --height-header: 9vh;
     --height-footer: 17vh;
     --size-menu: 1.5rem;
-    --padding-x: 1.2rem;
+    --padding-x: 1.5rem;
 
     --size-paragraph: 1rem;
-    --size-title-h1: 5.5rem;
+    --size-title-h1: 5.4rem;
     --size-title-h3: 1.8rem;
   }
 }
-
-
-
-
 
 
 @media screen and (max-width: 360px) {

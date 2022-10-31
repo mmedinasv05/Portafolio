@@ -4,7 +4,6 @@
   max-width: var(--max-width);
   height: calc(100vh - var(--height-header));
   margin-top: var(--height-header);
-  padding: 0 var(--padding-x) 0 0;
   background-color: var(--white);
   display: flex;
   flex-direction: row-reverse;
@@ -18,10 +17,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 0 0 0 2rem;
 }
 .contact-form form{
-  width: 70%;
+  width: 65%;
 }
 .form-control{
   font-family: var(--font-paragraph);
@@ -77,30 +75,30 @@
 
 /* **********  Media Queries  ********** */
 
-/*OKOK - DONE*/
+/*OKOK - DONE - DONE*/
 @media screen and (max-width: 1360px) {
   .form-control {
-    padding: 0.7rem 0.8rem !important;
+    padding: 0.6rem 0.8rem !important;
   }
 }
 
-/*OKOK - DONE*/
+/*OKOK - DONE - DONE*/
 @media screen and (max-width: 1200px) {
   /* **********  Contact Form  ********** */
   .contact-form form {
-    width: 80%;
+    width: 75%;
   }
 }
 
-/*OKOK - DONE*/
+/*OKOK - DONE - DONE*/
 @media screen and (max-width: 992px) {
   /* **********  Contact Form  ********** */
-  .contact-form {
-    padding: 0 0 0 1rem;
+  .contact-form form {
+    width: 85%;
   }
 }
 
-/*OKOK - DONE*/
+/*OKOK - DONE - DONE*/
 @media screen and (max-width: 768px) {
   /* **********  Contact Section  ********** */
   .contact-section {
@@ -109,13 +107,9 @@
   /* **********  Contact Form  ********** */
   .contact-form {
     width: 100%;
-    padding: 0;
-  }
-  .contact-form form {
-    width: 100%;
   }
   .form-control {
-    padding: 0.9rem 0.8rem !important;
+    padding: 0.7rem 0.8rem !important;
   }
   
   /* **********  Contact image  ********** */
@@ -124,13 +118,17 @@
   }
 }
 
-/*OKOK - DONE*/
+/*OKOK - DONE - DONE*/
 @media screen and (max-width: 576px) {
-  /* **********  About Section  ********** */
-  .contact-section {
-    padding: 0 var(--padding-x) var(--height-header) var(--padding-x);
+  /* **********  Contact Form  ********** */
+  .contact-form form {
+    width: 100%;
+  }
+  .form-control {
+    padding: 0.85rem 0.8rem !important;
   }
 }
+
 
 /*OKOK - DONE*/
 @media screen and (max-width: 360px) {

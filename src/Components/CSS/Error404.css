@@ -5,6 +5,7 @@
   height: calc(100vh - var(--height-header));
   color: var(--gray);
   font-family: var(--font-title);
+  padding: 0 var(--padding-x);
   margin-top: var(--height-header);
   background-color: var(--white);
   display: flex;
@@ -18,8 +19,8 @@
   margin: 0;
 }
 .notfound-description{
-  font-size: 3rem;
-  margin: -1rem 0 0 0;
+  font-size: 3.5rem;
+  margin: -2rem 0 0 0;
 }
 
 
@@ -33,45 +34,39 @@
 /* **********  Media Queries  ********** */
 
 
-/*OKOK - DONE*/
+/*OKOK - DONE - DONE*/
 @media screen and (max-width: 1360px) {}
 
-/*OKOK - DONE*/
-@media screen and (max-width: 1200px) {
+/*OKOK - DONE - DONE*/
+@media screen and (max-width: 1200px) {}
+
+/*OKOK - DONE - DONE*/
+@media screen and (max-width: 992px) {
   /* **********  Not Found Section  ********** */
   .notfound-number {
-    font-size: 9rem;
+    font-size: 8.5rem;
   }
   .notfound-description {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 }
 
-@media screen and (max-width: 902px) {
-}
+/*OKOK - DONE - DONE*/
+@media screen and (max-width: 768px) {}
 
-@media screen and (max-width: 768px) {
-}
-
-/*OKOK - DONE*/
+/*OKOK - DONE - DONE*/
 @media screen and (max-width: 576px) {
   /* **********  Not Found Section  ********** */
-  .notfound-section {
-    padding: 0 var(--padding-x) var(--height-header) var(--padding-x);
+  .notfound-section{
+    padding-bottom: var(--height-footer);
   }
   .notfound-number {
     font-size: 8rem;
   }
   .notfound-description {
     font-size: 2.5rem;
-    line-height: 1.2;
-    margin: 0;
   }
 }
-
-
-
-
 
 @media screen and (max-width: 360px) {
 

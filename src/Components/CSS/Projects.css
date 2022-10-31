@@ -117,7 +117,7 @@
 
 /* **********  Media Queries  ********** */
 
-/*OKOK - DONE*/
+/*OKOK - DONE - DONE*/
 @media screen and (max-width: 1360px) {
   .tecnology {
     font-size: 0.85rem;
@@ -127,55 +127,49 @@
   }
 }
 
-/*OKOK - DONE*/
+/*OKOK - DONE - DONE*/
 @media screen and (max-width: 1200px) {
-  /* **********  Portfolio Section  ********** */
-  .potfolio-section {
-    padding: 2rem var(--padding-x) 1.5rem var(--padding-x);
+  /* **********  Card Project  ********** */
+  .project-card {
+    width: 32.5%;
+    margin-bottom: 0.7rem;
   }
-  
+  .tecnology {
+    font-size: 0.78rem;
+  }
+  .project-links {
+    gap: 0.5rem;
+  }
+}
+
+/*OKOK - DONE - DONE*/
+@media screen and (max-width: 992px) {
   /* **********  Card Project  ********** */
   .project-card {
     width: 49%;
     margin-bottom: 1.2rem;
   }
-  .project-content {
-    padding: 0 1.5rem 1em 1rem;
-  }
   .tecnology {
     font-size: 0.85rem;
   }
-  .project-links {
-    gap: 0.9rem;
-  }
   .project-icon {
-    font-size: 1.4rem;
+    font-size: 1.40rem;
   }
 }
 
-/*OKOK - DONE*/
-@media screen and (max-width: 992px) {
-
-}
-
-/*OKOK - DONE*/
+/*OKOK - DONE - DONE*/
 @media screen and (max-width: 768px) {
   /* **********  Card Project  ********** */
   .tecnology {
-    font-size: 0.9rem;
+    font-size: 0.80rem;
   }
   .project-icon {
-    font-size: 1.6rem;
+    font-size: 1.35rem;
   }
 }
 
-/*OKOK - DONE*/
+/*OKOK - DONE - DONE*/
 @media screen and (max-width: 576px) {
-  /* **********  Portfolio Section  ********** */
-  .potfolio-section {
-    padding: 2rem var(--padding-x) 2.5rem var(--padding-x);
-  }
-
   /* **********  Card Project  ********** */
   .project-card {
     width: 100%;

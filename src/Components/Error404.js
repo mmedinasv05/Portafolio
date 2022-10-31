@@ -5,7 +5,7 @@ export default function Error404() {
   return (
     <main className="notfound-section">
       <h1 className='notfound-number'>404</h1>
-      <p className='notfound-description'>Página no encontrada.</p>
+      <p className='notfound-description'>Page Not Found.</p>
     </main>
   )
 }

@@ -145,7 +145,7 @@
   .header-menu {
     width: 100vw;
     height: calc(100vh - var(--height-header));
-    padding: 3rem 2.5rem !important;
+    padding: 3rem var(--padding-x) !important;
     position: fixed;
     top: var(--height-header);
     left: 0;
@@ -167,7 +167,7 @@
     margin: 0;
     font-size: var(--size-menu);
     letter-spacing: 1px;
-    text-transform: uppercase;
+    font-weight: bold;
     position: relative;
     padding: 0 0.8rem 0 0;
     overflow: hidden;
@@ -190,15 +190,14 @@
 
 @media screen and (max-width: 768px) {
   .header-menu {
-      padding: 3rem var(--padding-x);
-      gap: 3.5rem;
-    }
+    gap: 3.5rem;
+  }
   .menu-links {
-      margin: 0 !important;
-      font-size: var(--size-menu);
-      text-transform: none;
-      font-weight: bold;
-    }
+    margin: 0 !important;
+    font-size: var(--size-menu);
+    text-transform: none;
+    font-weight: bold;
+  }
 }
 
 /*Small -- OKOK*/
