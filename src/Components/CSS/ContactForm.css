@@ -120,6 +120,9 @@
 
 /*OKOK - DONE - DONE*/
 @media screen and (max-width: 576px) {
+  .contact-section{
+    padding-bottom: var(--height-header);
+  }
   /* **********  Contact Form  ********** */
   .contact-form form {
     width: 100%;
@@ -128,7 +131,6 @@
     padding: 0.85rem 0.8rem !important;
   }
 }
-
 
 /*OKOK - DONE*/
 @media screen and (max-width: 360px) {

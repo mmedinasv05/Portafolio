@@ -95,9 +95,10 @@
 
 /*Extra Small -- OKOK*/
 @media screen and (max-width: 360px) {
-  /* 
-    Home Section
-  */
+  /* **********  Home Section  ********** */
+  .home-radius {
+    width: 21rem;
+  }
   .home-description {
     font-size: 0.95rem;
   }
