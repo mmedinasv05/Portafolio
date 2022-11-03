@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import Brand from "./Image/brand1-min.png";
 import "../Components/CSS/Header.css";
 import "../Components/CSS/CustomeProperties.css";
+//import Curriculum from "./Curriculum";
 
 const iconMenu = [
   {
@@ -57,6 +58,7 @@ export default function Header() {
         {iconMenu.map((link, index) => {
           return <NavLink key={index} to={link.path} title={link.title} className="menu-links">{link.title}</NavLink>
         })}
+        {/* <Curriculum /> */}
       </nav>
     </header>
   );

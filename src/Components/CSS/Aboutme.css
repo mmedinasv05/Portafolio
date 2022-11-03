@@ -20,6 +20,7 @@
 }
 .about-image img {
   width: 80%;
+  height: auto;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   box-shadow: 0.15rem 0.20rem 0.40rem rgba(0, 0, 0, 0.5);
   margin-bottom: 2rem;
@@ -30,8 +31,8 @@
 .about-description {
   width: 70%;
   height: 100%;
+  padding: 0 1rem 0 0;
   display: flex;
-  padding: 0 1rem 0 2rem;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -51,18 +52,8 @@
   padding: 0;
 }
 .skills {
-  margin: 0 0 0.5rem 0;
+  margin: 0 0 0.6rem 0;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -81,7 +72,6 @@
   .about-image img {
     width: 75%;
   }
-
 }
 
 /*OKOK - DONE - DONE*/
@@ -97,10 +87,10 @@
   .about-image {
     width: 100%;
     height: auto;
-    padding-bottom: 2rem;
+    padding-bottom: 2.5rem;
   }
   .about-image img {
-    width: 17%;
+    width: 18%;
     margin: 0;
   }
 
@@ -129,18 +119,17 @@
 @media screen and (max-width: 768px) {
   /* **********  About Image  ********** */
   .about-image img {
-    width: 24%;
+    width: 25%;
   }
 }
 
 /*OKOK - DONE - DONE*/
 @media screen and (max-width: 576px) {
-  /* **********  About Section  ********** */
-  .about-section {
-    height: auto;
-    flex-wrap: wrap;
-  }
+
   /* **********  About Image  ********** */
+  .about-image {
+    padding-bottom: 2rem;
+  }
   .about-image img {
     width: 45%;
     margin-bottom: 0;
@@ -163,10 +152,10 @@
   }
 }
 
-/*OKOK - DONE*/
+/*OKOK - DONE - DONE*/
 @media screen and (max-width: 360px) {
   .about-image img {
-    width: 50%;
+    width: 48%;
   }
 }
 

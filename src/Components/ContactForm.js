@@ -23,6 +23,8 @@ export default function ContactForm() {
 
   return (
     <main className="contact-section">
+      <section className='contact-image'>
+      </section>
       <section className='contact-form'>
         <Form action="https://formsubmit.co/chavezofficial2015@gmail.com" method="POST" noValidate validated={validated} onSubmit={handleSubmit}>
           <Row className="mb-3">
@@ -52,8 +54,6 @@ export default function ContactForm() {
 
         </Form>
 
-      </section>
-      <section className='contact-image'>
       </section>
     </main>
   )

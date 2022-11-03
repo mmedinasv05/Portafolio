@@ -63,18 +63,17 @@
   :root{
     --size-paragraph: 1rem; /*OK - OK - Ok*/
     --size-menu: 1rem; /*OK - OK - Ok*/
-    --size-title-h3: 1.70rem; /*OK - OK - Ok*/
-    --size-title-h1: 9rem; /*OK - OK - Ok*/
+    --size-title-h3: 1.75rem; /*OK - OK - Ok*/
+    --size-title-h1: 8.5rem; /*OK - OK - Ok*/
   }
 }
 
 @media screen and (max-width: 1200px) {
   :root {
-    --padding-x: 1.5rem; /*OK - OK - Ok*/
-    --size-paragraph: 0.95rem; /*OK - OK - Ok*/
-    --size-menu: 0.95rem; /*OK - OK - Ok*/
-    --size-title-h3: 1.4rem; /*OK - OK - Ok*/
+    --padding-x: 2rem; /*OK - OK - Ok*/
+    --size-title-h3: 1.5rem; /*OK - OK - Ok*/
     --size-title-h1: 8rem; /*OK - OK - Ok*/
+    --padding-x: 1.5rem;
   }
 }
 

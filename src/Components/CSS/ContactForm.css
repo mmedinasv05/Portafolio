@@ -6,7 +6,6 @@
   margin-top: var(--height-header);
   background-color: var(--white);
   display: flex;
-  flex-direction: row-reverse;
 }
 
 /* **********  Contact Form  ********** */
@@ -23,9 +22,9 @@
 }
 .form-control{
   font-family: var(--font-paragraph);
-  font-size: var(--size-paragraph) !important;
+  font-size: 1rem !important;
   border-color: #4b556370 !important;
-  padding: 0.85rem 0.8rem !important;
+  padding: 0.75rem 0.8rem !important;
   color: var(--gray);
   opacity: 0.7;
 }
@@ -63,23 +62,15 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
 /* **********  Media Queries  ********** */
 
 /*OKOK - DONE - DONE*/
 @media screen and (max-width: 1360px) {
+  /* **********  Contact Form  ********** */
   .form-control {
-    padding: 0.6rem 0.8rem !important;
+    padding: 0.7rem 0.7rem !important;
   }
+  
 }
 
 /*OKOK - DONE - DONE*/
@@ -88,13 +79,25 @@
   .contact-form form {
     width: 75%;
   }
+  .form-control {
+    padding: 0.6rem 0.6rem !important;
+  }
 }
 
 /*OKOK - DONE - DONE*/
 @media screen and (max-width: 992px) {
+  
   /* **********  Contact Form  ********** */
+  .contact-form {
+    width: 100%;
+  }
   .contact-form form {
-    width: 85%;
+    width: 75%;
+  }
+
+  /* **********  Contact image  ********** */
+  .contact-image {
+    display: none;
   }
 }
 
@@ -104,35 +107,27 @@
   .contact-section {
     padding: 0 var(--padding-x);
   }
+
   /* **********  Contact Form  ********** */
-  .contact-form {
-    width: 100%;
-  }
-  .form-control {
-    padding: 0.7rem 0.8rem !important;
+  .contact-form form {
+    width: 90%;
   }
   
-  /* **********  Contact image  ********** */
-  .contact-image {
-    display: none;
-  }
+  
 }
 
 /*OKOK - DONE - DONE*/
 @media screen and (max-width: 576px) {
-  .contact-section{
-    padding-bottom: var(--height-header);
-  }
+
   /* **********  Contact Form  ********** */
   .contact-form form {
     width: 100%;
+   margin: 0 0 var(--height-header) 0;
   }
-  .form-control {
-    padding: 0.85rem 0.8rem !important;
-  }
+
 }
 
-/*OKOK - DONE*/
+/*OKOK - DONE - DONE*/
 @media screen and (max-width: 360px) {
 
 }

@@ -7,7 +7,7 @@ export default function Welcome() {
   return (
     <section className="home-section">
       <section className='home-text'>
-        <h1>Manu <br /> Chavez </h1>
+        <h1>Manu <br /> Chavez</h1>
         <p>Frontend develper junior.</p>
       </section>
       <section className='home-radius'></section>
