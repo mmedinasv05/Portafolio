@@ -118,11 +118,14 @@
 
 /*OKOK - DONE - DONE*/
 @media screen and (max-width: 576px) {
-
   /* **********  Contact Form  ********** */
   .contact-form form {
     width: 100%;
-   margin: 0 0 var(--height-header) 0;
+    margin: 0 0 var(--height-header) 0;
+  }
+  .form-control {
+    font-size: var(--size-paragraph) !important;
+    padding: 0.9rem 0.6rem !important;
   }
 
 }
