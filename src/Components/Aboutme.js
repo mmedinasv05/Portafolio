@@ -1,5 +1,5 @@
 import ListSkills from './ListSkills';
-import Manu from './Image/about-image-min.jpg'
+import Manu from './Image/about-image-min.webp'
 import '../Components/CSS/Aboutme.css';
 import '../Components/CSS/CustomeProperties.css';
 

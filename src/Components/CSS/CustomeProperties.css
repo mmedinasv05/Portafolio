@@ -1,23 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
 
 :root {
   /* **********  Size  ********** */
-  --height-header: 12vh; /*DONE*/
-  --height-footer: 12vh; /*DONE*/
-  --max-width: 1500px; /*DONE*/
-  --padding-x: 2.5rem; /*DONE*/
-  --size-menu: 1.1rem; /*DONE*/
-  --size-paragraph: 1.1rem; /*DONE*/
-  --line-height: 1.75; /*DONE*/
-  --size-title-h1: 9.5rem;
-  --size-title-h2: 2.5rem; /*DONE*/
-  --size-title-h3: 1.8rem; /*DONE*/
+  --height-header: 12vh;
+  --height-footer: 12vh;
+  --max-width: 1500px;
+  --padding-x: 2rem;
+  --size-menu: 1rem;
+  --size-paragraph: 1rem;
+  --line-height: 1.75;
+  --size-title-h1: 8rem;
+  --size-title-h3: 1.7rem;
 
 
   /* **********  Typography  ********** */
-  --font-menu: "Space Mono", monospace; /*DONE*/
-  --font-title: "Rubik", sans-serif; 
-  --font-paragraph: "Space Mono", monospace; /*DONE*/
+  --font-menu: "Space Mono", monospace;
+  --font-title: "Rubik", sans-serif;
+  --font-paragraph: "Space Mono", monospace;
 
 
   /* **********  Colors  ********** */
@@ -25,7 +24,7 @@
   --black: #222222;
   --blue: #243ef7;
   --pink: #fc199d;
-  --gray: #4b5563;
+  --gray: #4b5568;
   --html: #f4470b;
   --css: #0068ba;
   --js: #e9d44d;
@@ -42,7 +41,7 @@
   font-size: var(--size-paragraph);
   font-family: var(--font-paragraph);
   line-height: var(--line-height);
-  color: var(--gray-800);
+  color: var(--gray);
   margin: 0;
   opacity: 0.8;
 }
@@ -60,30 +59,33 @@
 
 
 @media screen and (max-width: 1360px) {
-  :root{
-    --size-paragraph: 1rem; /*OK - OK - Ok*/
-    --size-menu: 1rem; /*OK - OK - Ok*/
-    --size-title-h3: 1.75rem; /*OK - OK - Ok*/
-    --size-title-h1: 8.5rem; /*OK - OK - Ok*/
-  }
+
 }
 
 @media screen and (max-width: 1200px) {
   :root {
-    --padding-x: 2rem; /*OK - OK - Ok*/
-    --size-title-h3: 1.5rem; /*OK - OK - Ok*/
-    --size-title-h1: 8rem; /*OK - OK - Ok*/
+    --padding-x: 2rem;
+    --size-title-h1: 8rem;
+    --size-title-h3: 1.8rem;
     --padding-x: 1.5rem;
   }
 }
 
+
+
+
+
+
+
+
+/*Done*/
 @media screen and (max-width: 992px) {
   :root {
     --size-title-h3: 1.7rem; /*OK - OK - Ok*/
     --size-menu: 1.5rem; /*OK - OK - Ok*/
   }
 }
-
+/*Done*/
 @media screen and (max-width: 768px) {
   :root {
     --size-title-h1: 7rem;/*OK - OK - Ok*/
@@ -92,28 +94,33 @@
   }
 }
 
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 576px) {
   :root {
-    --height-header: 10vh; /*OK - OK - Ok*/
-    --height-footer: 17vh; /*OK - OK - Ok*/
-    --size-menu: 1.5rem; /*OK - OK - Ok*/
-    --padding-x: 1rem; /*OK - OK - Ok*/
+    --height-header: 10vh;
+    --height-footer: 15vh;
+    --size-menu: 1.8rem;
+    --padding-x: 1rem;
 
-    --size-paragraph: 1rem; /*OK - OK - Ok*/
-    --size-title-h1: 5.4rem; /*OK - OK - Ok*/
-    --size-title-h3: 1.8rem; /*OK - OK - Ok*/
+    --size-paragraph: 1rem;
+    --size-title-h1: 5.5rem;
+    --size-title-h3: 1.9rem;
   }
 }
 
-
-
-
-
-
 @media screen and (max-width: 360px) {
   :root {
+    --size-menu: 1.6rem;
     --size-title-h1: 4.6rem;
-    --size-title-h2: 1.6rem;
-    --height-footer: 19vh;
+    --size-title-h3: 1.65rem;
+    --height-footer: 20vh;
   }
 }

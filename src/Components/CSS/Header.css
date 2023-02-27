@@ -74,8 +74,6 @@
 
 @media screen and (max-width: 1360px) {}
 
-
-/*OKOK*/
 @media screen and (max-width: 1200px) {
   /* **********  Header Brand  ********** */
   .header-brand {
@@ -83,10 +81,19 @@
   }
   /* **********  Header Menu  ********** */
   .menu-links {
-    margin: 0 0 0 3.5rem;
+    margin: 0 0 0 3rem;
   }
 
 }
+
+
+
+
+
+
+
+
+
 
 /*OKOK*/
 @media screen and (max-width: 992px) {
@@ -189,6 +196,7 @@
   }
 }
 
+/*OKOK*/
 @media screen and (max-width: 768px) {
   .header-menu {
     gap: 3.5rem;
@@ -201,7 +209,15 @@
   }
 }
 
-/*Small -- OKOK*/
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 576px) {
   .header-brand {
     width: 9rem;
@@ -209,18 +225,16 @@
   }
   .header-menu {
     padding: 3rem var(--padding-x);
-    gap: 3.5rem;
+    gap: 3rem;
   }
-
   .menu-links {
     margin: 0 !important;
     font-size: var(--size-menu);
     text-transform: none;
     font-weight: bold;
+    padding-bottom: 0.5rem;
   }
-
 }
 
-/*Small -- OKOK*/
 @media screen and (max-width: 360px) {
 }

@@ -33,12 +33,18 @@
 
 /* **********  Media Queries  ********** */
 
-
-/*OKOK - DONE - DONE*/
 @media screen and (max-width: 1360px) {}
 
-/*OKOK - DONE - DONE*/
 @media screen and (max-width: 1200px) {}
+
+
+
+
+
+
+
+
+
 
 /*OKOK - DONE - DONE*/
 @media screen and (max-width: 992px) {
@@ -54,7 +60,15 @@
 /*OKOK - DONE - DONE*/
 @media screen and (max-width: 768px) {}
 
-/*OKOK - DONE - DONE*/
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 576px) {
   /* **********  Not Found Section  ********** */
   .notfound-section{
@@ -69,5 +83,11 @@
 }
 
 @media screen and (max-width: 360px) {
+  .notfound-number {
+    font-size: 7.5rem;
+  }
 
+  .notfound-description {
+    font-size: 2.5rem;
+  }
 }

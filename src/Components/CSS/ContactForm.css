@@ -22,7 +22,7 @@
 }
 .form-control{
   font-family: var(--font-paragraph);
-  font-size: 1rem !important;
+  font-size: 0.95rem !important;
   border-color: #4b556370 !important;
   padding: 0.75rem 0.8rem !important;
   color: var(--gray);
@@ -38,7 +38,7 @@
   font-size: var(--size-paragraph) !important;
   box-shadow: none !important;
   border: none !important;
-  padding: 1rem 0 !important;
+  padding: 0.85rem 0 !important;
   background-color: var(--blue) !important;
   width: 100%;
 }
@@ -64,7 +64,6 @@
 
 /* **********  Media Queries  ********** */
 
-/*OKOK - DONE - DONE*/
 @media screen and (max-width: 1360px) {
   /* **********  Contact Form  ********** */
   .form-control {
@@ -73,16 +72,24 @@
   
 }
 
-/*OKOK - DONE - DONE*/
 @media screen and (max-width: 1200px) {
   /* **********  Contact Form  ********** */
   .contact-form form {
     width: 75%;
   }
   .form-control {
-    padding: 0.6rem 0.6rem !important;
+    padding: 0.5rem 0.6rem !important;
   }
 }
+
+
+
+
+
+
+
+
+
 
 /*OKOK - DONE - DONE*/
 @media screen and (max-width: 992px) {
@@ -116,7 +123,16 @@
   
 }
 
-/*OKOK - DONE - DONE*/
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 576px) {
   /* **********  Contact Form  ********** */
   .contact-form form {
@@ -125,12 +141,14 @@
   }
   .form-control {
     font-size: var(--size-paragraph) !important;
-    padding: 0.9rem 0.6rem !important;
+    padding: 0.97rem 0.6rem !important;
   }
 
 }
 
-/*OKOK - DONE - DONE*/
 @media screen and (max-width: 360px) {
-
+  /* **********  Contact Form  ********** */
+  .contact-form form {
+    margin: 0 0 calc(var(--height-header)/2) 0;
+  }
 }

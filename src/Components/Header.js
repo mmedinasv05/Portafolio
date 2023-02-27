@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import { NavLink } from "react-router-dom";
-import Brand from "./Image/brand1-min.png";
+import Brand from "./Image/brand1-min.webp";
 import "../Components/CSS/Header.css";
 import "../Components/CSS/CustomeProperties.css";
 //import Curriculum from "./Curriculum";
