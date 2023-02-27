@@ -138,13 +138,17 @@
 
 
 @media screen and (max-width: 576px) {
+  /* **********  About Section  ********** */
+    .about-section {
+      padding: 3rem var(--padding-x);
+    }
 
   /* **********  About Image  ********** */
   .about-image {
     padding-bottom: 2rem;
   }
   .about-image img {
-    width: 50%;
+    width: 45%;
     margin-bottom: 0;
   }
 
