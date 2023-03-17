@@ -1,10 +1,10 @@
 import ProjectCard from "./ProjectCard";
-import project1 from './Image/1-min.webp'
-import project2 from './Image/2-min.webp'
-import project3 from './Image/3-min.webp'
-import project4 from './Image/4-min.webp'
-import project5 from './Image/5-min.webp'
-import project6 from './Image/6-min.webp'
+import project1 from './Image/1-min.jpg'
+import project2 from './Image/2-min.jpg'
+import project3 from './Image/3-min.jpg'
+import project4 from './Image/4-min.jpg'
+import project5 from './Image/5-min.jpg'
+import project6 from './Image/6-min.jpg'
 import "../Components/CSS/Projects.css";
 import "../Components/CSS/CustomeProperties.css";
 

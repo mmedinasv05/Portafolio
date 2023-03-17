@@ -1,5 +1,5 @@
 import ListSkills from './ListSkills';
-import Manu from './Image/about-image-min.webp'
+import Manu from './Image/about-image-min.jpg'
 import '../Components/CSS/Aboutme.css';
 import '../Components/CSS/CustomeProperties.css';
 
@@ -23,7 +23,7 @@ export default function Aboutme() {
         </aside>
       </article>
       <section className="about-image">
-        <img src={Manu} alt="Manuel Chavez" />
+        <img src={Manu} alt="Manuel Chavez" title='Manuel Chavez' />
       </section>
     </main>
   )

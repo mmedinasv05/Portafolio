@@ -1,23 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
 
 :root {
   /* **********  Size  ********** */
-  --height-header: 12vh;
-  --height-footer: 12vh;
-  --max-width: 1500px;
-  --padding-x: 2rem;
-  --size-menu: 1rem;
-  --size-paragraph: 1rem;
-  --line-height: 1.75;
-  --size-title-h1: 8rem;
-  --size-title-h3: 1.7rem;
-
+  --height-header: 12vh; /* -- */
+  --height-footer: 12vh; /* -- */
+  --max-width: 1400px; /**/
+  --padding-x: 2.5rem; /* -- */
+  --size-menu: 1.1rem; /**/
+  --size-paragraph: 1.1rem; /**/
+  --line-height: 1.75; /**/
+  --size-title-h1: 4.5rem; /**/
+  --size-title-h2: 1.9rem; /**/
 
   /* **********  Typography  ********** */
   --font-menu: "Space Mono", monospace;
   --font-title: "Rubik", sans-serif;
   --font-paragraph: "Space Mono", monospace;
-
 
   /* **********  Colors  ********** */
   --white: #ffffff;
@@ -43,13 +40,7 @@
   line-height: var(--line-height);
   color: var(--gray);
   margin: 0;
-  opacity: 0.8;
 }
-
-
-
-
-
 
 
 
@@ -57,70 +48,60 @@
 
 /* **********  Media Queries  ********** */
 
-
+/* Extra XL- Done */
 @media screen and (max-width: 1360px) {
-
+  :root{
+    --size-menu: 1rem;
+    --size-paragraph: 1rem;
+    --size-title-h1: 4rem;
+    --size-title-h2: 1.7rem;
+  }
 }
 
+/* XL- Done */
 @media screen and (max-width: 1200px) {
   :root {
+    --size-title-h1: 4rem; 
+    --size-title-h2: 1.8rem;
     --padding-x: 2rem;
-    --size-title-h1: 8rem;
-    --size-title-h3: 1.8rem;
-    --padding-x: 1.5rem;
   }
 }
 
-
-
-
-
-
-
-
-/*Done*/
+/* Large - Done */
 @media screen and (max-width: 992px) {
   :root {
-    --size-title-h3: 1.7rem; /*OK - OK - Ok*/
-    --size-menu: 1.5rem; /*OK - OK - Ok*/
+    --size-title-h1: 3.5rem;
+    --size-title-h2: 1.7rem;
+    --size-menu: 1.8rem;
   }
 }
-/*Done*/
+
+/* Medium - Done */
 @media screen and (max-width: 768px) {
   :root {
-    --size-title-h1: 7rem;/*OK - OK - Ok*/
-    --size-title-h3: 1.5rem; /*OK - OK - Ok*/
+    --size-title-h2: 1.5rem;
+    --padding-x: 1.5rem;
 
   }
 }
 
-
-
-
-
-
-
-
-
-
+/* SM - Done */
 @media screen and (max-width: 576px) {
   :root {
     --height-header: 10vh;
     --height-footer: 15vh;
-    --size-menu: 1.8rem;
     --padding-x: 1rem;
-
-    --size-paragraph: 1rem;
-    --size-title-h1: 5.5rem;
-    --size-title-h3: 1.9rem;
+    --size-title-h2: 1.9rem;
+    --size-title-h1: 3.5rem;
   }
 }
 
+/* Extra SM - Done */
 @media screen and (max-width: 360px) {
   :root {
     --size-menu: 1.6rem;
-    --size-title-h1: 4.6rem;
-    --size-title-h3: 1.65rem;
+    --size-title-h1: 3rem;
+    --size-title-h2: 1.65rem;
     --height-footer: 20vh;
   }
 }

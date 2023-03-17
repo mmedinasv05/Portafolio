@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import { NavLink } from "react-router-dom";
-import Brand from "./Image/brand1-min.webp";
+import Brand from "./Image/brand1-min.jpg";
 import "../Components/CSS/Header.css";
 import "../Components/CSS/CustomeProperties.css";
 //import Curriculum from "./Curriculum";
@@ -46,7 +46,7 @@ export default function Header() {
     <header className="header-section">
 
       <NavLink className="header-brand" to="/" rel="noferrer" title="MMEDNA">
-        <img src={Brand} className="brand-image" alt="Logo mmedina" />
+        <img src={Brand} className="brand-image" alt="Logo mmedina" title="Logo mmedina" />
       </NavLink>
 
       <div className="menu-hamburguesa" onClick={handleMenu}>

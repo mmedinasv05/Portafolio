@@ -2,42 +2,38 @@
 .home-section {
   width: 100%;
   max-width: var(--max-width);
-  height: calc(100vh - var(--height-header));
+  height: calc(100vh - (var(--height-header) + var(--height-footer)));
   background-color: var(--white);
   margin-top: var(--height-header);
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  position: relative;
+  padding: 0 7rem;
 }
-.home-radius{
-  width: 40rem;
-  height: 24rem;
-  border-radius: 30% 70% 70% 30%/ 30% 37% 63% 70%;
-  background-color: #d7effc;
-  position: absolute;
-}
+
+/* **********  Home Text  ********** */
 .home-text{
-  width: auto;
-  height: auto;
-  z-index: 10;
+  width: 60%;
+  letter-spacing: 1px;
+}
+.home-text h1 {
   font-family: var(--font-title);
-  text-transform: uppercase;
-}
-.home-text h1{
   font-size: var(--size-title-h1);
-  line-height: 0.8;
-  margin: 0;
+  line-height: 0.9;
+}
+.home-text p {
+  font-size: var(--size-paragraph);
+  font-family: var(--font-paragraph);
+  margin: 0.5rem 0;
 }
 
-.home-text p{
-  font-size: 1.4rem;
-  margin: 0;
-  float: right;
+/* **********  Home Image  ********** */
+.welcome-image{
+  width: 28%;
+  border-radius: 69% 31% 70% 30% / 30% 58% 42% 70%;
+  box-shadow: 0.15rem 0.20rem 0.40rem rgba(0, 0, 0, 0.5);
+  margin: 0 1.5rem 0 0;
 }
-
-
-
 
 
 
@@ -45,70 +41,66 @@
 
 /* **********  Media Queries  ********** */
 
+/* Extra XL- Done */
 @media screen and (max-width: 1360px) {
-  .home-radius {
-    width: 35rem;
-    height: 21rem;
+  /* **********  Home Text  ********** */
+  .home-text {
+    width: 50%;
+    letter-spacing: 1px;
   }
-  .home-text p {
-    font-size: 1.30rem;
+  /* **********  Home Image  ********** */
+  .welcome-image {
+    margin: 0 1rem 0 0;
   }
 }
 
+/* XL- Done */
 @media screen and (max-width: 1200px) {
-  .home-radius {
-    width: 35rem;
-    height: 20rem;
-  }
-}
-
-
-
-
-
-
-
-
-
-
-/*DONE - DONE - DONE*/
-@media screen and (max-width: 992px) {
-}
-
-/*DONE - DONE - DONE*/
-@media screen and (max-width: 768px) {
-  /* **********  Home Section  ********** */
-  .home-radius {
-    width: 30rem;
-    height: 18rem;
-  }
-}
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 576px) {
   /* **********  Home Section  ********** */
   .home-section {
-    width: 100%;
-    height: 75vh;
     padding: 0 var(--padding-x);
-  }
-  .home-radius {
-    width: 24.5rem;
-    height: 15rem;
-  }
-  .home-section p {
-    font-size: 1.1rem;
   }
 }
 
+/* Large - Done */
+@media screen and (max-width: 992px) {
+  /* **********  Home Text  ********** */
+  .home-text {
+    width: 65%;
+    padding: 0 3rem 0 0;
+  }
+  /* **********  Home Image  ********** */
+  .welcome-image {
+    width: 33%;
+    margin: 0;
+  }
+}
+
+/* Medium - Done */
+@media screen and (max-width: 768px) {
+  /* **********  Home Text  ********** */
+  .home-text {
+    width: 100%;
+    letter-spacing: 0;
+    padding: 0;
+  }
+  /* **********  Home Image  ********** */
+  .welcome-image {
+    display: none;
+  }
+}
+
+/* SM - Done */
+@media screen and (max-width: 576px) {
+  /* **********  Home Text  ********** */
+  .home-text {
+    width: 100%;
+    letter-spacing: 0;
+    padding: 0;
+  }
+}
+
+/* Extra SM - Done */
 @media screen and (max-width: 360px) {
   /* **********  Home Section  ********** */
   .home-radius {

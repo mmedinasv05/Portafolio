@@ -5,9 +5,9 @@ import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 export default function ProjectCard({ image, alt, title, tecnology, github, web }) {
   return (
     <figure className="project-card">
-      <img src={image} alt={alt} className='project-image' />
+      <img src={image} alt={alt} title={alt} className='project-image' />
       <figcaption className='project-content'>
-        <h3 className='project-title'>{title}</h3>
+        <h2 className='project-title'>{title}</h2>
         <section className='project-tecnology'>
           <p className='tecnology'>{tecnology}</p>
         </section>

@@ -2,7 +2,7 @@
 .notfound-section {
   width: 100%;
   max-width: var(--max-width);
-  height: calc(100vh - var(--height-header));
+  height: calc(100vh - (var(--height-header) + var(--height-footer)));
   color: var(--gray);
   font-family: var(--font-title);
   padding: 0 var(--padding-x);
@@ -20,12 +20,8 @@
 }
 .notfound-description{
   font-size: 3.5rem;
-  margin: -2rem 0 0 0;
+  margin: -3rem 0 0 0;
 }
-
-
-
-
 
 
 
@@ -33,20 +29,22 @@
 
 /* **********  Media Queries  ********** */
 
+/* Extra XL- Done */
 @media screen and (max-width: 1360px) {}
 
-@media screen and (max-width: 1200px) {}
+/* XL- Done */
+@media screen and (max-width: 1200px) {
+  .notfound-number {
+    font-size: 8.5rem;
+  }
 
+  .notfound-description {
+    font-size: 3rem;
+    margin: -2rem 0 0 0;
+  }
+}
 
-
-
-
-
-
-
-
-
-/*OKOK - DONE - DONE*/
+/* Large - Done */
 @media screen and (max-width: 992px) {
   /* **********  Not Found Section  ********** */
   .notfound-number {
@@ -57,23 +55,12 @@
   }
 }
 
-/*OKOK - DONE - DONE*/
+/* Medium - Done */
 @media screen and (max-width: 768px) {}
 
-
-
-
-
-
-
-
-
-
+/* SM - Done */
 @media screen and (max-width: 576px) {
   /* **********  Not Found Section  ********** */
-  .notfound-section{
-    padding-bottom: var(--height-footer);
-  }
   .notfound-number {
     font-size: 8rem;
   }
@@ -82,12 +69,13 @@
   }
 }
 
+/* Extra SM - Done */
 @media screen and (max-width: 360px) {
+  /* **********  Not Found Section  ********** */
   .notfound-number {
-    font-size: 7.5rem;
+    font-size: 6.5rem;
   }
-
   .notfound-description {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 }

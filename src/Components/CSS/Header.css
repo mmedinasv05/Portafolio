@@ -23,7 +23,7 @@
 
 /* **********  Header Brand  ********** */
 .header-brand {
-  width: 10rem;
+  width: 11rem;
 }
 .brand-image {
   width: 100%;
@@ -43,7 +43,7 @@
   text-decoration: none;
   transition: color 0.5, opacity 0.5ss;
   opacity: 0.8;
-  margin: 0 0 0 3.5rem;
+  margin: 0 0 0 4rem;
 }
 .menu-links:hover {
   color: var(--pink);
@@ -71,9 +71,15 @@
 
 /* **********  Media Queries  ********** */
 
+/* Extra XL- Done */
+@media screen and (max-width: 1360px) {
+  /* **********  Header Brand  ********** */
+  .header-brand {
+    width: 10rem;
+  }
+}
 
-@media screen and (max-width: 1360px) {}
-
+/* XL- Done */
 @media screen and (max-width: 1200px) {
   /* **********  Header Brand  ********** */
   .header-brand {
@@ -95,7 +101,6 @@
 
 
 
-/*OKOK*/
 @media screen and (max-width: 992px) {
   .header-section {
     flex-direction: row;
@@ -196,7 +201,7 @@
   }
 }
 
-/*OKOK*/
+
 @media screen and (max-width: 768px) {
   .header-menu {
     gap: 3.5rem;
@@ -217,7 +222,7 @@
 
 
 
-
+/* SM - Done */
 @media screen and (max-width: 576px) {
   .header-brand {
     width: 9rem;
@@ -236,5 +241,6 @@
   }
 }
 
+/* Extra SM - Done */
 @media screen and (max-width: 360px) {
 }

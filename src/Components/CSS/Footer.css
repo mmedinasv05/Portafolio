@@ -9,31 +9,28 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: var(--gray);
+  opacity: 0.9;
 }
 
 /* **********  Footer Copy Right  ********** */
 .footer-copyright {
   font-family: var(--font-paragraph);
   font-size: var(--size-paragraph);
-  color: var(--gray);
-  opacity: 0.8;
   margin: 0;
-  text-align: center;
 }
 
 /* **********  Footer Social Media  ********** */
 .footer-social-media {
-  width: auto;
-  height: auto;
   display: flex;
   gap: 1.6rem;
 }
 .footer-social-media a {
-  font-size: 1.40rem;
+  font-size: 1.45rem;
   color: var(--gray);
-  opacity: 0.8;
+  opacity: 0.9;
   transition: color 0.5s;
-  margin: 0;
+
 }
 .instagram:hover {
   color: var(--instagram);
@@ -55,14 +52,9 @@
 
 
 
-
-
-
-
-
-
 /* **********  Media Queries  ********** */
 
+/* Extra XL- Done */
 @media screen and (max-width: 1360px) {
   /* **********  Footer Social Media  ********** */
   .footer-social-media a {
@@ -70,70 +62,44 @@
   }
 }
 
+/* XL- Done */
 @media screen and (max-width: 1200px) {
   /* **********  Footer Social Media  ********** */
   .footer-social-media {
-    gap: 1.4rem;
-  }
-  .footer-social-media a {
-    font-size: 1.30rem;
+    gap: 1.5rem;
   }
 }
 
-
-
-
-
-
-
-
-
-
-/*OKOK - DONE*/
+/* Large - Done */
 @media screen and (max-width: 902px) {
 }
 
-/*OKOK - DONE*/
+/* Medium - Done */
 @media screen and (max-width: 762px) {
 }
 
-
-
-
-
-
-
-
-
-
+/* SM - Done */
 @media screen and (max-width: 576px) {
   /* **********  Footer Section  ********** */
   .footer-section {
     justify-content: center;
-    align-items: center;
     flex-direction: column-reverse;
-    padding: 0 var(--padding-x);
-  }
-
-  /* **********  Footer Copy Right  ********** */
-  .footer-copyright {
-    font-size: var(--font-paragraph);
-    margin: 0 !important;
   }
 
   /* **********  Footer Social Media  ********** */
   .footer-social-media {
     margin-bottom: 0.5rem;
-    gap: 1.3rem;
+    gap: 1.5rem;
   }
   .footer-social-media a {
-    font-size: 1.5rem;
+    font-size: 1.55rem;
   }
 }
 
+/* Extra SM - Done */
 @media screen and (max-width: 360px) {
-  /* **********  Footer Social Media  ********** */
-  .footer-social-media {
-    margin-bottom: 0.5rem;
+  /* **********  Footer Section  ********** */
+  .footer-section {
+    text-align: center;
   }
 }

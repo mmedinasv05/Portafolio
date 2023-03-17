@@ -6,7 +6,6 @@ import Row from 'react-bootstrap/Row';
 import '../Components/CSS/ContactForm.css';
 import '../Components/CSS/CustomeProperties.css';
 
-
 export default function ContactForm() {
 
   const [validated, setValidated] = useState(false);
@@ -17,7 +16,6 @@ export default function ContactForm() {
       event.preventDefault();
       event.stopPropagation();
     }
-
     setValidated(true);
   };
 
@@ -51,9 +49,7 @@ export default function ContactForm() {
 
           <input type="hidden" name="_next" value="https://mmedinasv05.github.io/Portafolio/#/Contact" />
           <input type="hidden" name="_captcha" value="false" />
-
         </Form>
-
       </section>
     </main>
   )

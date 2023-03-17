@@ -15,27 +15,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  font-size: 1rem !important;
+  font-family: var(--font-paragraph);
 }
 .contact-form form{
-  width: 65%;
+  width: 70%;
 }
 .form-control{
-  font-family: var(--font-paragraph);
-  font-size: 0.95rem !important;
   border-color: #4b556370 !important;
-  padding: 0.75rem 0.8rem !important;
+  padding: 0.8rem 0.8rem !important;
   color: var(--gray);
-  opacity: 0.7;
+  opacity: 0.8;
 }
-
 .form-control:focus {
   box-shadow: none !important;
 }
-
 .btn-form{
-  font-family: var(--font-paragraph) !important;
-  font-size: var(--size-paragraph) !important;
   box-shadow: none !important;
   border: none !important;
   padding: 0.85rem 0 !important;
@@ -57,21 +52,17 @@
 
 
 
-
-
-
-
-
 /* **********  Media Queries  ********** */
 
+/* Extra XL- Done */
 @media screen and (max-width: 1360px) {
   /* **********  Contact Form  ********** */
   .form-control {
-    padding: 0.7rem 0.7rem !important;
+    padding: 0.6rem 0.7rem !important;
   }
-  
 }
 
+/* XL- Done */
 @media screen and (max-width: 1200px) {
   /* **********  Contact Form  ********** */
   .contact-form form {
@@ -82,34 +73,31 @@
   }
 }
 
-
-
-
-
-
-
-
-
-
-/*OKOK - DONE - DONE*/
+/* Large- Done */
 @media screen and (max-width: 992px) {
-  
   /* **********  Contact Form  ********** */
   .contact-form {
     width: 100%;
   }
   .contact-form form {
-    width: 75%;
+    width: 80%;
   }
-
   /* **********  Contact image  ********** */
   .contact-image {
     display: none;
   }
 }
 
-/*OKOK - DONE - DONE*/
+/* Medium- Done */
 @media screen and (max-width: 768px) {
+  /* **********  Contact Form  ********** */
+  .contact-form form {
+    width: 90%;
+  }
+}
+
+/* SM - Done */
+@media screen and (max-width: 576px) {
   /* **********  Contact Section  ********** */
   .contact-section {
     padding: 0 var(--padding-x);
@@ -117,38 +105,15 @@
 
   /* **********  Contact Form  ********** */
   .contact-form form {
-    width: 90%;
-  }
-  
-  
-}
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 576px) {
-  /* **********  Contact Form  ********** */
-  .contact-form form {
     width: 100%;
-    margin: 0 0 var(--height-header) 0;
-  }
-  .form-control {
-    font-size: var(--size-paragraph) !important;
-    padding: 0.97rem 0.6rem !important;
-  }
-
-}
-
-@media screen and (max-width: 360px) {
-  /* **********  Contact Form  ********** */
-  .contact-form form {
     margin: 0 0 calc(var(--height-header)/2) 0;
   }
+  .form-control {
+    padding: 0.97rem 0.6rem !important;
+  }
+}
+
+/* Extra SM - Done */
+@media screen and (max-width: 360px) {
+
 }
