@@ -89,17 +89,17 @@
 
 /* Extra XL- Done */
 @media screen and (max-width: 1360px) {
-  .buttonDownload {
-    padding: 0.6rem 1rem;
-  }
   .buttonDownload:before,
   .buttonDownload:after {
     left: 0.8rem;
   }
 }
 
+/* XL- Done */
 @media screen and (max-width: 1200px) {
-  
+  .buttonDownload {
+    padding: 0.7rem 1.5rem;
+  }
 }
 
 /* Large - Done */
@@ -109,20 +109,19 @@
   }
 }
 
-
-
-
+/* Medium - Done */
 @media screen and (max-width: 768px) {
 
 }
 
-
-
-
 /* SM - Done */
 @media screen and (max-width: 576px) {
   .buttonDownload {
-    padding: 0.8rem 1.5rem;
+    padding: 0.8rem 2rem;
+  }
+  .buttonDownload:before,
+  .buttonDownload:after {
+    left: 1.5rem;
   }
 }
 

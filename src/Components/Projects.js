@@ -1,10 +1,10 @@
 import ProjectCard from "./ProjectCard";
-import project1 from './Image/1-min.jpg'
-import project2 from './Image/2-min.jpg'
-import project3 from './Image/3-min.jpg'
-import project4 from './Image/4-min.jpg'
-import project5 from './Image/5-min.jpg'
-import project6 from './Image/6-min.jpg'
+import project1 from './Image/1-min.webp'
+import project2 from './Image/2-min.webp'
+import project3 from './Image/3-min.webp'
+import project4 from './Image/4-min.webp'
+import project5 from './Image/5-min.webp'
+import project6 from './Image/6-min.webp'
 import "../Components/CSS/Projects.css";
 import "../Components/CSS/CustomeProperties.css";
 
@@ -56,7 +56,7 @@ const projectList = [
   },
   {
     id: 6,
-    title: "Portfolio.",
+    title: "Portafolio.",
     image: project6,
     alt: "Portafolio",
     web: "https://mmedinasv05.github.io/Portafolio/",
@@ -70,7 +70,7 @@ export default function Projects() {
     <main className="potfolio-section">
       <header className="portfolio-title">
         <p className="paragraph">
-          In 2019 I began to carry out projects on a personal level to be able to reinforce my knowledge and thus, little by little, be able to improve my skills and also gain experience through new challenges.
+          En 2019 comencé a realizar proyectos a nivel personal para poder reforzar mis conocimientos y así poco a poco poder ir mejorar mis habilidades y también adquirir experiencia a través de nuevos retos.
         </p>
       </header>
       <section className="portfolio-content">

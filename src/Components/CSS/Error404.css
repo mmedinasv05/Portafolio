@@ -2,7 +2,7 @@
 .notfound-section {
   width: 100%;
   max-width: var(--max-width);
-  height: calc(100vh - (var(--height-header) + var(--height-footer)));
+  height: calc(100vh - var(--height-header));
   color: var(--gray);
   font-family: var(--font-title);
   padding: 0 var(--padding-x);
@@ -29,22 +29,26 @@
 
 /* **********  Media Queries  ********** */
 
-/* Extra XL- Done */
-@media screen and (max-width: 1360px) {}
-
-/* XL- Done */
-@media screen and (max-width: 1200px) {
+/* ********** Extra XL- Done - Done ********** */
+@media screen and (max-width: 1360px) {
+  /* **********  Not Found Section  ********** */
   .notfound-number {
-    font-size: 8.5rem;
+    font-size: 9rem;
   }
-
   .notfound-description {
     font-size: 3rem;
     margin: -2rem 0 0 0;
   }
 }
 
-/* Large - Done */
+/* ********** XL- Done - Done ********** */
+@media screen and (max-width: 1200px) {
+  .notfound-number {
+    font-size: 8.5rem;
+  }
+}
+
+/* ********** Large - Done - Done ********** */
 @media screen and (max-width: 992px) {
   /* **********  Not Found Section  ********** */
   .notfound-number {
@@ -55,21 +59,24 @@
   }
 }
 
-/* Medium - Done */
+/* ********** Medium - Done - Done ********** */
 @media screen and (max-width: 768px) {}
 
-/* SM - Done */
+/* ********** SM - Done  Done ********** */
 @media screen and (max-width: 576px) {
   /* **********  Not Found Section  ********** */
+  .notfound-section {
+    padding: 0 var(--padding-x) var(--height-header) var(--padding-x);
+  }
   .notfound-number {
-    font-size: 8rem;
+    font-size: 7.5rem;
   }
   .notfound-description {
     font-size: 2.5rem;
   }
 }
 
-/* Extra SM - Done */
+/* ********** Extra SM - Done - Done ********** */
 @media screen and (max-width: 360px) {
   /* **********  Not Found Section  ********** */
   .notfound-number {

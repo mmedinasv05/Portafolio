@@ -56,7 +56,7 @@
 
 /* **********  Media Queries  ********** */
 
-/* Extra XL- Done */
+/* ********** Extra XL- Done - Done ********** */
 @media screen and (max-width: 1360px) {
   /* **********  About Image  ********** */
   .about-image img {
@@ -64,11 +64,11 @@
   }
 }
 
-/* XL- Done */
+/* ********** XL- Done - Done ********** */
 @media screen and (max-width: 1200px) {
   /* **********  About Section  ********** */
   .about-section {
-    padding: 4rem 4rem 3rem 4rem;
+    padding: 4rem var(--padding-x) 3rem var(--padding-x);
     height: auto;
     flex-direction: column-reverse;
   }
@@ -80,7 +80,7 @@
     margin-bottom: 2rem;
   }
   .about-image img {
-    width: 22%;
+    width: 20%;
     margin: 0;
   }
 
@@ -97,23 +97,20 @@
   }
 }
 
-/* Large - Done */
+/* ********** Large - Done - Done ********** */
 @media screen and (max-width: 992px) {
-  /* **********  About Section  ********** */
-  .about-section {
-    padding: 4rem var(--padding-x) 3rem var(--padding-x);
-  }
+
 }
 
-/* Medium - Done */
+/* ********** Medium - Done - Done ********** */
 @media screen and (max-width: 768px) {
   /* **********  About Image  ********** */
   .about-image img {
-    width: 25%;
+    width: 27%;
   }
 }
 
-/* SM - Done */
+/* ********** SM - Done - Done ********** */
 @media screen and (max-width: 576px) {
   /* **********  About Section  ********** */
   .about-section {
@@ -122,13 +119,13 @@
 
   /* **********  About Image  ********** */
   .about-image img {
-    width: 49%;
+    width: 45%;
   }
 
   /* **********  About Desctiption  ********** */
   .about-description {
     width: 100%;
-    padding: 0.8rem 0 1rem 0;
+    padding: 1rem 0;
   }
 
   /* **********  Skills Section  ********** */
@@ -141,7 +138,10 @@
   }
 }
 
-/* Extra SM - Done */
+/* ********** Extra SM - Done - Done ********** */
 @media screen and (max-width: 360px) {
-
+  /* **********  About Image  ********** */
+  .about-image img {
+    width: 47%;
+  }
 }

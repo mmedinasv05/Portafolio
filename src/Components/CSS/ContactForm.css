@@ -30,6 +30,10 @@
 .form-control:focus {
   box-shadow: none !important;
 }
+.form-control:valid{
+  border-color: #28A745 !important;
+}
+
 .btn-form{
   box-shadow: none !important;
   border: none !important;
@@ -54,7 +58,7 @@
 
 /* **********  Media Queries  ********** */
 
-/* Extra XL- Done */
+/* ********** Extra XL- Done - Done ********** */
 @media screen and (max-width: 1360px) {
   /* **********  Contact Form  ********** */
   .form-control {
@@ -62,25 +66,25 @@
   }
 }
 
-/* XL- Done */
+/* ********** XL- Done - Done ********** */
 @media screen and (max-width: 1200px) {
   /* **********  Contact Form  ********** */
   .contact-form form {
-    width: 75%;
+    width: 80%;
   }
   .form-control {
     padding: 0.5rem 0.6rem !important;
   }
 }
 
-/* Large- Done */
+/* ********** Large- Done - Done ********** */
 @media screen and (max-width: 992px) {
   /* **********  Contact Form  ********** */
   .contact-form {
     width: 100%;
   }
   .contact-form form {
-    width: 80%;
+    width: 85%;
   }
   /* **********  Contact image  ********** */
   .contact-image {
@@ -88,7 +92,7 @@
   }
 }
 
-/* Medium- Done */
+/* ********** Medium- Done - Done ********** */
 @media screen and (max-width: 768px) {
   /* **********  Contact Form  ********** */
   .contact-form form {
@@ -96,7 +100,7 @@
   }
 }
 
-/* SM - Done */
+/* ********** SM - Done - Done ********** */
 @media screen and (max-width: 576px) {
   /* **********  Contact Section  ********** */
   .contact-section {
@@ -109,11 +113,14 @@
     margin: 0 0 calc(var(--height-header)/2) 0;
   }
   .form-control {
-    padding: 0.97rem 0.6rem !important;
+    padding: 0.95rem 0.6rem !important;
+  }
+  .btn-form {
+    padding: 1rem 0 !important;
   }
 }
 
-/* Extra SM - Done */
+/* ********** Extra SM - Done - Done ********** */
 @media screen and (max-width: 360px) {
 
 }

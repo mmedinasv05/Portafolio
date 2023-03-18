@@ -40,7 +40,7 @@ const footerSocialMedia = [
 export default function Footer() {
   return (
     <footer className="footer-section">
-      <p className="footer-copyright">2022 Manuel Chavez, Rights Reserved.</p>
+      <p className="footer-copyright">2023 Manuel Chavez, Rights Reserved.</p>
       <section className="footer-social-media">
         {footerSocialMedia.map((icon, index) => {
           return <a key={index} href={icon.url} target="_blank" rel="noreferrer" title={icon.title}>

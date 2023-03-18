@@ -70,6 +70,7 @@
   font-size: var(--size-paragraph);
   font-family: var(--font-paragraph);
   margin: 0;
+  font-weight: 400;
 }
 .project-links {
   display: flex;
@@ -92,7 +93,7 @@
 
 /* **********  Media Queries  ********** */
 
-/* Extra XL- Done */
+/* ********** Extra XL- Done - Done ********** */
 @media screen and (max-width: 1360px) {
   /* **********  Card Project  ********** */
   .project-icon {
@@ -100,7 +101,7 @@
   }
 }
 
-/* XL- Done */
+/* ********** XL- Done - Done ********** */
 @media screen and (max-width: 1200px) {
   /* **********  Card Project  ********** */
   .project-card {
@@ -109,7 +110,7 @@
   }
 }
 
-/* Large- Done */
+/* ********** Large- Done - Done ********** */
 @media screen and (max-width: 992px) {
   /* **********  Card Project  ********** */
   .project-card {
@@ -123,7 +124,7 @@
   }
 }
 
-/* Medium- Done */
+/* ********** Medium- Done - Done ********** */
 @media screen and (max-width: 768px) {
   /* **********  Card Project  ********** */
   .tecnology {
@@ -131,8 +132,13 @@
   }
 }
 
-/* SM - Done */
+/* ********** SM - Done - Done ********** */
 @media screen and (max-width: 576px) {
+  /* **********  Portfolio Section  ********** */
+  .potfolio-section {
+    padding: 2rem var(--padding-x);
+  }
+
   /* **********  Card Project  ********** */
   .project-card {
     width: 100%;
@@ -147,10 +153,10 @@
     gap: 0.6rem;
   }
   .project-icon {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
   }
 }
 
-/* Extra SM - Done */
+/* ********** Extra SM - Done - Done ********** */
 @media screen and (max-width: 360px) {
 }

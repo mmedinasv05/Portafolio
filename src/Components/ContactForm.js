@@ -27,25 +27,25 @@ export default function ContactForm() {
         <Form action="https://formsubmit.co/chavezofficial2015@gmail.com" method="POST" noValidate validated={validated} onSubmit={handleSubmit}>
           <Row className="mb-3">
             <Form.Group as={Col} md="12" controlId="validationCustom01">
-              <Form.Control name="name" required type="text" placeholder='Name' />
+              <Form.Control name="name" required type="text" placeholder='Nombre' />
             </Form.Group>
           </Row>
           <Row className="mb-3">
             <Form.Group as={Col} md="12" controlId="validationCustom02">
-              <Form.Control name="email" type="email" required placeholder='Email' />
+              <Form.Control name="email" type="email" required placeholder='Correo' />
             </Form.Group>
           </Row>
           <Row className="mb-3">
             <Form.Group as={Col} md="12" controlId="validationCustom03">
-              <Form.Control name="subject" required type="text" placeholder='Subject' />
+              <Form.Control name="subject" required type="text" placeholder='Asunto' />
             </Form.Group>
           </Row>
           <Row className="mb-3">
             <Form.Group controlId="exampleForm.ControlTextarea1">
-              <Form.Control name="message" as="textarea" required rows={6} placeholder='Message' />
+              <Form.Control name="message" as="textarea" required rows={6} placeholder='Mensaje' />
             </Form.Group>
           </Row>
-          <Button className='btn-form mt-2' type="submit">Send message</Button>
+          <Button className='btn-form mt-2' type="submit">Enviar mensaje</Button>
 
           <input type="hidden" name="_next" value="https://mmedinasv05.github.io/Portafolio/#/Contact" />
           <input type="hidden" name="_captcha" value="false" />

@@ -14,7 +14,6 @@
 /* **********  Home Text  ********** */
 .home-text{
   width: 60%;
-  letter-spacing: 1px;
 }
 .home-text h1 {
   font-family: var(--font-title);
@@ -41,28 +40,44 @@
 
 /* **********  Media Queries  ********** */
 
-/* Extra XL- Done */
+/* ********** Extra XL- Done - Done ********** */
 @media screen and (max-width: 1360px) {
+  /* **********  Home Section  ********** */
+  .home-section {
+    padding: 0 5rem;
+  }
   /* **********  Home Text  ********** */
   .home-text {
-    width: 50%;
+    width: 48%;
     letter-spacing: 1px;
   }
+
   /* **********  Home Image  ********** */
   .welcome-image {
+    width: 26%;
     margin: 0 1rem 0 0;
   }
 }
 
-/* XL- Done */
+/* ********** XL- Done  Done ********** */
 @media screen and (max-width: 1200px) {
   /* **********  Home Section  ********** */
   .home-section {
-    padding: 0 var(--padding-x);
+    padding: 0 var(--padding-x) !important;
+  }
+
+  /* **********  Home Text  ********** */
+  .home-text {
+    width: 57%;
+  }
+
+  /* **********  Home Image  ********** */
+  .welcome-image {
+    width: 27%;
   }
 }
 
-/* Large - Done */
+/* ********** Large - Done - Done ********** */
 @media screen and (max-width: 992px) {
   /* **********  Home Text  ********** */
   .home-text {
@@ -76,13 +91,13 @@
   }
 }
 
-/* Medium - Done */
+/* ********** Medium - Done - Done ********** */
 @media screen and (max-width: 768px) {
   /* **********  Home Text  ********** */
   .home-text {
     width: 100%;
     letter-spacing: 0;
-    padding: 0;
+    padding: 0 6rem 0 0;
   }
   /* **********  Home Image  ********** */
   .welcome-image {
@@ -90,23 +105,23 @@
   }
 }
 
-/* SM - Done */
+/* ********** SM - Done - Done ********** */
 @media screen and (max-width: 576px) {
+  /* **********  Home Section  ********** */
+  .home-section {
+    height: calc(100vh - var(--height-header));
+  }
+
   /* **********  Home Text  ********** */
   .home-text {
     width: 100%;
     letter-spacing: 0;
     padding: 0;
+    margin-bottom: var(--height-header);
   }
 }
 
-/* Extra SM - Done */
+/* ********** Extra SM - Done - Done ********** */
 @media screen and (max-width: 360px) {
-  /* **********  Home Section  ********** */
-  .home-radius {
-    width: 21rem;
-  }
-  .home-description {
-    font-size: 0.95rem;
-  }
+
 }

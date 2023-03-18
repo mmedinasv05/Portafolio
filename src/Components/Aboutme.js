@@ -1,20 +1,19 @@
 import ListSkills from './ListSkills';
-import Manu from './Image/about-image-min.jpg'
+import Manu from './Image/about-image-min.webp'
 import '../Components/CSS/Aboutme.css';
 import '../Components/CSS/CustomeProperties.css';
 
 const skillsData = ["HTML.", "CSS.", "Bootstrap.", "Javascript.", "React.", "Gitgub."]
 
 export default function Aboutme() {
-
   return (
     <main className="about-section">
       <article className='about-description'>
         <p className="paragraph">
-          Hello, I'm Manuel Chavez and you can call me Manu, a student at the Technological University of El Salvador of the Computer Science degree, In 2019 I had my first experience of being able to create my first web page using HTML and CSS from there I felt a great passion for web development on the Frontend side seeing the great things that can be created and to this day I still feel that same passion when I have the opportunity to create an additional web page I consider myself self-taught as I like to learn new things day after day day and then put them into practice.
+          Hola soy Manuel Chavez y me pueden llamar Manu, En el 2019 tuve mi primera experiencia de poder crear mi primera pagina web usando HTML y CSS desde allí sentí una gran pasión por el desarrollo web en el lado Frontend viendo las grandes cosas que se pueden crear combinando HTML, CSS y JS y hasta el día de hoy sigo sintiendo esa misma pasión cuando tengo la oportunidad de crear una página web adicional me considero autodidacta ya que me gusta estar aprendiendo cosas nuevas día tras día y luego ponerlas en práctica.
         </p>
         <p className="paragraph mt-3">
-          At the moment I do not have experience at a professional level, only on a personal level through personal challenges and I am looking for an opportunity to develop myself as a professional and thus put into practice everything I have learned and these are some of the technologies I have worked with.
+          Por el momento no cuento con experiencia a nivel profesional solo a nivel personal a través de retos, estoy en buscando de una oportunidad para poder desarrollarme como profesional y así poner en practica todo lo aprendido hasta el momento y estas son algunas de las tecnologías con las que he tenido la oportunidad de trabajar.
         </p>
         <aside className='skills-section'>
           {skillsData.map((skill, index) => {

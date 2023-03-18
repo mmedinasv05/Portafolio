@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import { NavLink } from "react-router-dom";
-import Brand from "./Image/brand1-min.jpg";
+import Brand from "./Image/brand1-min.webp";
 import "../Components/CSS/Header.css";
 import "../Components/CSS/CustomeProperties.css";
 //import Curriculum from "./Curriculum";
@@ -8,19 +8,19 @@ import "../Components/CSS/CustomeProperties.css";
 const iconMenu = [
   {
     path: "/",
-    title: "Home"
+    title: "Inicio"
   },
   {
-    path: "/About",
-    title: "About"
+    path: "/Acerca",
+    title: "Acerca"
   },
   {
-    path: "/Projects",
-    title: "Projects"
+    path: "/Proyectos",
+    title: "Proyectos"
   },
   {
-    path: "/Contact",
-    title: "Contact"
+    path: "/Contacto",
+    title: "Contacto"
   }
 ];
 

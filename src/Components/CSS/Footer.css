@@ -10,7 +10,7 @@
   justify-content: space-between;
   align-items: center;
   color: var(--gray);
-  opacity: 0.9;
+  text-align: center;
 }
 
 /* **********  Footer Copy Right  ********** */
@@ -18,6 +18,7 @@
   font-family: var(--font-paragraph);
   font-size: var(--size-paragraph);
   margin: 0;
+  opacity: var(--opacity);
 }
 
 /* **********  Footer Social Media  ********** */
@@ -28,9 +29,8 @@
 .footer-social-media a {
   font-size: 1.45rem;
   color: var(--gray);
-  opacity: 0.9;
   transition: color 0.5s;
-
+  opacity: var(--opacity);
 }
 .instagram:hover {
   color: var(--instagram);
@@ -88,8 +88,8 @@
 
   /* **********  Footer Social Media  ********** */
   .footer-social-media {
-    margin-bottom: 0.5rem;
-    gap: 1.5rem;
+    margin-bottom: 0.7rem;
+    gap: 1.8rem;
   }
   .footer-social-media a {
     font-size: 1.55rem;
@@ -98,8 +98,5 @@
 
 /* Extra SM - Done */
 @media screen and (max-width: 360px) {
-  /* **********  Footer Section  ********** */
-  .footer-section {
-    text-align: center;
-  }
+  
 }

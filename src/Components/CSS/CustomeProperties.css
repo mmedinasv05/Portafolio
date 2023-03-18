@@ -1,15 +1,16 @@
 
 :root {
   /* **********  Size  ********** */
-  --height-header: 12vh; /* -- */
-  --height-footer: 12vh; /* -- */
-  --max-width: 1400px; /**/
-  --padding-x: 2.5rem; /* -- */
-  --size-menu: 1.1rem; /**/
-  --size-paragraph: 1.1rem; /**/
-  --line-height: 1.75; /**/
-  --size-title-h1: 4.5rem; /**/
-  --size-title-h2: 1.9rem; /**/
+  --height-header: 12vh;
+  --height-footer: 12vh;
+  --max-width: 1400px;
+  --padding-x: 2.5rem;
+  --size-menu: 1.1rem;
+  --size-paragraph: 1.1rem;
+  --line-height: 1.75;
+  --size-title-h1: 4.5rem;
+  --size-title-h2: 1.9rem;
+  --opacity: 0.8;
 
   /* **********  Typography  ********** */
   --font-menu: "Space Mono", monospace;
@@ -40,6 +41,8 @@
   line-height: var(--line-height);
   color: var(--gray);
   margin: 0;
+  font-weight: 400;
+  opacity: var(--opacity);
 }
 
 
@@ -48,7 +51,7 @@
 
 /* **********  Media Queries  ********** */
 
-/* Extra XL- Done */
+/* ********** Extra XL- Done - Done ********** */
 @media screen and (max-width: 1360px) {
   :root{
     --size-menu: 1rem;
@@ -58,7 +61,7 @@
   }
 }
 
-/* XL- Done */
+/* ********** XL- Done - Done ********** */
 @media screen and (max-width: 1200px) {
   :root {
     --size-title-h1: 4rem; 
@@ -67,7 +70,7 @@
   }
 }
 
-/* Large - Done */
+/* ********** Large - Done - Done ********** */
 @media screen and (max-width: 992px) {
   :root {
     --size-title-h1: 3.5rem;
@@ -76,16 +79,15 @@
   }
 }
 
-/* Medium - Done */
+/* ********** Medium - Done - Done ********** */
 @media screen and (max-width: 768px) {
   :root {
     --size-title-h2: 1.5rem;
     --padding-x: 1.5rem;
-
   }
 }
 
-/* SM - Done */
+/* ********** SM - Done - Done ********** */
 @media screen and (max-width: 576px) {
   :root {
     --height-header: 10vh;
@@ -96,7 +98,7 @@
   }
 }
 
-/* Extra SM - Done */
+/* ********** Extra SM - Done - Done ********** */
 @media screen and (max-width: 360px) {
   :root {
     --size-menu: 1.6rem;
