@@ -62,7 +62,7 @@
 @media screen and (max-width: 1360px) {
   /* **********  Contact Form  ********** */
   .form-control {
-    padding: 0.6rem 0.7rem !important;
+    padding: 0.55rem 0.7rem !important;
   }
 }
 
@@ -72,20 +72,29 @@
   .contact-form form {
     width: 80%;
   }
-  .form-control {
-    padding: 0.5rem 0.6rem !important;
-  }
 }
 
 /* ********** Large- Done - Done ********** */
 @media screen and (max-width: 992px) {
+  /* **********  Contact Section  ********** */
+  .contact-section{
+    padding: 0 var(--padding-x);
+  }
+
   /* **********  Contact Form  ********** */
   .contact-form {
     width: 100%;
   }
   .contact-form form {
-    width: 85%;
+    width: 88%;
   }
+  .form-control {
+    padding: 0.9rem 0.8rem !important;
+  }
+  .btn-form {
+    padding: 1rem 0 !important;
+  }
+
   /* **********  Contact image  ********** */
   .contact-image {
     display: none;
@@ -102,21 +111,10 @@
 
 /* ********** SM - Done - Done ********** */
 @media screen and (max-width: 576px) {
-  /* **********  Contact Section  ********** */
-  .contact-section {
-    padding: 0 var(--padding-x);
-  }
-
   /* **********  Contact Form  ********** */
   .contact-form form {
     width: 100%;
     margin: 0 0 calc(var(--height-header)/2) 0;
-  }
-  .form-control {
-    padding: 0.95rem 0.6rem !important;
-  }
-  .btn-form {
-    padding: 1rem 0 !important;
   }
 }
 

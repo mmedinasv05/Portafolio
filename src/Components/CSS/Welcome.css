@@ -21,7 +21,7 @@
   line-height: 0.9;
 }
 .home-text p {
-  font-size: var(--size-paragraph);
+  font-size: 1.1rem;
   font-family: var(--font-paragraph);
   margin: 0.5rem 0;
 }
@@ -48,27 +48,7 @@
   }
   /* **********  Home Text  ********** */
   .home-text {
-    width: 48%;
-    letter-spacing: 1px;
-  }
-
-  /* **********  Home Image  ********** */
-  .welcome-image {
-    width: 26%;
-    margin: 0 1rem 0 0;
-  }
-}
-
-/* ********** XL- Done  Done ********** */
-@media screen and (max-width: 1200px) {
-  /* **********  Home Section  ********** */
-  .home-section {
-    padding: 0 var(--padding-x) !important;
-  }
-
-  /* **********  Home Text  ********** */
-  .home-text {
-    width: 57%;
+    width: 50%;
   }
 
   /* **********  Home Image  ********** */
@@ -77,28 +57,40 @@
   }
 }
 
-/* ********** Large - Done - Done ********** */
-@media screen and (max-width: 992px) {
+/* ********** XL- Done  Done ********** */
+@media screen and (max-width: 1200px) {
+  /* **********  Home Section  ********** */
+  .home-section {
+    padding: 0 var(--padding-x);
+    justify-content: space-between;
+  }
+
   /* **********  Home Text  ********** */
   .home-text {
-    width: 65%;
-    padding: 0 3rem 0 0;
+    width: 60%;
   }
+}
+
+/* ********** Large - Done - Done ********** */
+@media screen and (max-width: 992px) {
   /* **********  Home Image  ********** */
   .welcome-image {
-    width: 33%;
-    margin: 0;
+    width: 35%;
   }
 }
 
 /* ********** Medium - Done - Done ********** */
 @media screen and (max-width: 768px) {
+  /* **********  Home Section  ********** */
+  .home-section {
+    justify-content: flex-start;
+  }
   /* **********  Home Text  ********** */
   .home-text {
-    width: 100%;
-    letter-spacing: 0;
-    padding: 0 6rem 0 0;
+    width: 90%;
+    padding: 0;
   }
+  
   /* **********  Home Image  ********** */
   .welcome-image {
     display: none;
@@ -115,13 +107,17 @@
   /* **********  Home Text  ********** */
   .home-text {
     width: 100%;
-    letter-spacing: 0;
-    padding: 0;
     margin-bottom: var(--height-header);
+  }
+  .home-text p {
+    letter-spacing: 0;
+    font-size: 1.05rem;
   }
 }
 
 /* ********** Extra SM - Done - Done ********** */
 @media screen and (max-width: 360px) {
-
+  .home-text p {
+    font-size: 1rem;
+  }
 }

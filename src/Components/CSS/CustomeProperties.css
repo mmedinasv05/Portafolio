@@ -94,7 +94,7 @@
     --height-footer: 15vh;
     --padding-x: 1rem;
     --size-title-h2: 1.9rem;
-    --size-title-h1: 3.5rem;
+    --size-title-h1: 4rem;
   }
 }
 
@@ -102,7 +102,7 @@
 @media screen and (max-width: 360px) {
   :root {
     --size-menu: 1.6rem;
-    --size-title-h1: 3rem;
+    --size-title-h1: 3.5rem;
     --size-title-h2: 1.65rem;
     --height-footer: 20vh;
   }

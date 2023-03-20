@@ -99,14 +99,17 @@
 
 /* ********** Large - Done - Done ********** */
 @media screen and (max-width: 992px) {
-
+  /* **********  About Image  ********** */
+  .about-image img {
+    width: 28%;
+  }
 }
 
 /* ********** Medium - Done - Done ********** */
 @media screen and (max-width: 768px) {
   /* **********  About Image  ********** */
   .about-image img {
-    width: 27%;
+    width: 30%;
   }
 }
 

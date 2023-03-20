@@ -7,7 +7,7 @@
   color: white;
   font-family: sans-serif;
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   text-align: center;
   text-indent: 1rem;
   border: none;
@@ -111,17 +111,23 @@
 
 /* Medium - Done */
 @media screen and (max-width: 768px) {
-
+  .buttonDownload {
+    font-size: 1.05rem;
+  }
 }
 
 /* SM - Done */
 @media screen and (max-width: 576px) {
+  
   .buttonDownload {
     padding: 0.8rem 2rem;
   }
   .buttonDownload:before,
   .buttonDownload:after {
     left: 1.5rem;
+  }
+  .buttonDownload {
+    font-size: 1rem;
   }
 }
 
