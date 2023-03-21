@@ -13,7 +13,7 @@
 
 /* **********  Home Text  ********** */
 .home-text{
-  width: 60%;
+  width: 50%;
 }
 .home-text h1 {
   font-family: var(--font-title);

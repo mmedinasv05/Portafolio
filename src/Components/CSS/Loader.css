@@ -1,5 +1,6 @@
 .loading {
   width: 100%;
+  max-width: var(--max-width);
   height: calc(100vh - var(--height-header));
   background-color: var(--white);
   margin-top: var(--height-header);
