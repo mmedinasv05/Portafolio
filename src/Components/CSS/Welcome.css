@@ -44,16 +44,16 @@
 @media screen and (max-width: 1360px) {
   /* **********  Home Section  ********** */
   .home-section {
-    padding: 0 5rem;
+    padding: 0 6rem;
   }
   /* **********  Home Text  ********** */
   .home-text {
-    width: 50%;
+    width: 55%;
   }
 
   /* **********  Home Image  ********** */
   .welcome-image {
-    width: 27%;
+    width: 25%;
   }
 }
 
@@ -67,7 +67,12 @@
 
   /* **********  Home Text  ********** */
   .home-text {
-    width: 60%;
+    width: 62%;
+  }
+
+  /* **********  Home Image  ********** */
+  .welcome-image {
+    width: 29%;
   }
 }
 

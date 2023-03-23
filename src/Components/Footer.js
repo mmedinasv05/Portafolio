@@ -25,7 +25,7 @@ const footerSocialMedia = [
   },
   {
     icon: faLinkedin,
-    url: "https://www.linkedin.com/in/manuel-chavez-ab0b711ab/",
+    url: "https://www.linkedin.com/in/manuel-humberto-chavez/",
     title: "Linkedin",
     styles: "linkedin"
   },

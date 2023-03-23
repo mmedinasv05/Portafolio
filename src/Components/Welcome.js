@@ -10,7 +10,7 @@ export default function Welcome() {
     <section className="home-section">
       <section className='home-text'>
         <h1>Hola! 👋</h1>
-        <p>Mi nombre es Manuel Chavez y soy un Frontend Junior apasionado por la creación de páginas web.</p>
+        <p>Mi nombre es Manuel Chavez y soy un Frontend Developer Junior apasionado por la creación de páginas web.</p>
         <Curriculum />
       </section>
       <img src={welcomeImage} alt="profile Manuel Chavez" title='profile Manuel Chavez' className='welcome-image' />
