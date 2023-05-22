@@ -4,7 +4,7 @@ import Loader from "../Components/Loader";
 import Projects from "../Components/Projects";
 import Footer from "../Components/Footer";
 
-export default function Portfolio() {
+function Portfolio() {
   const [loader, setLoader] = useState(true);
 
   useEffect(() => {
@@ -21,3 +21,5 @@ export default function Portfolio() {
     </>
   )
 }
+
+export default Portfolio;

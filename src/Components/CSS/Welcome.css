@@ -1,128 +1,115 @@
-/* **********  Home Section  ********** */
-.home-section {
+/* Home Section */
+.home-container {
   width: 100%;
   max-width: var(--max-width);
-  height: calc(100vh - (var(--height-header) + var(--height-footer)));
+  height: calc(100vh - var(--height-header));
   background-color: var(--white);
-  margin-top: var(--height-header);
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  padding: 0 7rem;
+  margin: 0 auto;
+  gap: 6rem;
+  padding: 0;
 }
 
-/* **********  Home Text  ********** */
+/* Home Text */
 .home-text{
-  width: 50%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 .home-text h1 {
   font-family: var(--font-title);
   font-size: var(--size-title-h1);
   line-height: 0.9;
 }
-.home-text p {
-  font-size: 1.1rem;
-  font-family: var(--font-paragraph);
-  margin: 0.5rem 0;
-}
 
-/* **********  Home Image  ********** */
-.welcome-image{
-  width: 28%;
+/* Home Image */
+.home-image{
+  width: 300px;
   border-radius: 69% 31% 70% 30% / 30% 58% 42% 70%;
   box-shadow: 0.15rem 0.20rem 0.40rem rgba(0, 0, 0, 0.5);
-  margin: 0 1.5rem 0 0;
 }
 
 
 
 
 
-/* **********  Media Queries  ********** */
+/* ****************************************
+          Breakpoints Bootstrap
+**************************************** */
 
-/* ********** Extra XL- Done - Done ********** */
-@media screen and (max-width: 1360px) {
-  /* **********  Home Section  ********** */
-  .home-section {
-    padding: 0 6rem;
-  }
-  /* **********  Home Text  ********** */
-  .home-text {
-    width: 55%;
-  }
-
-  /* **********  Home Image  ********** */
-  .welcome-image {
-    width: 25%;
-  }
-}
-
-/* ********** XL- Done  Done ********** */
+/*xl - Bootstrap*/
 @media screen and (max-width: 1200px) {
-  /* **********  Home Section  ********** */
-  .home-section {
-    padding: 0 var(--padding-x);
+  /* Home Section */
+  .home-container {
     justify-content: space-between;
+    padding: 0 var(--padding-x);
   }
 
-  /* **********  Home Text  ********** */
+  /* Home Text */
   .home-text {
-    width: 62%;
+    width: 65%;
   }
 
-  /* **********  Home Image  ********** */
-  .welcome-image {
-    width: 29%;
+  /* Home Image */
+  .home-image {
+    width: 280px;
   }
 }
 
-/* ********** Large - Done - Done ********** */
+/*lg - Bootstrap*/
 @media screen and (max-width: 992px) {
-  /* **********  Home Image  ********** */
-  .welcome-image {
-    width: 35%;
+  /* Home Section */
+  .home-container {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
   }
-}
 
-/* ********** Medium - Done - Done ********** */
-@media screen and (max-width: 768px) {
-  /* **********  Home Section  ********** */
-  .home-section {
-    justify-content: flex-start;
-  }
-  /* **********  Home Text  ********** */
+  /*  Home Text */
   .home-text {
-    width: 90%;
-    padding: 0;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  
-  /* **********  Home Image  ********** */
-  .welcome-image {
-    display: none;
+
+  /* Home Image */
+  .home-image {
+    width: 240px;
   }
 }
 
-/* ********** SM - Done - Done ********** */
-@media screen and (max-width: 576px) {
-  /* **********  Home Section  ********** */
-  .home-section {
-    height: calc(100vh - var(--height-header));
+/*md - Bootstrap*/
+@media screen and (max-width: 768px) {
+  /* Home Text */
+  .home-text {
+    width: 85%;
   }
 
-  /* **********  Home Text  ********** */
+  /* Home Image */
+  .home-image {
+    width: 200px;
+  }
+}
+
+/*sm - Bootstrap*/
+@media screen and (max-width: 576px) {
+  /* Home Text */
   .home-text {
     width: 100%;
-    margin-bottom: var(--height-header);
   }
-  .home-text p {
-    letter-spacing: 0;
-    font-size: 1.05rem;
+
+  /* Home Image */
+  .home-image {
+    width: 180px;
   }
 }
 
-/* ********** Extra SM - Done - Done ********** */
-@media screen and (max-width: 360px) {
-  .home-text p {
-    font-size: 1rem;
-  }
-}
+/* xsm - Bootstrap */
+@media screen and (max-width: 360px) {}

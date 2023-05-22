@@ -3,7 +3,6 @@ import { NavLink } from "react-router-dom";
 import Brand from "./Image/brand1-min.webp";
 import "../Components/CSS/Header.css";
 import "../Components/CSS/CustomeProperties.css";
-//import Curriculum from "./Curriculum";
 
 const iconMenu = [
   {
@@ -24,7 +23,7 @@ const iconMenu = [
   }
 ];
 
-export default function Header() {
+function Header() {
   const $btnMenu = useRef(),
     $boxMenu = useRef();
 
@@ -44,7 +43,6 @@ export default function Header() {
 
   return (
     <header className="header-section">
-
       <NavLink className="header-brand" to="/" rel="noferrer" title="MMEDNA">
         <img src={Brand} className="brand-image" alt="Logo mmedina" title="Logo mmedina" />
       </NavLink>
@@ -53,13 +51,13 @@ export default function Header() {
         <span className="icon-menu" ref={$btnMenu}></span>
       </div>
 
-
       <nav className="header-menu" ref={$boxMenu}>
         {iconMenu.map((link, index) => {
           return <NavLink key={index} to={link.path} title={link.title} className="menu-links">{link.title}</NavLink>
         })}
-        {/* <Curriculum /> */}
       </nav>
     </header>
   );
 }
+
+export default Header;

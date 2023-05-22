@@ -6,7 +6,7 @@ import Row from 'react-bootstrap/Row';
 import '../Components/CSS/ContactForm.css';
 import '../Components/CSS/CustomeProperties.css';
 
-export default function ContactForm() {
+function ContactForm() {
 
   const [validated, setValidated] = useState(false);
 
@@ -20,9 +20,8 @@ export default function ContactForm() {
   };
 
   return (
-    <main className="contact-section">
-      <section className='contact-image'>
-      </section>
+    <main className="contact-container">
+      {/* <section className='contact-icon'></section> */}
       <section className='contact-form'>
         <Form action="https://formsubmit.co/chavezofficial2015@gmail.com" method="POST" noValidate validated={validated} onSubmit={handleSubmit}>
           <Row className="mb-3">
@@ -42,15 +41,17 @@ export default function ContactForm() {
           </Row>
           <Row className="mb-3">
             <Form.Group controlId="exampleForm.ControlTextarea1">
-              <Form.Control name="message" as="textarea" required rows={6} placeholder='Mensaje' />
+              <Form.Control name="message" as="textarea" required rows={5} placeholder='Mensaje' />
             </Form.Group>
           </Row>
           <Button className='btn-form mt-2' type="submit">Enviar mensaje</Button>
 
-          <input type="hidden" name="_next" value="https://mmedinasv05.github.io/Portafolio/#/Contact" />
+          <input type="hidden" name="_next" value="https://mmedinasv05.github.io/Portafolio/#/Contacto" />
           <input type="hidden" name="_captcha" value="false" />
         </Form>
       </section>
     </main>
   )
 }
+
+export default ContactForm;

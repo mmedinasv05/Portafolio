@@ -37,11 +37,11 @@ const footerSocialMedia = [
   }
 ]
 
-export default function Footer() {
+function Footer() {
   return (
-    <footer className="footer-section">
-      <p className="footer-copyright">2023 Manuel Chavez, Rights Reserved.</p>
-      <section className="footer-social-media">
+    <footer className="footer-container">
+      <p className="paragraph">2023 Manuel Chavez, Rights Reserved.</p>
+      <section className="footer-icons">
         {footerSocialMedia.map((icon, index) => {
           return <a key={index} href={icon.url} target="_blank" rel="noreferrer" title={icon.title}>
             <FontAwesomeIcon icon={icon.icon} className={icon.styles} />
@@ -51,3 +51,5 @@ export default function Footer() {
     </footer>
   )
 }
+
+export default Footer;

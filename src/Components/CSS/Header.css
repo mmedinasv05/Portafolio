@@ -4,16 +4,15 @@
   max-width: var(--max-width);
   height: var(--height-header);
   padding: 0 var(--padding-x);
-  transition: background-color 0.1s;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
+  position: sticky;
   top: 0;
-  left: 0;
-  right: 0;
   z-index: 999;
   background-color: var(--white);
+  transition: background-color 0.1s;
+  margin: 0 auto;
 }
 
 /* **********  Menu Hamburguesa  ********** */

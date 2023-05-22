@@ -1,33 +1,31 @@
-/* **********  About Section  ********** */
-.about-section {
+/* About Section */
+.about-container {
   width: 100%;
   max-width: var(--max-width);
   height: calc(100vh - var(--height-header));
   background-color: var(--white);
-  margin-top: var(--height-header);
   padding: 0 var(--padding-x);
+  margin: 0 auto;
   display: flex;
 }
 
-/* **********  About Image  ********** */
+/* About Image */
 .about-image {
-  width: 30%;
-  height: 100%;
+  width: 35%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.about-image img {
-  width: 85%;
+.image-profile {
+  width: 300px;
+  height: auto;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   box-shadow: 0.15rem 0.20rem 0.40rem rgba(0, 0, 0, 0.5);
-  margin-bottom: 2rem;
 }
 
-/* **********  About Desctiption  ********** */
+/* About Desctiption */
 .about-description {
-  width: 70%;
-  height: 100%;
+  width: 65%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,116 +33,83 @@
   padding: 0 1rem 0 0;
 }
 
-/* **********  Skills Section  ********** */
-.skills-section {
+/* Skills Section */
+.about-skills {
   width: 100%;
   columns: 3;
-  margin: 1.8rem 0 0 0;
 }
 .list-skills {
   list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.skills {
-  margin: 0 0 0.6rem 0;
 }
 
 
 
 
 
-/* **********  Media Queries  ********** */
+/* ****************************************
+          Breakpoints Bootstrap
+**************************************** */
 
-/* ********** Extra XL- Done - Done ********** */
-@media screen and (max-width: 1360px) {
-  /* **********  About Image  ********** */
-  .about-image img {
-    width: 75%;
-  }
-}
-
-/* ********** XL- Done - Done ********** */
-@media screen and (max-width: 1200px) {
-  /* **********  About Section  ********** */
-  .about-section {
-    padding: 4rem var(--padding-x) 3rem var(--padding-x);
+/*xl - Bootstrap*/
+@media screen and (max-width: 1200px){
+  /* About Section */
+  .about-container {
     height: auto;
     flex-direction: column-reverse;
+    padding: 4rem var(--padding-x) 3rem var(--padding-x);
   }
 
-  /* **********  About Image  ********** */
+  /* About Desctiption */
+  .about-description{
+    width: 100%;
+    padding: 3rem 0 0 0;
+  }
+
+  /* About Image */
   .about-image {
     width: 100%;
-    height: auto;
-    margin-bottom: 2rem;
   }
-  .about-image img {
-    width: 20%;
-    margin: 0;
-  }
-
-  /* **********  About Desctiption  ********** */
-  .about-description {
-    width: 100%;
-    height: auto;
-    padding: 0;
-  }
-
-  /* **********  Skills Section  ********** */
-  .skills-section {
-    columns: 3;
+  .image-profile {
+    width: 220px;
   }
 }
 
-/* ********** Large - Done - Done ********** */
-@media screen and (max-width: 992px) {
-  /* **********  About Image  ********** */
-  .about-image img {
-    width: 28%;
+/*lg - Bootstrap*/
+@media screen and (max-width: 992px){
+  /* About Image  */
+  .image-profile {
+    width: 210px;
   }
 }
 
-/* ********** Medium - Done - Done ********** */
-@media screen and (max-width: 768px) {
-  /* **********  About Image  ********** */
-  .about-image img {
-    width: 30%;
+/*md - Bootstrap*/
+@media screen and (max-width: 768px){
+  /* About Image  */
+  .image-profile {
+    width: 200px;
   }
 }
 
-/* ********** SM - Done - Done ********** */
-@media screen and (max-width: 576px) {
-  /* **********  About Section  ********** */
-  .about-section {
-    padding: 3rem var(--padding-x);
+/*sm - Bootstrap*/
+@media screen and (max-width: 576px){
+  /* About Image  */
+  .image-profile {
+    width: 180px;
   }
 
-  /* **********  About Image  ********** */
-  .about-image img {
-    width: 45%;
-  }
-
-  /* **********  About Desctiption  ********** */
-  .about-description {
-    width: 100%;
-    padding: 1rem 0;
-  }
-
-  /* **********  Skills Section  ********** */
-  .skills-section {
-    width: 100%;
+  /* Skills Section */
+  .about-skills {
     columns: 2;
   }
-  .skills {
-    margin: 0 0 0.5rem 0;
+  .list-skills {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .skills{
+    margin: 0 0 0.5rem 0 !important;
   }
 }
 
-/* ********** Extra SM - Done - Done ********** */
-@media screen and (max-width: 360px) {
-  /* **********  About Image  ********** */
-  .about-image img {
-    width: 47%;
-  }
-}
+/* xsm - Bootstrap */
+@media screen and (max-width: 360px) {}

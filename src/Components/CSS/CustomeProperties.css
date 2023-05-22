@@ -1,23 +1,23 @@
 
 :root {
-  /* **********  Size  ********** */
-  --height-header: 12vh;
-  --height-footer: 12vh;
-  --max-width: 1400px;
-  --padding-x: 2.5rem;
-  --size-menu: 1.1rem;
-  --size-paragraph: 1.1rem;
-  --line-height: 1.75;
-  --size-title-h1: 4.5rem;
-  --size-title-h2: 1.9rem;
-  --opacity: 0.8;
+  /* Size */
+  --height-header: 12vh; 
+  --height-footer: 12vh; 
+  --max-width: 1360px; 
+  --padding-x: 3rem; 
+  --size-menu: 1rem; 
+  --size-paragraph: 1rem; 
+  --line-height: 1.75; 
+  --size-title-h1: 2.5rem; 
+  --size-title-h2: 1.5rem; 
+  --opacity: 0.8; 
 
-  /* **********  Typography  ********** */
-  --font-menu: "Space Mono", monospace;
-  --font-title: "Rubik", sans-serif;
-  --font-paragraph: "Space Mono", monospace;
+  /* Typography */
+  --font-menu: "Space Mono", monospace; 
+  --font-title: "Rubik", sans-serif; 
+  --font-paragraph: "Space Mono", monospace; 
 
-  /* **********  Colors  ********** */
+  /* Colors */
   --white: #ffffff;
   --black: #222222;
   --blue: #243ef7;
@@ -36,74 +36,62 @@
   --codepen: #222222;
 }
 .paragraph {
-  font-size: var(--size-paragraph);
   font-family: var(--font-paragraph);
   line-height: var(--line-height);
   color: var(--gray);
   margin: 0;
   font-weight: 400;
   opacity: var(--opacity);
+  font-size: var(--size-paragraph) !important;
 }
 
 
 
 
 
-/* **********  Media Queries  ********** */
+/* ****************************************
+          Breakpoints Bootstrap
+**************************************** */
 
-/* ********** Extra XL- Done - Done ********** */
-@media screen and (max-width: 1360px) {
-  :root{
-    --size-menu: 1rem;
-    --size-paragraph: 1rem;
-    --size-title-h1: 4rem;
-    --size-title-h2: 1.7rem;
-  }
-}
-
-/* ********** XL- Done - Done ********** */
+/*xl - Bootstrap*/
 @media screen and (max-width: 1200px) {
   :root {
-    --size-title-h1: 4rem; 
-    --size-title-h2: 1.8rem;
-    --padding-x: 2rem;
+    --size-title-h1: 2.2rem; 
+    --size-title-h2: 1.8rem; 
+    --padding-x: 2rem; 
   }
 }
 
-/* ********** Large - Done - Done ********** */
+/*lg - Bootstrap*/
 @media screen and (max-width: 992px) {
   :root {
-    --size-title-h1: 3.5rem;
+    --size-title-h1: 2.5rem; 
     --size-title-h2: 1.7rem;
-    --size-menu: 1.8rem;
+    --size-menu: 2rem;
   }
 }
 
-/* ********** Medium - Done - Done ********** */
+/*md - Bootstrap*/
 @media screen and (max-width: 768px) {
   :root {
     --size-title-h2: 1.5rem;
-    --padding-x: 1.5rem;
   }
 }
 
-/* ********** SM - Done - Done ********** */
+/*sm - Bootstrap*/
 @media screen and (max-width: 576px) {
   :root {
-    --height-header: 10vh;
-    --height-footer: 15vh;
-    --padding-x: 1rem;
+    --height-header: 10vh; 
+    --height-footer: 15vh; 
+    --padding-x: 1rem; 
+    --size-title-h1: 2.2rem; 
     --size-title-h2: 1.9rem;
-    --size-title-h1: 4rem;
   }
 }
 
-/* ********** Extra SM - Done - Done ********** */
+/* xsm - Bootstrap */
 @media screen and (max-width: 360px) {
-  :root {
-    --size-menu: 1.6rem;
-    --size-title-h1: 3.5rem;
-    --size-title-h2: 1.65rem;
-    --height-footer: 20vh;
+  :root{
+    --size-title-h1: 2rem; 
   }
 }

@@ -4,7 +4,7 @@ import Loader from "../Components/Loader";
 import Aboutme from "../Components/Aboutme";
 import Footer from "../Components/Footer";
 
-export default function About() {
+function About() {
   const [loader, setLoader] = useState(true);
 
   useEffect(() => {
@@ -21,3 +21,5 @@ export default function About() {
     </>
   )
 }
+
+export default About;

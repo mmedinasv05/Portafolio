@@ -4,7 +4,7 @@ import Loader from "../Components/Loader";
 import Welcome from "../Components/Welcome";
 import Footer from "../Components/Footer";
 
-export default function Home() {
+function Home() {
   const [loader, setLoader] = useState(true);
 
   useEffect(() => {
@@ -21,3 +21,5 @@ export default function Home() {
     </>
   )
 }
+
+export default Home;

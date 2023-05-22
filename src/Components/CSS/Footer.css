@@ -1,32 +1,23 @@
-/* **********  Footer Section  ********** */
-.footer-section {
+/* Footer Section */
+.footer-container {
   width: 100%;
   max-width: var(--max-width);
   height: var(--height-footer);
   background-color: var(--white);
   padding: 0 var(--padding-x);
+  margin: 0 auto;
   border-top: 0.1rem solid rgba(229, 231, 235,1);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: var(--gray);
-  text-align: center;
 }
 
-/* **********  Footer Copy Right  ********** */
-.footer-copyright {
-  font-family: var(--font-paragraph);
-  font-size: var(--size-paragraph);
-  margin: 0;
-  opacity: var(--opacity);
-}
-
-/* **********  Footer Social Media  ********** */
-.footer-social-media {
+/* Footer icons */
+.footer-icons {
   display: flex;
-  gap: 1.6rem;
+  gap: 1.5rem;
 }
-.footer-social-media a {
+.footer-icons a {
   font-size: 1.45rem;
   color: var(--gray);
   transition: color 0.5s;
@@ -52,51 +43,38 @@
 
 
 
-/* **********  Media Queries  ********** */
+/* ****************************************
+          Breakpoints Bootstrap
+**************************************** */
 
-/* Extra XL- Done */
-@media screen and (max-width: 1360px) {
-  /* **********  Footer Social Media  ********** */
-  .footer-social-media a {
-    font-size: 1.35rem;
-  }
-}
+/*xl - Bootstrap*/
+@media screen and (max-width: 1200px) {}
 
-/* XL- Done */
-@media screen and (max-width: 1200px) {
-  /* **********  Footer Social Media  ********** */
-  .footer-social-media {
-    gap: 1.5rem;
-  }
-}
+/*lg - Bootstrap*/
+@media screen and (max-width: 992px) {}
 
-/* Large - Done */
-@media screen and (max-width: 902px) {
-}
+/*md - Bootstrap*/
+@media screen and (max-width: 768px) {}
 
-/* Medium - Done */
-@media screen and (max-width: 762px) {
-}
-
-/* SM - Done */
+/*sm - Bootstrap*/
 @media screen and (max-width: 576px) {
-  /* **********  Footer Section  ********** */
-  .footer-section {
+  /* Footer container */
+  .footer-container {
     justify-content: center;
     flex-direction: column-reverse;
+    text-align: center;
   }
 
-  /* **********  Footer Social Media  ********** */
-  .footer-social-media {
-    margin-bottom: 0.7rem;
+  /* Footer icons */
+  .footer-icons {
+    margin-bottom: 0.5rem;
     gap: 1.8rem;
   }
-  .footer-social-media a {
+  .footer-icons a {
     font-size: 1.55rem;
   }
 }
 
-/* Extra SM - Done */
-@media screen and (max-width: 360px) {
-  
-}
+/* xsm - Bootstrap */
+@media screen and (max-width: 360px) {}
+

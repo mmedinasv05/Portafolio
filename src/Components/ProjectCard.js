@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 
-export default function ProjectCard({ image, alt, title, tecnology, github, web }) {
+function ProjectCard({ image, alt, title, tecnology, github, web }) {
   return (
     <figure className="project-card">
       <img src={image} alt={alt} title={alt} className='project-image' />
@@ -23,3 +23,5 @@ export default function ProjectCard({ image, alt, title, tecnology, github, web 
     </figure>
   )
 }
+
+export default ProjectCard;

@@ -1,8 +1,7 @@
 import './CSS/Loader.css';
 import './CSS/CustomeProperties.css';
 
-
-export default function Loader() {
+function Loader() {
   return (
     <section className="loading" id='loader'>
       <div className="wrapper">
@@ -16,3 +15,5 @@ export default function Loader() {
     </section>
   )
 }
+
+export default Loader;

@@ -2,25 +2,23 @@
 .buttonDownload {
   display: inline-block;
   position: relative;
-  padding: 0.8rem 1.2rem;
+  padding: 0.6rem 1.5rem;
   background-color: #4159F8;
   color: white;
   font-family: sans-serif;
   text-decoration: none;
-  font-size: 0.95rem;
+  font-size: 1rem;
   text-align: center;
   text-indent: 1rem;
   border: none;
-  border-radius: 0.3rem;
+  border-radius: 0.4rem;
   font-family: var(--font-paragraph);
-  margin-top: 0.5rem;
+  margin-top: 0.7rem;
 }
-
 .buttonDownload:hover {
   background-color: #4159F8;
   color: white;
 }
-
 .buttonDownload:before,
 .buttonDownload:after {
   content: ' ';
@@ -85,42 +83,25 @@
 
 
 
-/* **********  Media Queries  ********** */
+/* ****************************************
+          Breakpoints Bootstrap
+**************************************** */
 
-/* Extra XL- Done */
-@media screen and (max-width: 1360px) {
-  .buttonDownload:before,
-  .buttonDownload:after {
-    left: 0.8rem;
-  }
-}
 
 /* XL- Done */
-@media screen and (max-width: 1200px) {
-  .buttonDownload {
-    padding: 0.7rem 1.5rem;
-  }
-}
+@media screen and (max-width: 1200px) {}
 
 /* Large - Done */
-@media screen and (max-width: 992px) {
-  .buttonDownload {
-    padding: 0.8rem 1.5rem;
-  }
-}
+@media screen and (max-width: 992px) {}
 
 /* Medium - Done */
-@media screen and (max-width: 768px) {
-  .buttonDownload {
-    font-size: 1.05rem;
-  }
-}
+@media screen and (max-width: 768px) {}
 
 /* SM - Done */
 @media screen and (max-width: 576px) {
-  
   .buttonDownload {
-    padding: 0.8rem 2rem;
+    padding: 0.8rem 2.5rem;
+    margin-top: 1rem !important;
   }
   .buttonDownload:before,
   .buttonDownload:after {
@@ -132,6 +113,4 @@
 }
 
 /* Extra SM - Done */
-@media screen and (max-width: 360px) {
-
-}
+@media screen and (max-width: 360px) {}

@@ -4,7 +4,7 @@ import Loader from "../Components/Loader";
 import ContactForm from "../Components/ContactForm";
 import Footer from "../Components/Footer";
 
-export default function Contact() {
+function Contact() {
   const [loader, setLoader] = useState(true);
 
   useEffect(() => {
@@ -21,3 +21,5 @@ export default function Contact() {
     </>
   )
 }
+
+export default Contact;

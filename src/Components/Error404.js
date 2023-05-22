@@ -1,11 +1,13 @@
 import './CSS/Error404.css';
 import './CSS/CustomeProperties.css';
+import Image404 from './Image/404.webp'
 
-export default function Error404() {
+function Error404() {
   return (
-    <main className="notfound-section">
-      <h1 className='notfound-number'>404</h1>
-      <p className='notfound-description'>Page Not Found.</p>
+    <main className="notfound-container">
+      <img src={Image404} alt="Page not found" className='image-notfound' />
     </main>
   )
 }
+
+export default Error404;

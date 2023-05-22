@@ -65,9 +65,9 @@ const projectList = [
   }
 ]
 
-export default function Projects() {
+function Projects() {
   return (
-    <main className="potfolio-section">
+    <main className="potfolio-container">
       <header className="portfolio-title">
         <p className="paragraph">
           En 2019 comencé a realizar proyectos a nivel personal para poder reforzar mis conocimientos y así poco a poco poder ir mejorar mis habilidades y también adquirir experiencia a través de nuevos retos.
@@ -91,3 +91,5 @@ export default function Projects() {
     </main>
   );
 }
+
+export default Projects;
