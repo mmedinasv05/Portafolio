@@ -103,6 +103,7 @@
   /* Home Text */
   .home-text {
     width: 100%;
+    margin: 0 0 var(--height-header) 0;
   }
 
   /* Home Image */
