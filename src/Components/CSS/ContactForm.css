@@ -21,11 +21,11 @@
   align-items: center;
 }
 .contact-form form{
-  width: 40%;
+  width: 50%;
 }
 .form-control{
   border-color: #4b556370 !important;
-  padding: 0.7rem 0.6rem !important;
+  padding: 0.7rem 0.7rem !important;
   color: var(--gray);
   opacity: 0.8;
 }

@@ -12,13 +12,17 @@
   align-items: center;
 }
 
+.footer-container p{
+  font-size: 1rem !important;
+}
+
 /* Footer icons */
 .footer-icons {
   display: flex;
   gap: 1.5rem;
 }
 .footer-icons a {
-  font-size: 1.45rem;
+  font-size: 1.42rem;
   color: var(--gray);
   transition: color 0.5s;
   opacity: var(--opacity);
@@ -71,7 +75,7 @@
     gap: 1.8rem;
   }
   .footer-icons a {
-    font-size: 1.55rem;
+    font-size: 1.60rem;
   }
 }
 

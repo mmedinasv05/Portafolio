@@ -3,19 +3,19 @@
   width: 100%;
   max-width: var(--max-width);
   background-color: var(--white);
-  padding: 3rem var(--padding-x);
+  padding: 2rem var(--padding-x);
   margin: 0 auto;
 }
 
 /* Portfolio Title */
 .portfolio-title {
   width: 100%;
+  margin: 0 0 2rem 0;
 }
 
 /* Portfolio Projects */
 .portfolio-content {
   width: 100%;
-  padding: 2rem 0 0 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -106,14 +106,8 @@
 /*lg - Bootstrap*/
 @media screen and (max-width: 992px) {}
 
-
 /*md - Bootstrap*/
-@media screen and (max-width: 768px) {
-  /* Card Project */
-  .tecnology {
-    font-size: 0.8rem;
-  }
-}
+@media screen and (max-width: 768px) {}
 
 /*sm - Bootstrap*/
 @media screen and (max-width: 576px) {
@@ -130,7 +124,7 @@
     padding: 0 1rem 1rem 1rem;
   }
   .tecnology {
-    font-size: 0.98rem;
+    margin: 0.3rem 0 0 0;
   }
   .project-links {
     gap: 0.6rem;

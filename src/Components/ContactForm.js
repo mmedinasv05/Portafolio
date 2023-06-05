@@ -22,7 +22,7 @@ function ContactForm() {
   return (
     <main className="contact-container">
       {/* <section className='contact-icon'></section> */}
-      <section className='contact-form'>
+      <section className='contact-form animate__animated animate__fadeInUp'>
         <Form action="https://formsubmit.co/chavezofficial2015@gmail.com" method="POST" noValidate validated={validated} onSubmit={handleSubmit}>
           <Row className="mb-3">
             <Form.Group as={Col} md="12" controlId="validationCustom01">

@@ -17,7 +17,7 @@
   align-items: center;
 }
 .image-profile {
-  width: 300px;
+  width: 20rem;
   height: auto;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   box-shadow: 0.15rem 0.20rem 0.40rem rgba(0, 0, 0, 0.5);
@@ -30,7 +30,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 0 1rem 0 0;
 }
 
 /* Skills Section */
@@ -39,6 +38,7 @@
   columns: 3;
 }
 .list-skills {
+  padding: 0;
   list-style: none;
 }
 
@@ -56,7 +56,7 @@
   .about-container {
     height: auto;
     flex-direction: column-reverse;
-    padding: 4rem var(--padding-x) 3rem var(--padding-x);
+    padding: 3rem var(--padding-x) 3rem var(--padding-x);
   }
 
   /* About Desctiption */
@@ -70,41 +70,29 @@
     width: 100%;
   }
   .image-profile {
-    width: 220px;
+    width: 13.12rem;
   }
 }
 
 /*lg - Bootstrap*/
-@media screen and (max-width: 992px){
-  /* About Image  */
-  .image-profile {
-    width: 210px;
-  }
-}
+@media screen and (max-width: 992px){}
 
 /*md - Bootstrap*/
 @media screen and (max-width: 768px){
   /* About Image  */
   .image-profile {
-    width: 200px;
+    width: 12.5rem;
   }
 }
 
 /*sm - Bootstrap*/
 @media screen and (max-width: 576px){
-  /* About Image  */
-  .image-profile {
-    width: 180px;
-  }
-
   /* Skills Section */
   .about-skills {
     columns: 2;
   }
   .list-skills {
     list-style: none;
-    margin: 0;
-    padding: 0;
   }
   .skills{
     margin: 0 0 0.5rem 0 !important;

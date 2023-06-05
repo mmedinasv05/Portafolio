@@ -1,16 +1,16 @@
 
 :root {
   /* Size */
-  --height-header: 12vh; 
-  --height-footer: 12vh; 
-  --max-width: 1360px; 
-  --padding-x: 3rem; 
-  --size-menu: 1rem; 
-  --size-paragraph: 1rem; 
-  --line-height: 1.75; 
-  --size-title-h1: 2.5rem; 
-  --size-title-h2: 1.5rem; 
-  --opacity: 0.8; 
+  --height-header: 12vh;
+  --height-footer: 12vh;
+  --max-width: 1300px;
+  --padding-x: 1rem;
+  --size-title-h1: 3rem;
+  --size-title-h2: 1.8rem;
+  --size-menu: 1rem;
+  --size-paragraph: 1.04rem;
+  --line-height: 1.75;
+  --opacity: 0.8;
 
   /* Typography */
   --font-menu: "Space Mono", monospace; 
@@ -20,7 +20,7 @@
   /* Colors */
   --white: #ffffff;
   --black: #222222;
-  --blue: #243ef7;
+  --blue: #0F45F9;
   --pink: #fc199d;
   --gray: #4b5568;
   --html: #f4470b;
@@ -40,11 +40,9 @@
   line-height: var(--line-height);
   color: var(--gray);
   margin: 0;
-  font-weight: 400;
   opacity: var(--opacity);
   font-size: var(--size-paragraph) !important;
 }
-
 
 
 
@@ -56,9 +54,9 @@
 /*xl - Bootstrap*/
 @media screen and (max-width: 1200px) {
   :root {
-    --size-title-h1: 2.2rem; 
-    --size-title-h2: 1.8rem; 
-    --padding-x: 2rem; 
+    --padding-x: 2rem;
+    --size-title-h1: 2.5rem;
+    --size-paragraph: 1rem;
   }
 }
 
@@ -66,7 +64,6 @@
 @media screen and (max-width: 992px) {
   :root {
     --size-title-h1: 2.5rem; 
-    --size-title-h2: 1.7rem;
     --size-menu: 2rem;
   }
 }
@@ -74,7 +71,7 @@
 /*md - Bootstrap*/
 @media screen and (max-width: 768px) {
   :root {
-    --size-title-h2: 1.5rem;
+    --size-title-h2: 1.6rem;
   }
 }
 
@@ -83,15 +80,17 @@
   :root {
     --height-header: 10vh; 
     --height-footer: 15vh; 
-    --padding-x: 1rem; 
-    --size-title-h1: 2.2rem; 
+    --padding-x: 1rem;
+    --size-title-h1: 2.3rem; 
     --size-title-h2: 1.9rem;
+    --size-paragraph: 1.05rem;
   }
 }
 
 /* xsm - Bootstrap */
 @media screen and (max-width: 360px) {
   :root{
-    --size-title-h1: 2rem; 
+    --size-title-h1: 2.2rem; 
+    --height-footer: 20vh; 
   }
 }

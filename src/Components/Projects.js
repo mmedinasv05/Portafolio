@@ -16,7 +16,7 @@ const projectList = [
     alt: "Fun Weather",
     web: "https://mmedinasv05.github.io/Weather-App/",
     github: "https://github.com/mmedinasv05/Weather-App",
-    tecnology: "HTML, CSS, Responsive Design"
+    tecnology: "HTML, CSS, Javascript, Responsive Design"
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const projectList = [
     alt: "Story HTML",
     web: "https://mmedinasv05.github.io/Story-HTML/",
     github: "https://github.com/mmedinasv05/Story-HTML",
-    tecnology: "HTML, CSS, Responsive Design"
+    tecnology: "HTML, CSS, Javascript, Responsive Design"
   },
   {
     id: 3,
@@ -34,7 +34,7 @@ const projectList = [
     alt: "Commerce",
     web: "https://mmedinasv05.github.io/Landing-Page-Ecommerce-App/",
     github: "https://github.com/mmedinasv05/Landing-Page-Ecommerce-App",
-    tecnology: "HTML, CSS, Responsive Design"
+    tecnology: "HTML, CSS, Javascript, Responsive Design"
   },
   {
     id: 4,
@@ -43,7 +43,7 @@ const projectList = [
     alt: "Bitlab Academy",
     web: "https://mmedinasv05.github.io/Lading-Page-Bitlab/",
     github: "https://github.com/mmedinasv05/Lading-Page-Bitlab",
-    tecnology: "HTML, CSS, Responsive Design"
+    tecnology: "HTML, CSS, Javascript, Responsive Design"
   },
   {
     id: 5,
@@ -52,7 +52,7 @@ const projectList = [
     alt: "Amazon Lite",
     web: "https://mmedinasv05.github.io/Landing-page-Amazon/",
     github: "https://github.com/mmedinasv05/Landing-page-Amazon",
-    tecnology: "HTML, CSS, Responsive Design"
+    tecnology: "HTML, CSS, Javascript, Responsive Design"
   },
   {
     id: 6,
@@ -69,8 +69,8 @@ function Projects() {
   return (
     <main className="potfolio-container">
       <header className="portfolio-title">
-        <p className="paragraph">
-          En 2019 comencé a realizar proyectos a nivel personal para poder reforzar mis conocimientos y así poco a poco poder ir mejorar mis habilidades y también adquirir experiencia a través de nuevos retos.
+        <p className="paragraph animate__animated animate__zoomIn">
+          En 2019 comencé a realizar proyectos a nivel personal para poder reforzar mis conocimientos y así poco a poco poder ir mejorando mis habilidades y sobre todo poder adquirir experiencia a través de nuevos retos.
         </p>
       </header>
       <section className="portfolio-content">

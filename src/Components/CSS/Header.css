@@ -1,4 +1,4 @@
-/* **********  Header Section  ********** */
+/*  Header Section  */
 .header-section {
   width: 100%;
   max-width: var(--max-width);
@@ -15,21 +15,21 @@
   margin: 0 auto;
 }
 
-/* **********  Menu Hamburguesa  ********** */
+/* Menu Hamburguesa */
 .menu-hamburguesa {
   display: none;
 }
 
-/* **********  Header Brand  ********** */
+/* Header Brand */
 .header-brand {
-  width: 11rem;
+  width: 10rem !important;
 }
 .brand-image {
   width: 100%;
   height: auto;
 }
 
-/* **********  Header Menu  ********** */
+/* Header Menu */
 .header-menu {
   width: auto;
   height: auto;
@@ -64,39 +64,25 @@
 
 
 
+/* ****************************************
+          Breakpoints Bootstrap
+**************************************** */
 
-
-
-/* **********  Media Queries  ********** */
-
-/* Extra XL- Done */
-@media screen and (max-width: 1360px) {
-  /* **********  Header Brand  ********** */
-  .header-brand {
-    width: 10rem;
-  }
-
-  /* **********  Header Menu  ********** */
-  .menu-links {
-    margin: 0 0 0 3.5rem;
-  }
-}
-
-/* XL- Done */
+/*xl - Bootstrap*/
 @media screen and (max-width: 1200px) {
-  /* **********  Header Brand  ********** */
+  /* Header Brand */
   .header-brand {
     width: 9rem;
   }
   
-  /* **********  Header Menu  ********** */
+  /* Header Menu */
   .menu-links {
     margin: 0 0 0 3rem;
   }
 
 }
 
-/* Large- Done */
+/*lg - Bootstrap*/
 @media screen and (max-width: 992px) {
   .header-section {
     flex-direction: row;
@@ -197,7 +183,7 @@
   }
 }
 
-/* SM - Done */
+/*md - Bootstrap*/
 @media screen and (max-width: 768px) {
   .header-menu {
     gap: 3.5rem;
@@ -210,7 +196,7 @@
   }
 }
 
-/* SM - Done */
+/*sm - Bootstrap*/
 @media screen and (max-width: 576px) {
   .header-brand {
     width: 9.2rem;
@@ -229,6 +215,6 @@
   }
 }
 
-/* Extra SM - Done */
+/* xsm - Bootstrap */
 @media screen and (max-width: 360px) {
 }
