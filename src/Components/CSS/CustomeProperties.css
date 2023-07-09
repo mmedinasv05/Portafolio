@@ -2,10 +2,10 @@
 :root {
   /* Size */
   --height-header: 12vh;
-  --height-footer: 12vh;
+  --height-footer: 14vh;
   --max-width: 1300px;
   --padding-x: 1rem;
-  --size-title-h1: 3rem;
+  --size-title-h1: 3.2rem;
   --size-title-h2: 1.8rem;
   --size-menu: 1rem;
   --size-paragraph: 1.04rem;
@@ -13,16 +13,16 @@
   --opacity: 0.8;
 
   /* Typography */
-  --font-menu: "Space Mono", monospace; 
-  --font-title: "Rubik", sans-serif; 
-  --font-paragraph: "Space Mono", monospace; 
+  --font-menu: 'Space Mono',monospace; 
+  --font-paragraph: 'Space Mono',monospace; 
+  --font-title: 'Rubik', sans-serif; 
 
   /* Colors */
   --white: #ffffff;
   --black: #222222;
-  --blue: #0F45F9;
-  --pink: #fc199d;
-  --gray: #4b5568;
+  --blue: #253cd9;
+  --pink: #e71a88;
+  --gray: #313131;
   --html: #f4470b;
   --css: #0068ba;
   --js: #e9d44d;
@@ -37,11 +37,11 @@
 }
 .paragraph {
   font-family: var(--font-paragraph);
+  font-size: var(--font-paragraph) !important;
   line-height: var(--line-height);
   color: var(--gray);
-  margin: 0;
   opacity: var(--opacity);
-  font-size: var(--size-paragraph) !important;
+  margin: 0;
 }
 
 
@@ -55,7 +55,7 @@
 @media screen and (max-width: 1200px) {
   :root {
     --padding-x: 2rem;
-    --size-title-h1: 2.5rem;
+    --size-title-h1: 2.6rem;
     --size-paragraph: 1rem;
   }
 }
@@ -81,9 +81,9 @@
     --height-header: 10vh; 
     --height-footer: 15vh; 
     --padding-x: 1rem;
-    --size-title-h1: 2.3rem; 
+    --size-title-h1: 2.4rem; 
     --size-title-h2: 1.9rem;
-    --size-paragraph: 1.05rem;
+    --size-paragraph: 1.1rem;
   }
 }
 

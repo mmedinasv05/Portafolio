@@ -68,12 +68,12 @@ const projectList = [
 function Projects() {
   return (
     <main className="potfolio-container">
-      <header className="portfolio-title">
-        <p className="paragraph animate__animated animate__zoomIn">
+      <header className="portfolio-title animate__animated animate__fadeInDown">
+        <p className="paragraph">
           En 2019 comencé a realizar proyectos a nivel personal para poder reforzar mis conocimientos y así poco a poco poder ir mejorando mis habilidades y sobre todo poder adquirir experiencia a través de nuevos retos.
         </p>
       </header>
-      <section className="portfolio-content">
+      <section className="portfolio-content animate__animated animate__fadeInUp">
         {projectList.map((project) => {
           return (
             <ProjectCard

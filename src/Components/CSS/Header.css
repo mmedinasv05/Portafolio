@@ -150,8 +150,7 @@
     flex-direction: column;
     transform: translateY(100%);
     border-top: 1px solid rgba(221, 226, 240, 1);
-    background: hsla(0, 0%, 100%, 0.7);
-    backdrop-filter: blur(40px);
+    background-color: var(--white);
     gap: 3.5rem;
   }
   .menu-active {

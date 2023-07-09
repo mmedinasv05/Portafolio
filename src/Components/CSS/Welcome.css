@@ -8,7 +8,7 @@
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  gap: 8rem;
+  gap: 6rem;
   padding: 0;
 }
 
@@ -21,10 +21,11 @@
   align-items: flex-start;
   white-space: pre-wrap;
 }
-.home-text h1 {
-  font-family: var(--font-title);
+.home-text > h1 {
+  font-family: var(--font-title) !important;
   font-size: var(--size-title-h1);
   line-height: 0.9;
+  font-weight: 900 !important;
 }
 
 /* Home Image */
@@ -98,7 +99,7 @@
 
   /* Home Image */
   .home-image {
-    width: 210px;
+    width: 13.5remx;
   }
 }
 

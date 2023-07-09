@@ -21,6 +21,7 @@
   height: auto;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   box-shadow: 0.15rem 0.20rem 0.40rem rgba(0, 0, 0, 0.5);
+  background-color: var(--blue);
 }
 
 /* About Desctiption */
@@ -55,7 +56,7 @@
   /* About Section */
   .about-container {
     height: auto;
-    flex-direction: column-reverse;
+    flex-direction: column;
     padding: 3rem var(--padding-x) 3rem var(--padding-x);
   }
 

@@ -7,14 +7,14 @@ import Curriculum from './Curriculum';
 function Welcome() {
 
   return (
-    <section className="home-container">
-      <section className='home-text'>
-        <h1 className='animate__animated animate__zoomIn'>Frontend Developer </h1>
-        <p className='paragraph animate__animated animate__zoomIn'>Un apasionado por el desarrollo web y me encanta trabajar en el proceso de construcción de sitios web.</p>
+    <main className="home-container">
+      <section className='home-text animate__animated animate__fadeInUp'>
+        <h1>Frontend Developer </h1>
+        <p className='paragraph'>Apasionado por el desarrollo web y me encanta trabajar en el proceso de construcción de sitios web.</p>
         <Curriculum />
       </section>
-      <img src={welcomeImage} alt="profile Manuel Chavez" title='profile Manuel Chavez' className='home-image animate__animated animate__zoomIn' />
-    </section>
+      <img src={welcomeImage} alt="profile Manuel Chavez" title='profile Manuel Chavez' className='home-image animate__animated animate__fadeInDown' />
+    </main>
   )
 }
 

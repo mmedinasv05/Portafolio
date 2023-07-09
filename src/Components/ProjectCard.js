@@ -4,7 +4,7 @@ import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 
 function ProjectCard({ image, alt, title, tecnology, github, web }) {
   return (
-    <figure className="project-card animate__animated animate__zoomIn">
+    <figure className="project-card">
       <img src={image} alt={alt} title={alt} className='project-image' />
       <figcaption className='project-content'>
         <h2 className='project-title'>{title}</h2>
