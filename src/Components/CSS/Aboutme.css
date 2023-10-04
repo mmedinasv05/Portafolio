@@ -17,11 +17,10 @@
   align-items: center;
 }
 .image-profile {
-  width: 20rem;
+  width: 18rem;
   height: auto;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-  box-shadow: 0.15rem 0.20rem 0.40rem rgba(0, 0, 0, 0.5);
-  background-color: var(--blue);
+  box-shadow: 0.15rem 0.2rem 0.4rem rgba(0, 0, 0, 0.5);
 }
 
 /* About Desctiption */
@@ -43,25 +42,21 @@
   list-style: none;
 }
 
-
-
-
-
 /* ****************************************
           Breakpoints Bootstrap
 **************************************** */
 
 /*xl - Bootstrap*/
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px) {
   /* About Section */
   .about-container {
     height: auto;
     flex-direction: column;
-    padding: 3rem var(--padding-x) 3rem var(--padding-x);
+    padding: 4rem var(--padding-x);
   }
 
   /* About Desctiption */
-  .about-description{
+  .about-description {
     width: 100%;
     padding: 3rem 0 0 0;
   }
@@ -71,23 +66,25 @@
     width: 100%;
   }
   .image-profile {
-    width: 13.12rem;
+    width: 13rem;
   }
 }
 
 /*lg - Bootstrap*/
-@media screen and (max-width: 992px){}
+@media screen and (max-width: 992px) {
+}
 
 /*md - Bootstrap*/
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
+}
+
+/*sm - Bootstrap*/
+@media screen and (max-width: 576px) {
   /* About Image  */
   .image-profile {
     width: 12.5rem;
   }
-}
 
-/*sm - Bootstrap*/
-@media screen and (max-width: 576px){
   /* Skills Section */
   .about-skills {
     columns: 2;
@@ -95,10 +92,11 @@
   .list-skills {
     list-style: none;
   }
-  .skills{
+  .skills {
     margin: 0 0 0.5rem 0 !important;
   }
 }
 
 /* xsm - Bootstrap */
-@media screen and (max-width: 360px) {}
+@media screen and (max-width: 360px) {
+}

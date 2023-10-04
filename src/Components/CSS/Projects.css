@@ -9,7 +9,7 @@
 
 /* Portfolio Title */
 .portfolio-title {
-  margin: 0 0 3rem 0;
+  margin: 0 0 2rem 0;
 }
 
 /* Portfolio Projects */
@@ -36,7 +36,7 @@
 .project-content {
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
   padding: 0 1rem 1rem 1rem;
   display: flex;
   justify-content: flex-end;
@@ -80,10 +80,6 @@
   color: var(--white);
 }
 
-
-
-
-
 /* ****************************************
           Breakpoints Bootstrap
 **************************************** */
@@ -97,10 +93,12 @@
 }
 
 /*lg - Bootstrap*/
-@media screen and (max-width: 992px) {}
+@media screen and (max-width: 992px) {
+}
 
 /*md - Bootstrap*/
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+}
 
 /*sm - Bootstrap*/
 @media screen and (max-width: 576px) {
@@ -128,4 +126,5 @@
 }
 
 /* xsm - Bootstrap */
-@media screen and (max-width: 360px) {}
+@media screen and (max-width: 360px) {
+}

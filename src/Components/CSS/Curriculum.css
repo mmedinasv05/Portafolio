@@ -1,88 +1,77 @@
-.icon-cv{
-  display: none;
-  color: var(--white);
-  animation: snipper-cv 1s linear infinite;
-}
-@keyframes snipper-cv{
-  0%{
-    transform: rotate(0);
-  }
-  100%{
-    transform: rotate(360deg);
-
-  }
-}
-.link-cv{
+.link-cv {
   display: inline-block;
-  padding: 0.75rem 2rem;
+  width: 200px;
+  height: 45px;
   background-color: var(--blue);
-  border-radius: 0.40rem;
-  margin-top: 1rem;
+  border-radius: 0.2rem;
+  margin-top: 0.8rem;
   color: var(--white);
   text-decoration: none;
   cursor: pointer;
-  transition: padding 0.3s ease, color 0.3s ease, background-color 0.3s ease;
   font-family: var(--font-paragraph);
   font-size: var(--size-paragraph);
+  border: 1px solid var(--blue);
+  transition: all 0.3s;
+  display: flex;
+}
 
+.link-cv .text-cv {
+  width: 150px;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  border-top-left-radius: inherit;
+  border-bottom-left-radius: inherit;
+  background-color: inherit;
 }
-
-.link-cv:hover{
-  color: var(--white);
-  background-color: #0B3FBF;
-}
-
-
-.download-cv{
-  padding: 0.75rem;
-  background-color: green;
-  border-radius: 50%;
+.link-cv .icon-cv {
+  width: 50px;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: background-color 0.3s ease;
+  border-top-right-radius: inherit;
+  border-bottom-right-radius: inherit;
+  font-size: 1.2rem;
+  border-left: 1px solid #bbb;
 }
-
-.download-cv .text-cv{
+.link-cv:hover .text-cv {
   display: none;
+  opacity: 0;
 }
-.download-cv .icon-cv{
-  display: inline-block;
+.link-cv:hover .icon-cv {
+  width: 200px;
+  border-radius: inherit;
+  color: var(--white);
+  border-left: 0px solid var(--blue);
 }
-
-
-
 /* ****************************************
           Breakpoints Bootstrap
 **************************************** */
 
-
 /* XL- Done */
 @media screen and (max-width: 1200px) {
- 
+  .link-cv {
+    height: 50px;
+  }
 }
 
 /* Large - Done */
 @media screen and (max-width: 992px) {
-  .link-cv {
-    padding: 1rem 2.5rem;
-  }
-
-  .download-cv {
-    padding: 1rem;
-    background-color: green !important;
-  }
 }
 
 /* Medium - Done */
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+}
 
 /* SM - Done */
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 576px) {
+  .link-cv {
+    height: 55px;
+  }
+}
 
 /* Extra SM - Done */
-@media screen and (max-width: 360px) {}
+@media screen and (max-width: 360px) {
+}

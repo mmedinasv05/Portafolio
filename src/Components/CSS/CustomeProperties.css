@@ -1,21 +1,20 @@
-
 :root {
   /* Size */
   --height-header: 12vh;
   --height-footer: 14vh;
   --max-width: 1300px;
   --padding-x: 1rem;
-  --size-title-h1: 3.2rem;
+  --size-title-h1: 3rem;
   --size-title-h2: 1.8rem;
   --size-menu: 1rem;
-  --size-paragraph: 1.04rem;
+  --size-paragraph: 1rem;
   --line-height: 1.75;
   --opacity: 0.8;
 
   /* Typography */
-  --font-menu: 'Space Mono',monospace; 
-  --font-paragraph: 'Space Mono',monospace; 
-  --font-title: 'Rubik', sans-serif; 
+  --font-menu: "Space Mono", monospace;
+  --font-paragraph: "Space Mono", monospace;
+  --font-title: "Rubik", sans-serif;
 
   /* Colors */
   --white: #ffffff;
@@ -44,9 +43,6 @@
   margin: 0;
 }
 
-
-
-
 /* ****************************************
           Breakpoints Bootstrap
 **************************************** */
@@ -55,15 +51,14 @@
 @media screen and (max-width: 1200px) {
   :root {
     --padding-x: 2rem;
-    --size-title-h1: 2.6rem;
-    --size-paragraph: 1rem;
+    --size-title-h1: 2.8rem;
   }
 }
 
 /*lg - Bootstrap*/
 @media screen and (max-width: 992px) {
   :root {
-    --size-title-h1: 2.5rem; 
+    --size-title-h1: 2.5rem;
     --size-menu: 2rem;
   }
 }
@@ -78,19 +73,17 @@
 /*sm - Bootstrap*/
 @media screen and (max-width: 576px) {
   :root {
-    --height-header: 10vh; 
-    --height-footer: 15vh; 
+    --height-header: 10vh;
+    --height-footer: 15vh;
     --padding-x: 1rem;
-    --size-title-h1: 2.4rem; 
+    --size-title-h1: 2rem;
     --size-title-h2: 1.9rem;
-    --size-paragraph: 1.1rem;
   }
 }
 
 /* xsm - Bootstrap */
 @media screen and (max-width: 360px) {
-  :root{
-    --size-title-h1: 2.2rem; 
-    --height-footer: 20vh; 
+  :root {
+    --height-footer: 20vh;
   }
 }

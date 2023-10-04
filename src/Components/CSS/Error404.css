@@ -13,21 +13,18 @@
   text-align: center;
   margin: 0 auto;
 }
-.image-notfound{
+.image-notfound {
   width: 500px;
   height: auto;
 }
-
-
-
-
 
 /* ****************************************
           Breakpoints Bootstrap
 **************************************** */
 
 /*xl - Bootstrap*/
-@media screen and (max-width: 1200px) {}
+@media screen and (max-width: 1200px) {
+}
 
 /*lg - Bootstrap*/
 @media screen and (max-width: 992px) {
@@ -51,4 +48,5 @@
 }
 
 /* xsm - Bootstrap */
-@media screen and (max-width: 360px) {}
+@media screen and (max-width: 360px) {
+}

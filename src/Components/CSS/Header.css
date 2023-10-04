@@ -55,14 +55,10 @@
 .header-prhase {
   display: none;
 }
-.header-sticky{
+.header-sticky {
   transition: background-color 0.1s;
   background-color: var(--white);
 }
-
-
-
-
 
 /* ****************************************
           Breakpoints Bootstrap
@@ -74,12 +70,11 @@
   .header-brand {
     width: 9rem;
   }
-  
+
   /* Header Menu */
   .menu-links {
     margin: 0 0 0 3rem;
   }
-
 }
 
 /*lg - Bootstrap*/
@@ -165,6 +160,7 @@
     position: relative;
     padding: 0 0.8rem 0 0;
     overflow: hidden;
+    font-family: var(--font-title);
   }
   .menu-links:before {
     content: "";
@@ -203,7 +199,7 @@
   }
   .header-menu {
     padding: 3rem var(--padding-x);
-    gap: 3rem;
+    gap: 2rem;
   }
   .menu-links {
     margin: 0 !important;

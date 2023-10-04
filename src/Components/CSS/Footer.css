@@ -12,14 +12,13 @@
   align-items: center;
 }
 
-
 /* Footer icons */
 .footer-icons {
   display: flex;
   gap: 1.5rem;
 }
 .footer-icons a {
-  font-size: 1.40rem;
+  font-size: 1.4rem;
   color: var(--gray);
   transition: color 0.5s;
   opacity: var(--opacity);
@@ -40,22 +39,21 @@
   color: var(--github);
 }
 
-
-
-
-
 /* ****************************************
           Breakpoints Bootstrap
 **************************************** */
 
 /*xl - Bootstrap*/
-@media screen and (max-width: 1200px) {}
+@media screen and (max-width: 1200px) {
+}
 
 /*lg - Bootstrap*/
-@media screen and (max-width: 992px) {}
+@media screen and (max-width: 992px) {
+}
 
 /*md - Bootstrap*/
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+}
 
 /*sm - Bootstrap*/
 @media screen and (max-width: 576px) {
@@ -72,10 +70,10 @@
     gap: 1.8rem;
   }
   .footer-icons a {
-    font-size: 1.60rem;
+    font-size: 1.6rem;
   }
 }
 
 /* xsm - Bootstrap */
-@media screen and (max-width: 360px) {}
-
+@media screen and (max-width: 360px) {
+}
