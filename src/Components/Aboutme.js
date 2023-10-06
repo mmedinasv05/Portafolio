@@ -20,22 +20,22 @@ function Aboutme() {
       </section>
       <section className="about-description animate__animated animate__fadeInUp">
         <p className="paragraph">
-          Soy Manuel Chavez pero puedes llamarme Manu, En el 2019 descubrí mi
-          pasión por el desarrollo web al crear mi primera página web usando
-          HTML y CSS desde ese entonces y hasta el día de hoy sigo sintiendo esa
-          misma pasión cuando tengo la oportunidad de crear una página web ya
-          que se puede crear grandes cosas combinando HTML, CSS y Javascript
-          adicional me considero una persona autodidacta y de aprendizaje rápido
-          ya que me gusta estar aprendiendo cosas nuevas día tras día y luego
-          tratar de ponerlas en práctica.
+          I am Manuel Chavez but you can call me Manu. In 2019 I discovered my
+          passion for web development by creating my first website using HTML
+          and CSS since then and to this day I still feel that same passion when
+          I have the opportunity to create a page web since you can create great
+          things by combining HTML, CSS and additional Javascript. I consider
+          myself a self-taught and fast learning person since I like to be
+          learning new things day after day and then try to put them into
+          practice.
         </p>
         <br />
         <p className="paragraph">
-          Aunque carezco de experiencia profesional en el desarrollo web, he
-          adquirido ciertas habilidades a través de retos personales y proyectos
-          propios en los cuales he trabajado con algunas tecnologías como las
-          siguientes y actualmente busco una oportunidad que me permita crecer y
-          desarrollarme profesionalmente en el campo del desarrollo web.
+          Although I lack professional experience in web development, I have
+          acquired certain skills through personal challenges and my own
+          projects in which I have worked with some technologies such as the
+          following and I am currently looking for an opportunity that allows me
+          to grow and develop professionally in the field of development. Web.
         </p>
         <br />
         <aside className="about-skills">

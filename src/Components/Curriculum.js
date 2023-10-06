@@ -10,10 +10,10 @@ function Curriculum() {
       href={CV}
       id="link-cv"
       className="link-cv"
-      download="Curriculum Manuel Chavez"
-      title="Descargar curriculum"
+      download="Resume Manuel Chavez"
+      title="Download Resume"
     >
-      <span className="text-cv">Curriculum</span>
+      <span className="text-cv">Resume</span>
       <span className="icon-cv">
         <FontAwesomeIcon icon={faDownload} />
       </span>

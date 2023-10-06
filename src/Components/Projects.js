@@ -1,10 +1,10 @@
 import ProjectCard from "./ProjectCard";
-import project1 from './Image/1-min.webp'
-import project2 from './Image/2-min.webp'
-import project3 from './Image/3-min.webp'
-import project4 from './Image/4-min.webp'
-import project5 from './Image/5-min.webp'
-import project6 from './Image/6-min.webp'
+import project1 from "./Image/1-min.webp";
+import project2 from "./Image/2-min.webp";
+import project3 from "./Image/3-min.webp";
+import project4 from "./Image/4-min.webp";
+import project5 from "./Image/5-min.webp";
+import project6 from "./Image/6-min.webp";
 import "../Components/CSS/Projects.css";
 import "../Components/CSS/CustomeProperties.css";
 
@@ -16,7 +16,7 @@ const projectList = [
     alt: "Fun Weather",
     web: "https://mmedinasv05.github.io/Weather-App/",
     github: "https://github.com/mmedinasv05/Weather-App",
-    tecnology: "HTML, CSS, Javascript, Responsive Design"
+    tecnology: "HTML, CSS, Javascript, Responsive Design",
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const projectList = [
     alt: "Story HTML",
     web: "https://mmedinasv05.github.io/Story-HTML/",
     github: "https://github.com/mmedinasv05/Story-HTML",
-    tecnology: "HTML, CSS, Javascript, Responsive Design"
+    tecnology: "HTML, CSS, Javascript, Responsive Design",
   },
   {
     id: 3,
@@ -34,7 +34,7 @@ const projectList = [
     alt: "Commerce",
     web: "https://mmedinasv05.github.io/Landing-Page-Ecommerce-App/",
     github: "https://github.com/mmedinasv05/Landing-Page-Ecommerce-App",
-    tecnology: "HTML, CSS, Javascript, Responsive Design"
+    tecnology: "HTML, CSS, Javascript, Responsive Design",
   },
   {
     id: 4,
@@ -43,7 +43,7 @@ const projectList = [
     alt: "Bitlab Academy",
     web: "https://mmedinasv05.github.io/Lading-Page-Bitlab/",
     github: "https://github.com/mmedinasv05/Lading-Page-Bitlab",
-    tecnology: "HTML, CSS, Javascript, Responsive Design"
+    tecnology: "HTML, CSS, Javascript, Responsive Design",
   },
   {
     id: 5,
@@ -52,7 +52,7 @@ const projectList = [
     alt: "Amazon Lite",
     web: "https://mmedinasv05.github.io/Landing-page-Amazon/",
     github: "https://github.com/mmedinasv05/Landing-page-Amazon",
-    tecnology: "HTML, CSS, Javascript, Responsive Design"
+    tecnology: "HTML, CSS, Javascript, Responsive Design",
   },
   {
     id: 6,
@@ -61,16 +61,19 @@ const projectList = [
     alt: "Portafolio",
     web: "https://mmedinasv05.github.io/Portafolio/",
     github: "https://github.com/mmedinasv05/Portafolio",
-    tecnology: "React, Responsive Design"
-  }
-]
+    tecnology: "React, Responsive Design",
+  },
+];
 
 function Projects() {
   return (
     <main className="potfolio-container">
       <header className="portfolio-title animate__animated animate__fadeInDown">
         <p className="paragraph">
-          En 2019 comencé a realizar proyectos a nivel personal para poder reforzar mis conocimientos y así poco a poco poder ir mejorando mis habilidades y sobre todo poder adquirir experiencia a través de nuevos retos.
+          In 2019 I began to carry out projects on a personal level to be able
+          to reinforce my knowledge and thus, little by little, I could improve
+          my skills and, above all, be able to gain experience through new
+          challenges.
         </p>
       </header>
       <section className="portfolio-content animate__animated animate__fadeInUp">

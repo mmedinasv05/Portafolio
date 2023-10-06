@@ -7,20 +7,20 @@ import "../Components/CSS/CustomeProperties.css";
 const iconMenu = [
   {
     path: "/",
-    title: "Inicio"
+    title: "Home",
   },
   {
-    path: "/Acerca",
-    title: "Acerca"
+    path: "/About",
+    title: "About",
   },
   {
-    path: "/Proyectos",
-    title: "Proyectos"
+    path: "/Projects",
+    title: "Projects",
   },
   {
-    path: "/Contacto",
-    title: "Contacto"
-  }
+    path: "/Contact",
+    title: "Contact",
+  },
 ];
 
 function Header() {
@@ -39,12 +39,17 @@ function Header() {
     } else {
       $headerMenu.classList.remove("header-sticky");
     }
-  })
+  });
 
   return (
     <header className="header-section">
       <NavLink className="header-brand" to="/" rel="noferrer" title="MMEDNA">
-        <img src={Brand} className="brand-image" alt="Logo mmedina" title="mmedina" />
+        <img
+          src={Brand}
+          className="brand-image"
+          alt="Logo mmedina"
+          title="mmedina"
+        />
       </NavLink>
 
       <div className="menu-hamburguesa" onClick={handleMenu}>
@@ -53,7 +58,16 @@ function Header() {
 
       <nav className="header-menu" ref={$boxMenu}>
         {iconMenu.map((link, index) => {
-          return <NavLink key={index} to={link.path} title={link.title} className="menu-links">{link.title}</NavLink>
+          return (
+            <NavLink
+              key={index}
+              to={link.path}
+              title={link.title}
+              className="menu-links"
+            >
+              {link.title}
+            </NavLink>
+          );
         })}
       </nav>
     </header>
