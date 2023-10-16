@@ -2,7 +2,7 @@ import React from "react";
 import "../Components/CSS/Welcome.css";
 import "../Components/CSS/CustomeProperties.css";
 import welcomeImage from "./Image/about-image-min.webp";
-import Curriculum from "./Curriculum";
+//import Curriculum from "./Curriculum";
 
 function Welcome() {
   return (
@@ -13,7 +13,7 @@ function Welcome() {
           Passionate about web development and love working on the website
           building process.
         </p>
-        <Curriculum />
+        {/* <Curriculum /> */}
       </section>
       <img
         src={welcomeImage}
