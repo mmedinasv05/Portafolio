@@ -8,9 +8,9 @@ function Welcome() {
   return (
     <main className="home-container">
       <section className="home-text animate__animated animate__fadeInUp">
-        <h1>Frontend Developer </h1>
+        <h1>Hi!! Developers </h1>
         <p className="paragraph">
-          Passionate about web development and love working on the website
+          I´m passionate about web development and love working on the website
           building process.
         </p>
         {/* <Curriculum /> */}

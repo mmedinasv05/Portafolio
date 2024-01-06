@@ -55,7 +55,7 @@
   }
 
   .form-control {
-    padding: 0.6rem 0.7rem !important;
+    padding: 0.6rem 0.6rem !important;
   }
 }
 
@@ -70,13 +70,17 @@
   .contact-form form {
     width: 70%;
   }
+
+  .form-control {
+    padding: 0.7rem 0.7rem !important;
+  }
 }
 
 /*md - Bootstrap*/
 @media screen and (max-width: 768px) {
   /* Contact Form */
   .contact-form form {
-    width: 85%;
+    width: 90%;
   }
 }
 

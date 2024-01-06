@@ -14,7 +14,7 @@
   margin: 0 auto;
 }
 .image-notfound {
-  width: 500px;
+  width: 31rem;
   height: auto;
 }
 
@@ -24,6 +24,9 @@
 
 /*xl - Bootstrap*/
 @media screen and (max-width: 1200px) {
+  .image-notfound {
+    width: 30rem;
+  }
 }
 
 /*lg - Bootstrap*/

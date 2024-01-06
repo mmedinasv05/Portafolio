@@ -17,7 +17,7 @@
   align-items: center;
 }
 .image-profile {
-  width: 18rem;
+  width: 19rem;
   height: auto;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   box-shadow: 0.15rem 0.2rem 0.4rem rgba(0, 0, 0, 0.5);
@@ -66,7 +66,7 @@
     width: 100%;
   }
   .image-profile {
-    width: 13rem;
+    width: 14rem;
   }
 }
 
