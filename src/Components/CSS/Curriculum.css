@@ -1,10 +1,10 @@
 .link-cv {
   display: inline-block;
-  width: 170px;
+  width: 200px;
   height: 45px;
   background-color: var(--blue);
   border-radius: 0.25rem;
-  margin-top: 0.8rem;
+  margin-top: 0rem;
   color: var(--white);
   text-decoration: none;
   cursor: pointer;
@@ -13,10 +13,11 @@
   border: 1px solid var(--blue);
   transition: all 0.3s;
   display: flex;
+  overflow: hidden;
 }
 
 .link-cv .text-cv {
-  width: 120px;
+  width: 150px;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -24,6 +25,7 @@
   border-top-left-radius: inherit;
   border-bottom-left-radius: inherit;
   background-color: inherit;
+  transition: all 0.3s;
 }
 .link-cv .icon-cv {
   width: 50px;
@@ -35,13 +37,15 @@
   border-bottom-right-radius: inherit;
   font-size: 1rem;
   border-left: 1px solid #bbb;
+  transition: all 0.3s;
 }
 .link-cv:hover .text-cv {
-  display: none;
+  transform: translateX(-100%);
+  width: 0;
   opacity: 0;
 }
 .link-cv:hover .icon-cv {
-  width: 170px;
+  width: 100%;
   border-radius: inherit;
   color: var(--white);
   border-left: 0px solid var(--blue);
@@ -53,7 +57,7 @@
 /* XL- Done */
 @media screen and (max-width: 1200px) {
   .link-cv {
-    height: 45px;
+    height: 42px;
   }
 }
 

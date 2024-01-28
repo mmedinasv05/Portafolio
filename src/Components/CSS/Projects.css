@@ -1,6 +1,5 @@
 /* Portfolio Section */
 .potfolio-container {
-  width: 100%;
   max-width: var(--max-width);
   background-color: var(--white);
   padding: 2rem var(--padding-x);

@@ -11,9 +11,9 @@ function Curriculum() {
       id="link-cv"
       className="link-cv"
       download="Resume Manuel Chavez"
-      title="Download Resume"
+      title="Descargar Curriculum"
     >
-      <span className="text-cv">Resume</span>
+      <span className="text-cv">Curriculum</span>
       <span className="icon-cv">
         <FontAwesomeIcon icon={faDownload} />
       </span>

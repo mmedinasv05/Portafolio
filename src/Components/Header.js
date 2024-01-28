@@ -1,25 +1,25 @@
 import React, { useRef } from "react";
 import { NavLink } from "react-router-dom";
-import Brand from "./Image/brand1-min.webp";
+import Brand from "./Image/brand1-min.png";
 import "../Components/CSS/Header.css";
 import "../Components/CSS/CustomeProperties.css";
 
 const iconMenu = [
   {
     path: "/",
-    title: "Home",
+    title: "Inicio",
   },
   {
-    path: "/About",
-    title: "About",
+    path: "/acerca",
+    title: "Acerca",
   },
   {
-    path: "/Projects",
-    title: "Projects",
+    path: "/proyectos",
+    title: "Proyectos",
   },
   {
-    path: "/Contact",
-    title: "Contact",
+    path: "/contacto",
+    title: "Contacto",
   },
 ];
 
@@ -48,7 +48,7 @@ function Header() {
           src={Brand}
           className="brand-image"
           alt="Logo mmedina"
-          title="mmedina"
+          title="Logo mmedina"
         />
       </NavLink>
 

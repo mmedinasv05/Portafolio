@@ -70,10 +70,10 @@ function Projects() {
     <main className="potfolio-container">
       <header className="portfolio-title animate__animated animate__fadeInDown">
         <p className="paragraph">
-          In 2019 I began to carry out projects on a personal level to be able
-          to reinforce my knowledge and thus, little by little, I could improve
-          my skills and, above all, be able to gain experience through new
-          challenges.
+          En 2019 comencé a realizar proyectos a nivel personal para poder
+          reforzar mis conocimientos y así, poco a poco, poder mejorar mis
+          habilidades y sobre todo poder ganar experiencia a través de nuevos
+          retos.
         </p>
       </header>
       <section className="portfolio-content animate__animated animate__fadeInUp">

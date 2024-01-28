@@ -1,6 +1,5 @@
 /* Contact Section */
 .contact-container {
-  width: 100%;
   max-width: var(--max-width);
   height: calc(100vh - var(--height-header));
   background-color: var(--white);
@@ -21,7 +20,7 @@
   align-items: center;
 }
 .contact-form form {
-  width: 50%;
+  width: 45%;
 }
 .form-control {
   border-color: #4b556370 !important;
@@ -68,7 +67,7 @@
 
   /* Contact Form */
   .contact-form form {
-    width: 70%;
+    width: 80%;
   }
 
   .form-control {

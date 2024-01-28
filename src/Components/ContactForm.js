@@ -34,7 +34,7 @@ function ContactForm() {
                 name="name"
                 required
                 type="text"
-                placeholder="Name"
+                placeholder="Nombre"
               />
             </Form.Group>
           </Row>
@@ -44,7 +44,7 @@ function ContactForm() {
                 name="email"
                 type="email"
                 required
-                placeholder="Email"
+                placeholder="Correo"
               />
             </Form.Group>
           </Row>
@@ -54,7 +54,7 @@ function ContactForm() {
                 name="subject"
                 required
                 type="text"
-                placeholder="Subject"
+                placeholder="Asunto"
               />
             </Form.Group>
           </Row>
@@ -65,18 +65,18 @@ function ContactForm() {
                 as="textarea"
                 required
                 rows={5}
-                placeholder="Message"
+                placeholder="Mensaje"
               />
             </Form.Group>
           </Row>
           <Button className="btn-form mt-2" type="submit">
-            Submit
+            Enviar mensaje
           </Button>
 
           <input
             type="hidden"
             name="_next"
-            value="https://mmedinasv05.github.io/Portafolio/#/Contacto"
+            value="https://mmedinasv05.github.io/Portafolio/#/contacto"
           />
           <input type="hidden" name="_captcha" value="false" />
         </Form>

@@ -1,6 +1,5 @@
 /* Not Found Section */
 .notfound-container {
-  width: 100%;
   max-width: var(--max-width);
   height: calc(100vh - var(--height-header));
   color: var(--gray);

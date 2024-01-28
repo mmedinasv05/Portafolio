@@ -1,6 +1,5 @@
 /* Footer Section */
 .footer-container {
-  width: 100%;
   max-width: var(--max-width);
   height: var(--height-footer);
   background-color: var(--white);

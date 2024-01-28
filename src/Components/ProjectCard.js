@@ -14,7 +14,7 @@ function ProjectCard({ image, alt, title, tecnology, github, web }) {
         <nav className="project-links">
           <a
             href={github}
-            title="Code"
+            title="Código"
             target="_blank"
             rel="noreferrer"
             className="project-icon"
@@ -23,7 +23,7 @@ function ProjectCard({ image, alt, title, tecnology, github, web }) {
           </a>
           <a
             href={web}
-            title="Page"
+            title="Página"
             target="_blank"
             rel="noreferrer"
             className="project-icon"

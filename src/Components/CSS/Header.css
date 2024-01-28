@@ -1,6 +1,5 @@
 /*  Header Section  */
 .header-section {
-  width: 100%;
   max-width: var(--max-width);
   height: var(--height-header);
   padding: 0 var(--padding-x);
