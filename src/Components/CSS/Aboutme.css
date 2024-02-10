@@ -85,6 +85,10 @@
 
 /*sm - Bootstrap*/
 @media screen and (max-width: 576px) {
+  /* About Desctiption */
+  .about-description {
+    padding: 2rem 0 0 0;
+  }
   /* About Image  */
   .image-profile {
     width: 12rem;

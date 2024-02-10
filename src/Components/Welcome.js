@@ -10,8 +10,7 @@ function Welcome() {
       <section className="home-text animate__animated animate__fadeInUp">
         <h1>Frontend Developer</h1>
         <p className="paragraph">
-          Apasionado por el desarrollo web y me encanta trabajar en la
-          construcción de páginas web.
+          Apasionado por el desarrollo web y en la construcción de páginas web.
         </p>
         <Curriculum />
       </section>

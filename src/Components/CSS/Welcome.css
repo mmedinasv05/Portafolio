@@ -99,21 +99,25 @@
 
 /*sm - Bootstrap*/
 @media screen and (max-width: 576px) {
+  /* Home Section */
+  .home-container {
+    gap: 1.5rem;
+  }
+
   /* Home Text */
   .home-text {
     margin: 0 0 var(--height-header) 0;
   }
+  .home-text p {
+    font-size: 0.97rem !important;
+  }
 
   /* Home Image */
   .home-image {
-    width: 12rem;
+    width: 11rem;
   }
 }
 
 /* xsm - Bootstrap */
 @media screen and (max-width: 360px) {
-  /* Home Image */
-  .home-image {
-    width: 200px;
-  }
 }

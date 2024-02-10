@@ -85,6 +85,9 @@
 
 /*sm - Bootstrap*/
 @media screen and (max-width: 576px) {
+  .contact-container {
+    background-image: none;
+  }
   /* Contact Form */
   .contact-form form {
     width: 100%;
