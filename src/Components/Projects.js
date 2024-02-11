@@ -7,6 +7,7 @@ import project5 from "./Image/5-min.webp";
 import project6 from "./Image/6-min.webp";
 import "../Components/CSS/Projects.css";
 import "../Components/CSS/CustomeProperties.css";
+import Paragraph from "./Paragraph";
 
 const projectList = [
   {
@@ -65,16 +66,16 @@ const projectList = [
   },
 ];
 
-function Projects() {
+export default function Projects() {
   return (
     <main className="potfolio-container">
       <header className="portfolio-title animate__animated animate__fadeInDown">
-        <p className="paragraph">
-          En 2019 comencé a realizar proyectos a nivel personal para poder
-          reforzar mis conocimientos y así, poco a poco, poder mejorar mis
+        <Paragraph
+          content="En 2019 comencé a realizar proyectos a nivel personal para poder
+          reforzar mis conocimientos y así poco a poco poder mejorar mis
           habilidades y sobre todo poder ganar experiencia a través de nuevos
-          retos.
-        </p>
+          retos."
+        />
       </header>
       <section className="portfolio-content animate__animated animate__fadeInUp">
         {projectList.map((project) => {
@@ -94,5 +95,3 @@ function Projects() {
     </main>
   );
 }
-
-export default Projects;

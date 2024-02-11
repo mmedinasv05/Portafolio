@@ -1,32 +1,31 @@
 /* Contact Section */
 .contact-container {
+  width: 100%;
   max-width: var(--max-width);
   height: calc(100vh - var(--height-header));
   background-color: var(--white);
   display: flex;
   margin: 0 auto;
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='780' preserveAspectRatio='none' viewBox='0 0 1440 780'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1003%26quot%3b)' fill='none'%3e%3cpath d='M278.01 356.95 a32.33 32.33 0 1 0 64.66 0 a32.33 32.33 0 1 0 -64.66 0z' stroke='rgba(36%2c 62%2c 247%2c 1)'%3e%3c/path%3e%3cpath d='M1382.65 202.19L1410.13 202.19L1410.13 256.66L1382.65 256.66z' fill='rgba(36%2c 62%2c 247%2c 1)'%3e%3c/path%3e%3cpath d='M49.77 369.88L127.23 369.88L127.23 378.71L49.77 378.71z' stroke='rgba(36%2c 62%2c 247%2c 1)'%3e%3c/path%3e%3cpath d='M485.32 591.66 a66.21 66.21 0 1 0 132.42 0 a66.21 66.21 0 1 0 -132.42 0z' stroke='rgba(36%2c 62%2c 247%2c 1)'%3e%3c/path%3e%3cpath d='M1328 194.62L1401.7 194.62L1401.7 268.32L1328 268.32z' stroke='rgba(36%2c 62%2c 247%2c 1)'%3e%3c/path%3e%3cpath d='M1055.64 170.3L1068.07 170.3L1068.07 245.78L1055.64 245.78z' fill='rgba(36%2c 62%2c 247%2c 1)'%3e%3c/path%3e%3cpath d='M215.69 26.2L249.26 26.2L249.26 93.55L215.69 93.55z' fill='rgba(36%2c 62%2c 247%2c 1)'%3e%3c/path%3e%3cpath d='M793.12 506.07L793.93 506.07L793.93 512.14L793.12 512.14z' stroke='rgba(36%2c 62%2c 247%2c 1)'%3e%3c/path%3e%3cpath d='M702.64 294.82a57.32 57.32 0 1 0 96.71 61.56z' fill='rgba(36%2c 62%2c 247%2c 1)'%3e%3c/path%3e%3cpath d='M899.27 665.55L963.14 665.55L963.14 729.42L899.27 729.42z' stroke='rgba(36%2c 62%2c 247%2c 1)'%3e%3c/path%3e%3cpath d='M814.19 66.26 a68.93 68.93 0 1 0 137.86 0 a68.93 68.93 0 1 0 -137.86 0z' fill='rgba(36%2c 62%2c 247%2c 1)'%3e%3c/path%3e%3cpath d='M345.8 493.4L357.48 493.4L357.48 505.08L345.8 505.08z' stroke='rgba(36%2c 62%2c 247%2c 1)'%3e%3c/path%3e%3cpath d='M1211.06 484.13 a7.5 7.5 0 1 0 15 0 a7.5 7.5 0 1 0 -15 0z' fill='rgba(36%2c 62%2c 247%2c 1)'%3e%3c/path%3e%3cpath d='M1291.07 209.83L1298.52 209.83L1298.52 217.28L1291.07 217.28z' fill='rgba(36%2c 62%2c 247%2c 1)'%3e%3c/path%3e%3cpath d='M305.16 614.22a15.28 15.28 0 1 0-30.48-2.21z' stroke='rgba(36%2c 62%2c 247%2c 1)'%3e%3c/path%3e%3cpath d='M1180.01 247.75L1252.66 247.75L1252.66 307.14L1180.01 307.14z' stroke='rgba(36%2c 62%2c 247%2c 1)'%3e%3c/path%3e%3cpath d='M1188.81 22.84 a33.45 33.45 0 1 0 66.9 0 a33.45 33.45 0 1 0 -66.9 0z' fill='rgba(36%2c 62%2c 247%2c 1)'%3e%3c/path%3e%3cpath d='M1189.41 514.07L1227.4 514.07L1227.4 552.06L1189.41 552.06z' fill='rgba(36%2c 62%2c 247%2c 1)'%3e%3c/path%3e%3cpath d='M29.58 645.78 a17.38 17.38 0 1 0 34.76 0 a17.38 17.38 0 1 0 -34.76 0z' fill='rgba(36%2c 62%2c 247%2c 1)'%3e%3c/path%3e%3cpath d='M55.56 842.31a76.07 76.07 0 1 0-68.41-135.89z' stroke='rgba(36%2c 62%2c 247%2c 1)'%3e%3c/path%3e%3cpath d='M899.12 615.6 a21.89 21.89 0 1 0 43.78 0 a21.89 21.89 0 1 0 -43.78 0z' stroke='rgba(36%2c 62%2c 247%2c 1)'%3e%3c/path%3e%3cpath d='M434.9 497.45L478.7 497.45L478.7 551.19L434.9 551.19z' fill='rgba(36%2c 62%2c 247%2c 1)'%3e%3c/path%3e%3cpath d='M873.96 598.54 a21.98 21.98 0 1 0 43.96 0 a21.98 21.98 0 1 0 -43.96 0z' stroke='rgba(36%2c 62%2c 247%2c 1)'%3e%3c/path%3e%3cpath d='M352.02 708.92L419.01 708.92L419.01 775.91L352.02 775.91z' stroke='rgba(36%2c 62%2c 247%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1003'%3e%3crect width='1440' height='780' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
-  background-size: cover;
-  background-position: center;
 }
 
 /* Contact Form */
 .contact-form {
   width: 100%;
-  font-size: var(--size-paragraph);
   font-family: var(--font-paragraph);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .contact-form form {
-  width: 45%;
+  width: 50%;
 }
 .form-control {
   border-color: #4b556370 !important;
   padding: 0.7rem 0.7rem !important;
   color: var(--gray);
   opacity: 0.8;
+  font-size: var(--size-paragraph) !important;
+  border-radius: 0.25rem !important;
 }
 .form-control:focus {
   box-shadow: none !important;
@@ -37,10 +36,11 @@
 .btn-form {
   box-shadow: none !important;
   border: none !important;
-  padding: 0.8rem 0 !important;
+  padding: 0.9rem 0 !important;
   background-color: var(--blue) !important;
   width: 100%;
   font-size: 1rem !important;
+  border-radius: 0.25rem !important;
 }
 
 /* ****************************************
@@ -64,7 +64,6 @@
   .contact-container {
     padding: 0 var(--padding-x);
   }
-
   /* Contact Form */
   .contact-form form {
     width: 80%;
@@ -91,7 +90,6 @@
   /* Contact Form */
   .contact-form form {
     width: 100%;
-    margin: 0 0 var(--height-header) 0;
   }
   .form-control {
     padding: 1rem 0.7rem !important;

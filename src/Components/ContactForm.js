@@ -6,7 +6,7 @@ import Row from "react-bootstrap/Row";
 import "../Components/CSS/ContactForm.css";
 import "../Components/CSS/CustomeProperties.css";
 
-function ContactForm() {
+export default function ContactForm() {
   const [validated, setValidated] = useState(false);
 
   const handleSubmit = (event) => {
@@ -84,5 +84,3 @@ function ContactForm() {
     </main>
   );
 }
-
-export default ContactForm;

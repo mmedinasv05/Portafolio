@@ -23,7 +23,7 @@ const iconMenu = [
   },
 ];
 
-function Header() {
+export default function Header() {
   const $btnMenu = useRef(),
     $boxMenu = useRef();
 
@@ -52,9 +52,9 @@ function Header() {
         />
       </NavLink>
 
-      <div className="menu-hamburguesa" onClick={handleMenu}>
+      <section className="menu-hamburguesa" onClick={handleMenu}>
         <span className="icon-menu" ref={$btnMenu}></span>
-      </div>
+      </section>
 
       <nav className="header-menu" ref={$boxMenu}>
         {iconMenu.map((link, index) => {
@@ -73,5 +73,3 @@ function Header() {
     </header>
   );
 }
-
-export default Header;

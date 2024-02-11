@@ -1,17 +1,15 @@
-import React from "react";
 import "../Components/CSS/Welcome.css";
 import "../Components/CSS/CustomeProperties.css";
 import welcomeImage from "./Image/about-image-min.webp";
 import Curriculum from "./Curriculum";
+import Paragraph from "./Paragraph";
 
-function Welcome() {
+export default function Welcome() {
   return (
     <main className="home-container">
       <section className="home-text animate__animated animate__fadeInUp">
         <h1>Frontend Developer</h1>
-        <p className="paragraph">
-          Apasionado por el desarrollo web y en la construcción de páginas web.
-        </p>
+        <Paragraph content="Apasionado por el desarrollo web y la construcción de páginas web." />
         <Curriculum />
       </section>
       <img
@@ -22,5 +20,3 @@ function Welcome() {
     </main>
   );
 }
-
-export default Welcome;

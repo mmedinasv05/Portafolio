@@ -1,5 +1,6 @@
 /* Not Found Section */
 .notfound-container {
+  width: 100%;
   max-width: var(--max-width);
   height: calc(100vh - var(--height-header));
   color: var(--gray);
@@ -13,7 +14,7 @@
   margin: 0 auto;
 }
 .image-notfound {
-  width: 31rem;
+  width: 30rem;
   height: auto;
 }
 
@@ -23,23 +24,14 @@
 
 /*xl - Bootstrap*/
 @media screen and (max-width: 1200px) {
-  .image-notfound {
-    width: 30rem;
-  }
 }
 
 /*lg - Bootstrap*/
 @media screen and (max-width: 992px) {
-  .image-notfound {
-    width: 500px;
-  }
 }
 
 /*md - Bootstrap*/
 @media screen and (max-width: 768px) {
-  .image-notfound {
-    width: 450px;
-  }
 }
 
 /*sm - Bootstrap*/

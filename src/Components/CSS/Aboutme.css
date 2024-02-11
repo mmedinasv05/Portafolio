@@ -1,10 +1,12 @@
 /* About Section */
 .about-container {
+  width: 100%;
   max-width: var(--max-width);
   height: calc(100vh - var(--height-header));
   background-color: var(--white);
   margin: 0 auto;
   display: flex;
+  padding: 0 var(--padding-x);
 }
 
 /* About Image */
@@ -18,7 +20,7 @@
 .image-profile {
   width: 18rem;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-  box-shadow: 0.15rem 0.2rem 0.4rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0.15rem 0.2rem 0.4rem #00000050;
 }
 
 /* About Desctiption */
@@ -28,7 +30,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 0 1rem 0 0;
   background-color: inherit;
 }
 
@@ -71,7 +72,7 @@
     width: 100%;
   }
   .image-profile {
-    width: 14rem;
+    width: 13rem;
   }
 }
 

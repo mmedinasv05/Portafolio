@@ -1,5 +1,6 @@
 /* Home Section */
 .home-container {
+  width: 100%;
   max-width: var(--max-width);
   height: calc(100vh - var(--height-header));
   background-color: var(--white);
@@ -7,12 +8,12 @@
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  gap: 12rem;
+  gap: 8rem;
 }
 
 /* Home Text */
 .home-text {
-  width: 45%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -28,6 +29,7 @@
 /* Home Image */
 .home-image {
   width: 18rem;
+  height: auto;
   border-radius: 69% 31% 70% 30% / 30% 58% 42% 70%;
   box-shadow: 0.15rem 0.2rem 0.4rem rgba(0, 0, 0, 0.5);
 }
@@ -47,12 +49,12 @@
 
   /* Home Text */
   .home-text {
-    width: 100%;
+    width: 60%;
   }
 
   /* Home Image */
   .home-image {
-    width: 15rem;
+    width: 17rem;
   }
 }
 
@@ -93,7 +95,7 @@
 
   /* Home Image */
   .home-image {
-    width: 14rem;
+    width: 12rem;
   }
 }
 
