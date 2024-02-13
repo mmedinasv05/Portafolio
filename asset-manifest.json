@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Portafolio/static/css/main.2c4bd323.chunk.css",
-    "main.js": "/Portafolio/static/js/main.c4b6b568.chunk.js",
-    "main.js.map": "/Portafolio/static/js/main.c4b6b568.chunk.js.map",
+    "main.css": "/Portafolio/static/css/main.377fadf3.chunk.css",
+    "main.js": "/Portafolio/static/js/main.ca8ce891.chunk.js",
+    "main.js.map": "/Portafolio/static/js/main.ca8ce891.chunk.js.map",
     "runtime-main.js": "/Portafolio/static/js/runtime-main.bb92dfde.js",
     "runtime-main.js.map": "/Portafolio/static/js/runtime-main.bb92dfde.js.map",
     "static/css/2.d5cd0c42.chunk.css": "/Portafolio/static/css/2.d5cd0c42.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.f195f98e.chunk.js.map": "/Portafolio/static/js/3.f195f98e.chunk.js.map",
     "index.html": "/Portafolio/index.html",
     "static/css/2.d5cd0c42.chunk.css.map": "/Portafolio/static/css/2.d5cd0c42.chunk.css.map",
-    "static/css/main.2c4bd323.chunk.css.map": "/Portafolio/static/css/main.2c4bd323.chunk.css.map",
+    "static/css/main.377fadf3.chunk.css.map": "/Portafolio/static/css/main.377fadf3.chunk.css.map",
     "static/js/2.d41947f3.chunk.js.LICENSE.txt": "/Portafolio/static/js/2.d41947f3.chunk.js.LICENSE.txt",
     "static/media/1-min.a9113b50.webp": "/Portafolio/static/media/1-min.a9113b50.webp",
     "static/media/2-min.385ea881.webp": "/Portafolio/static/media/2-min.385ea881.webp",
@@ -21,7 +21,7 @@
     "static/media/404.0ed9e123.webp": "/Portafolio/static/media/404.0ed9e123.webp",
     "static/media/5-min.6851e229.webp": "/Portafolio/static/media/5-min.6851e229.webp",
     "static/media/6-min.cc61d647.webp": "/Portafolio/static/media/6-min.cc61d647.webp",
-    "static/media/Curriculum.e468e985.pdf": "/Portafolio/static/media/Curriculum.e468e985.pdf",
+    "static/media/Curriculum-Manuel-Chavez.7b90ab7d.pdf": "/Portafolio/static/media/Curriculum-Manuel-Chavez.7b90ab7d.pdf",
     "static/media/about-image-min.dca9c916.webp": "/Portafolio/static/media/about-image-min.dca9c916.webp",
     "static/media/home-image-min.9a9bab45.webp": "/Portafolio/static/media/home-image-min.9a9bab45.webp"
   },
@@ -29,7 +29,7 @@
     "static/js/runtime-main.bb92dfde.js",
     "static/css/2.d5cd0c42.chunk.css",
     "static/js/2.d41947f3.chunk.js",
-    "static/css/main.2c4bd323.chunk.css",
-    "static/js/main.c4b6b568.chunk.js"
+    "static/css/main.377fadf3.chunk.css",
+    "static/js/main.ca8ce891.chunk.js"
   ]
 }
