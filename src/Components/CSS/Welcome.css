@@ -8,7 +8,7 @@
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  gap: 8rem;
+  gap: 10rem;
 }
 
 /* Home Text */
@@ -71,7 +71,7 @@
 
   /*  Home Text */
   .home-text {
-    width: 70%;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,11 +88,6 @@
 
 /*md - Bootstrap*/
 @media screen and (max-width: 768px) {
-  /* Home Text */
-  .home-text {
-    width: 90%;
-  }
-
   /* Home Image */
   .home-image {
     width: 12rem;
@@ -106,10 +101,6 @@
     gap: 1.5rem;
   }
 
-  /* Home Text */
-  .home-text {
-    margin: 0 0 var(--height-header) 0;
-  }
   .home-text p {
     font-size: 0.97rem !important;
   }

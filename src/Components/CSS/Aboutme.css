@@ -78,6 +78,12 @@
 
 /*lg - Bootstrap*/
 @media screen and (max-width: 992px) {
+  /* About Section */
+  .about-container {
+    height: calc(100vh - var(--height-header));
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 /*md - Bootstrap*/
@@ -86,10 +92,17 @@
 
 /*sm - Bootstrap*/
 @media screen and (max-width: 576px) {
+  /* About Section */
+  .about-container {
+    height: auto;
+    flex-direction: column;
+    padding: 4rem var(--padding-x);
+  }
   /* About Desctiption */
   .about-description {
     padding: 2rem 0 0 0;
   }
+
   /* About Image  */
   .image-profile {
     width: 12rem;
@@ -103,4 +116,8 @@
 
 /* xsm - Bootstrap */
 @media screen and (max-width: 360px) {
+  /* About Image  */
+  .image-profile {
+    width: 11rem;
+  }
 }

@@ -60,14 +60,20 @@
   /* Footer container */
   .footer-container {
     justify-content: center;
-    flex-direction: column-reverse;
+    flex-direction: column;
     text-align: center;
+  }
+  .footer-container p {
+    margin: 0 0 0.5rem 0;
   }
 
   /* Footer icons */
   .footer-section-icons {
-    margin-bottom: 0.5rem;
-    gap: 2rem;
+    gap: 1.5rem;
+  }
+
+  .link-icon {
+    font-size: 1.6rem;
   }
 }
 

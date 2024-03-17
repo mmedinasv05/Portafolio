@@ -3,15 +3,7 @@ import Manu from "./Image/home-image-min.webp";
 import "../Components/CSS/Aboutme.css";
 import "../Components/CSS/CustomeProperties.css";
 import Paragraph from "./Paragraph";
-
-const SKILLS = [
-  "HTML.",
-  "CSS.",
-  "Bootstrap.",
-  "Javascript.",
-  "React.",
-  "Git & Github.",
-];
+import { SKILLS } from "./Assets/data";
 
 export default function Aboutme() {
   return (
