@@ -8,12 +8,13 @@ export default function Welcome() {
   return (
     <main className="home-container">
       <section className="home-text animate__animated animate__fadeInUp">
-        <h1>Frontend Junior</h1>
+        <h1>Frontend Developer</h1>
         <Paragraph content="Apasionado por el desarrollo web y la construcción de páginas web." />
         <Curriculum />
       </section>
       <img
         src={welcomeImage}
+        loading="lazy"
         alt="profile Manuel Chavez"
         className="home-image animate__animated animate__fadeInDown"
       />

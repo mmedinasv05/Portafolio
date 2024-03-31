@@ -9,7 +9,12 @@ export default function Aboutme() {
   return (
     <main className="about-container">
       <section className="about-image animate__animated animate__fadeInDown">
-        <img src={Manu} alt="Manuel Chavez" className="image-profile" />
+        <img
+          src={Manu}
+          loading="lazy"
+          alt="Manuel Chavez"
+          className="image-profile"
+        />
       </section>
       <section className="about-description animate__animated animate__fadeInUp">
         <Paragraph

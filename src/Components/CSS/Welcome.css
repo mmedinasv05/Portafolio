@@ -99,10 +99,12 @@
   /* Home Section */
   .home-container {
     gap: 1.5rem;
+    padding-bottom: var(--height-header);
   }
 
-  .home-text p {
-    font-size: 0.97rem !important;
+  /*  Home Text */
+  .home-text {
+    width: 100%;
   }
 
   /* Home Image */
@@ -113,4 +115,12 @@
 
 /* xsm - Bootstrap */
 @media screen and (max-width: 360px) {
+  /* Home Section */
+  .home-container {
+    padding: 0 var(--padding-x);
+  }
+  /* Home Image */
+  .home-image {
+    width: 10rem;
+  }
 }

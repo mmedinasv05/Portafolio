@@ -26,9 +26,6 @@
 .instagram:hover {
   color: var(--instagram);
 }
-.twitter:hover {
-  color: var(--twitter);
-}
 .codepen:hover {
   color: var(--codepen);
 }
@@ -79,4 +76,10 @@
 
 /* xsm - Bootstrap */
 @media screen and (max-width: 360px) {
+  .footer-container p {
+    margin: 0 0 0.3rem 0;
+  }
+  .link-icon {
+    font-size: 1.5rem;
+  }
 }

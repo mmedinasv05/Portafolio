@@ -9,7 +9,7 @@
   --size-title-h1: 3rem;
   --size-title-h2: 2rem;
   --size-menu: 1rem;
-  --size-paragraph: 1rem;
+  --size-paragraph: 1rem; /*Done*/
   --line-height: 1.75;
   --opacity: 0.8;
 
@@ -45,9 +45,6 @@
   margin: 0 0 1rem 0;
 }
 
-body {
-  background-color: red !important;
-}
 /* ****************************************
           Breakpoints Bootstrap
 **************************************** */
@@ -78,8 +75,9 @@ body {
 /*sm - Bootstrap*/
 @media screen and (max-width: 576px) {
   :root {
-    --padding-x: 1rem;
-    --size-title-h1: 1.9rem;
+    --padding-x: 1rem; /*Done*/
+    --size-title-h1: 2rem;
+    --size-title-h2: 1.9rem;
     --size-menu: 2rem;
     --height-footer: 15vh;
   }
@@ -88,6 +86,8 @@ body {
 /* xsm - Bootstrap */
 @media screen and (max-width: 360px) {
   :root {
-    --height-footer: 20vh;
+    --size-title-h1: 1.8rem;
+    --size-title-h2: 1.5rem; /*Done*/
+    --height-footer: 20vh; /*Done*/
   }
 }

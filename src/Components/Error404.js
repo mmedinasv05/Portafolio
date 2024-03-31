@@ -4,7 +4,12 @@ import Image404 from "./Image/404.webp";
 export default function Error404() {
   return (
     <main className="notfound-container">
-      <img src={Image404} alt="Page not found" className="image-notfound" />
+      <img
+        src={Image404}
+        loading="lazy"
+        alt="Page not found"
+        className="image-notfound"
+      />
     </main>
   );
 }
