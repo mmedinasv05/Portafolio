@@ -3,14 +3,14 @@
 :root {
   /* Size */
   --height-header: 12vh;
-  --height-footer: 15vh;
-  --max-width: 1360px;
-  --padding-x: 2rem;
-  --size-title-h1: 3rem;
-  --size-title-h2: 2rem;
+  --height-footer: 14vh;
+  --max-width: 85rem;
+  --padding-x: 2.5rem;
+  --size-title-h1: 2.5rem;
+  --size-title-h2: 1.8rem;
   --size-menu: 1rem;
-  --size-paragraph: 1rem; /*Done*/
-  --line-height: 1.75;
+  --size-paragraph: 1rem;
+  --line-height: 1.7;
   --opacity: 0.8;
 
   /* Typography */
@@ -33,27 +33,38 @@
   --instagram: #f71e9e;
   --twitter: #1d9bf0;
   --linkedin: #016fab;
-  --github: #000000;
-  --codepen: #222222;
+  --github: #222222;
 }
+
 .paragraph {
   font-family: var(--font-paragraph);
   font-size: var(--size-paragraph);
   line-height: var(--line-height);
   color: var(--gray);
   opacity: var(--opacity);
-  margin: 0 0 1rem 0;
+  margin: 0;
+}
+
+.title__h2 {
+  font-size: var(--size-title-h2);
+  font-family: var(--font-title);
+  margin: 0;
 }
 
 /* ****************************************
           Breakpoints Bootstrap
 **************************************** */
 
+@media screen and (max-width: 1360px) {
+  :root {
+    --size-title-h1: 2rem;
+    --size-title-h2: 1.6rem;
+    --padding-x: 2rem;
+  }
+}
+
 /*xl - Bootstrap*/
 @media screen and (max-width: 1200px) {
-  :root {
-    --size-title-h1: 2.5rem;
-  }
 }
 
 /*lg - Bootstrap*/
@@ -65,29 +76,28 @@
   }
 }
 
-/*md - Bootstrap*/
+/*medium*/
 @media screen and (max-width: 768px) {
   :root {
     --size-title-h2: 1.7rem;
-  }
-}
-
-/*sm - Bootstrap*/
-@media screen and (max-width: 576px) {
-  :root {
-    --padding-x: 1rem; /*Done*/
-    --size-title-h1: 2rem;
-    --size-title-h2: 1.9rem;
-    --size-menu: 2rem;
+    --padding-x: 1.5rem;
     --height-footer: 15vh;
   }
 }
 
-/* xsm - Bootstrap */
+/*small*/
+@media screen and (max-width: 576px) {
+  :root {
+    --padding-x: 1rem;
+    --size-title-h1: 1.75rem;
+  }
+}
+
+/*extra small */
 @media screen and (max-width: 360px) {
   :root {
-    --size-title-h1: 1.8rem;
-    --size-title-h2: 1.5rem; /*Done*/
-    --height-footer: 20vh; /*Done*/
+    --size-title-h1: 1.7rem;
+    --size-title-h2: 1.5rem;
+    --height-footer: 20vh;
   }
 }

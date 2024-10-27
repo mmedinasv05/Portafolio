@@ -1,20 +1,17 @@
 /* Not Found Section */
-.notfound-container {
+.notfound__container {
   width: 100%;
   max-width: var(--max-width);
   height: calc(100vh - var(--height-header));
-  color: var(--gray);
-  font-family: var(--font-title);
-  padding: 0 var(--padding-x);
   background-color: var(--white);
+  padding: 0 var(--padding-x);
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  margin: 0 auto;
 }
-.image-notfound {
-  width: 30rem;
+.notfound__image {
+  width: 32rem;
   height: auto;
 }
 
@@ -22,25 +19,28 @@
           Breakpoints Bootstrap
 **************************************** */
 
-/*xl - Bootstrap*/
+@media screen and (max-width: 1360px) {
+}
+
+/*extra large*/
 @media screen and (max-width: 1200px) {
 }
 
-/*lg - Bootstrap*/
+/*large*/
 @media screen and (max-width: 992px) {
 }
 
-/*md - Bootstrap*/
+/*medium*/
 @media screen and (max-width: 768px) {
 }
 
-/*sm - Bootstrap*/
+/*small*/
 @media screen and (max-width: 576px) {
-  .image-notfound {
+  .notfound__image {
     width: 100%;
   }
 }
 
-/* xsm - Bootstrap */
+/*extra small */
 @media screen and (max-width: 360px) {
 }

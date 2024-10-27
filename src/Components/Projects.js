@@ -1,21 +1,14 @@
 import ProjectCard from "./ProjectCard";
-import "../Components/CSS/Projects.css";
-import "../Components/CSS/CustomeProperties.css";
 import Paragraph from "./Paragraph";
 import { projectList } from "./Assets/data";
 
-export default function Projects() {
+function Projects() {
   return (
-    <main className="potfolio-container">
-      <header className="portfolio-title animate__animated animate__fadeInDown">
-        <Paragraph
-          content="En 2019 comencé a realizar proyectos a nivel personal para poder
-          reforzar mis conocimientos y así poco a poco poder mejorar mis
-          habilidades y sobre todo poder ganar experiencia a través de nuevos
-          retos."
-        />
+    <main className="potfolio__container">
+      <header className="portfolio__title animate__animated animate__fadeIn">
+        <Paragraph content="En 2020 comencé a realizar proyectos a nivel personal para poder reforzar mis conocimientos y así poco a poco ir mejorando mis habilidades y sobre todo poder ganar experiencia a través de nuevos retos." />
       </header>
-      <section className="portfolio-content animate__animated animate__fadeInUp">
+      <section className="portfolio__content">
         {projectList.map((project) => {
           return (
             <ProjectCard
@@ -33,3 +26,5 @@ export default function Projects() {
     </main>
   );
 }
+
+export default Projects;

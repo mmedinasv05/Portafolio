@@ -1,23 +1,23 @@
 import "../Components/CSS/Welcome.css";
 import "../Components/CSS/CustomeProperties.css";
-import welcomeImage from "./Image/about-image-min.webp";
-import Curriculum from "./Curriculum";
+import Avatar from "./Image/avatar.svg";
+//import Curriculum from "./Curriculum";
 import Paragraph from "./Paragraph";
+import Curriculum from "./Curriculum";
 
 export default function Welcome() {
   return (
-    <main className="home-container">
-      <section className="home-text animate__animated animate__fadeInUp">
-        <h1>Frontend Developer</h1>
-        <Paragraph content="Apasionado por el desarrollo web y la construcción de páginas web." />
+    <main className="home__container">
+      <img
+        src={Avatar}
+        alt="Avatar Manuel Chávez"
+        className="home__avatar animate__animated animate__fadeIn"
+      />
+      <section className="home__content animate__animated animate__fadeIn">
+        <h1 className="home__title">Frontend Developer Junior</h1>
+        <Paragraph content="Un apasionado por el desarrollo web y disfruto crear páginas." />
         <Curriculum />
       </section>
-      <img
-        src={welcomeImage}
-        loading="lazy"
-        alt="profile Manuel Chavez"
-        className="home-image animate__animated animate__fadeInDown"
-      />
     </main>
   );
 }

@@ -1,45 +1,44 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
+import Paragraph from "./Paragraph";
+import TitleH2 from "./TitleH2";
 
-export default function ProjectCard({
-  image,
-  alt,
-  title,
-  tecnology,
-  github,
-  web,
-}) {
+function ProjectCard({ image, alt, title, tecnology, github, web }) {
   return (
-    <figure className="project-card">
-      <img
-        src={image}
-        loading="lazy"
-        alt={alt}
-        title={alt}
-        className="project-image"
-      />
-      <figcaption className="project-content">
-        <h2 className="project-title">{title}</h2>
-        <section className="project-tecnology">
-          <p className="tecnology">{tecnology}</p>
+    <figure className="card animate__animated animate__fadeIn">
+      <section className="card__image__content">
+        <img
+          className="card__image"
+          src={image}
+          loading="lazy"
+          alt={alt}
+          title={alt}
+        />
+      </section>
+      <figcaption className="card__content">
+        <TitleH2 title={title} />
+        <section className="card__tecnologys">
+          {tecnology.map((el, index) => {
+            return <Paragraph key={index} content={el} />;
+          })}
         </section>
-        <nav className="project-links">
+        <nav className="card__tecnology__links">
           <a
             href={github}
             title="Código"
             target="_blank"
             rel="noreferrer"
-            className="project-icon"
+            className="card__icons"
           >
-            <FontAwesomeIcon icon={faGithub} className="icon-font" />
+            <FontAwesomeIcon icon={faGithub} />
           </a>
           <a
             href={web}
             title="Página"
             target="_blank"
             rel="noreferrer"
-            className="project-icon"
+            className="card__icons"
           >
             <FontAwesomeIcon icon={faGlobe} />
           </a>
@@ -48,3 +47,5 @@ export default function ProjectCard({
     </figure>
   );
 }
+
+export default ProjectCard;

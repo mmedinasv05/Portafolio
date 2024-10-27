@@ -1,5 +1,7 @@
-/* Footer Section */
-.footer-container {
+/* ****************************************
+             Footer Container
+**************************************** */
+.footer__container {
   width: 100%;
   max-width: var(--max-width);
   height: var(--height-footer);
@@ -9,25 +11,22 @@
   border-top: thin solid rgba(49, 49, 49, 0.2);
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center !important;
 }
 
-/* Footer icons */
-.footer-section-icons {
+.footer__icons {
   display: flex;
-  gap: 1.5rem;
+  gap: 2rem;
 }
-.link-icon {
-  font-size: 1.5rem;
+.icons__link {
+  font-size: 1.6rem;
   color: var(--gray);
-  transition: color 0.5s;
   opacity: var(--opacity);
+  transition: color 0.5s ease;
 }
+
 .instagram:hover {
   color: var(--instagram);
-}
-.codepen:hover {
-  color: var(--codepen);
 }
 .linkedin:hover {
   color: var(--linkedin);
@@ -40,46 +39,48 @@
           Breakpoints Bootstrap
 **************************************** */
 
-/*xl - Bootstrap*/
+/*extra large - OKOK*/
+@media screen and (max-width: 1360px) {
+}
+
+/*extra large - OKOK*/
 @media screen and (max-width: 1200px) {
 }
 
-/*lg - Bootstrap*/
+/*large - OKOK*/
 @media screen and (max-width: 992px) {
 }
 
-/*md - Bootstrap*/
+/*medium - OKOK*/
 @media screen and (max-width: 768px) {
+  .footer__container {
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 0.5em;
+  }
+
+  .icons__link {
+    font-size: 1.9rem;
+  }
 }
 
-/*sm - Bootstrap*/
+/*small - OKOK*/
 @media screen and (max-width: 576px) {
-  /* Footer container */
-  .footer-container {
-    justify-content: center;
-    flex-direction: column;
+  .footer__container {
     text-align: center;
   }
-  .footer-container p {
-    margin: 0 0 0.5rem 0;
+  .footer__icons {
+    gap: 2rem;
   }
 
-  /* Footer icons */
-  .footer-section-icons {
-    gap: 1.5rem;
-  }
-
-  .link-icon {
-    font-size: 1.6rem;
+  .icons__link {
+    font-size: 1.8rem;
   }
 }
 
-/* xsm - Bootstrap */
+/*extra small - OKOK*/
 @media screen and (max-width: 360px) {
-  .footer-container p {
-    margin: 0 0 0.3rem 0;
-  }
-  .link-icon {
-    font-size: 1.5rem;
+  .icons__link {
+    font-size: 1.7rem;
   }
 }

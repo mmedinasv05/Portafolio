@@ -5,7 +5,6 @@ import {
   faInstagram,
   faLinkedin,
   faGithub,
-  faCodepen,
 } from "@fortawesome/free-brands-svg-icons";
 import Paragraph from "./Paragraph";
 
@@ -19,20 +18,13 @@ const DATA = [
   },
   {
     id: 2,
-    icon: faCodepen,
-    url: "https://codepen.io/mmedinasv/pens/public",
-    title: "Codepen",
-    styles: "codepen",
-  },
-  {
-    id: 3,
     icon: faLinkedin,
     url: "https://www.linkedin.com/in/manuel-humberto-chavez/",
     title: "Linkedin",
     styles: "linkedin",
   },
   {
-    id: 4,
+    id: 3,
     icon: faGithub,
     url: "https://github.com/mmedinasv05",
     title: "Github",
@@ -40,15 +32,15 @@ const DATA = [
   },
 ];
 
-export default function Footer() {
+function Footer() {
   return (
-    <footer className="footer-container">
+    <footer className="footer__container">
       <Paragraph content="2024 Manuel Chavez, Rights Reserved." />
-      <nav className="footer-section-icons">
+      <nav className="footer__icons">
         {DATA.map((icon) => {
           return (
             <a
-              className="link-icon"
+              className="icons__link"
               key={icon.id}
               href={icon.url}
               target="_blank"
@@ -63,3 +55,5 @@ export default function Footer() {
     </footer>
   );
 }
+
+export default Footer;

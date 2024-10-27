@@ -1,31 +1,37 @@
-/* Contact Section */
-.contact-container {
+/*****************************************
+              Contact Container             
+*****************************************/
+.contact__container {
   width: 100%;
   max-width: var(--max-width);
   height: calc(100vh - var(--height-header));
   background-color: var(--white);
-  display: flex;
+  padding: 0 var(--padding-x);
   margin: 0 auto;
-}
-
-/* Contact Form */
-.contact-form {
-  width: 100%;
-  font-family: var(--font-paragraph);
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.contact-form form {
+
+/*****************************************
+              Contact Form                
+*****************************************/
+.contact__form {
   width: 50%;
 }
+
+.form {
+  width: 100%;
+}
+
 .form-control {
-  border-color: #4b556370 !important;
-  padding: 0.7rem 0.7rem !important;
   color: var(--gray);
-  opacity: 0.8;
-  font-size: var(--size-paragraph) !important;
+  font-family: var(--font-paragraph);
+  font-size: 1rem;
+  padding: 0.7rem 1rem !important;
+  border-color: #4b556370 !important;
   border-radius: 0.25rem !important;
+  opacity: 0.8;
 }
 .form-control:focus {
   box-shadow: none !important;
@@ -33,72 +39,66 @@
 .form-control:valid {
   border-color: #28a745 !important;
 }
-.btn-form {
+.form__invalid {
+  border-color: red !important;
+}
+.form__invalid::placeholder {
+  color: red !important;
+}
+
+.form__button {
   box-shadow: none !important;
   border: none !important;
-  padding: 0.9rem 0 !important;
+  padding: 1rem 0 !important;
   background-color: var(--blue) !important;
   width: 100%;
   font-size: 1rem !important;
   border-radius: 0.25rem !important;
+  font-family: var(--font-paragraph) !important;
 }
 
 /* ****************************************
           Breakpoints Bootstrap
 **************************************** */
 
-/*xl - Bootstrap*/
+@media screen and (max-width: 1360px) {
+  .form-control {
+    padding: 0.6rem 1rem !important;
+  }
+}
+
+/*extra large - OKOK*/
 @media screen and (max-width: 1200px) {
-  .contact-form form {
+  .contact__form {
     width: 60%;
   }
+}
+
+/*large - OKOK*/
+@media screen and (max-width: 992px) {
+  .contact__form {
+    width: 70%;
+  }
 
   .form-control {
-    padding: 0.6rem 0.6rem !important;
+    padding: 0.9rem 0.7rem !important;
   }
 }
 
-/*lg - Bootstrap*/
-@media screen and (max-width: 992px) {
-  /* Contact Section */
-  .contact-container {
-    padding: 0 var(--padding-x);
-  }
-  /* Contact Form */
-  .contact-form form {
+/*medium - OKOK*/
+@media screen and (max-width: 768px) {
+  .contact__form {
     width: 80%;
   }
-
-  .form-control {
-    padding: 0.7rem 0.7rem !important;
-  }
 }
 
-/*md - Bootstrap*/
-@media screen and (max-width: 768px) {
-  /* Contact Form */
-  .contact-form form {
-    width: 90%;
-  }
-}
-
-/*sm - Bootstrap*/
+/*small - OKOK*/
 @media screen and (max-width: 576px) {
-  .contact-container {
-    background-image: none;
-  }
-  /* Contact Form */
-  .contact-form form {
+  .contact__form {
     width: 100%;
   }
-  .form-control {
-    padding: 1rem 0.7rem !important;
-  }
-  .btn-form {
-    padding: 1rem 0 !important;
-  }
 }
 
-/* xsm - Bootstrap */
+/*extra small - OKOK*/
 @media screen and (max-width: 360px) {
 }

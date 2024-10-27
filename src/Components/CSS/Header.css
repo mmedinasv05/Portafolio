@@ -13,8 +13,7 @@
   background-color: var(--white);
   transition: background-color 0.1s;
   margin: 0 auto;
-  /* box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); */
-  border-bottom: 0.1rem solid rgba(49, 49, 49, 0.2);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
 }
 
 /* Menu Hamburguesa */
@@ -36,7 +35,7 @@
   width: auto;
   height: auto;
   display: flex;
-  gap: 4rem;
+  gap: 3.5rem;
 }
 .menu-links {
   font-family: var(--font-menu);
@@ -47,11 +46,11 @@
   opacity: var(--opacity);
 }
 .menu-links:hover {
-  color: var(--blue);
+  color: var(--pink);
   opacity: 1;
 }
 .active {
-  color: var(--blue);
+  color: var(--pink);
   opacity: 1;
 }
 .header-prhase {
@@ -67,12 +66,15 @@
 **************************************** */
 
 /*xl - Bootstrap*/
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1360px) {
   /* Header Brand */
   .header-brand {
     width: 8.5rem !important;
   }
+}
 
+/*xl - Bootstrap*/
+@media screen and (max-width: 1200px) {
   /* Header Menu */
   .menu-links {
   }

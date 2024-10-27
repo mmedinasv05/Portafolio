@@ -1,15 +1,17 @@
 import "./CSS/Error404.css";
-import Image404 from "./Image/404.webp";
+import Image404 from "./Image/404.png";
 
-export default function Error404() {
+function Error404() {
   return (
-    <main className="notfound-container">
+    <main className="notfound__container">
       <img
         src={Image404}
         loading="lazy"
         alt="Page not found"
-        className="image-notfound"
+        className="notfound__image animate__animated animate__fadeIn"
       />
     </main>
   );
 }
+
+export default Error404;

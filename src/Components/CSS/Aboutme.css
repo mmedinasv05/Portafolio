@@ -1,123 +1,112 @@
-/* About Section */
-.about-container {
+/*****************************************
+              About Container             
+*****************************************/
+.about__container {
   width: 100%;
   max-width: var(--max-width);
   height: calc(100vh - var(--height-header));
   background-color: var(--white);
-  margin: 0 auto;
-  display: flex;
   padding: 0 var(--padding-x);
-}
-
-/* About Image */
-.about-image {
-  width: 35%;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: inherit;
 }
-.image-profile {
-  width: 18rem;
+
+/*****************************************
+            About Description            
+*****************************************/
+.about__description {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem 0;
+}
+.about__description p {
+  font-size: 1.01rem;
+}
+.about__skills {
+  columns: 2;
+}
+.list__skills {
+  margin-bottom: 0.5rem;
+  padding: 0;
+  list-style: none;
+}
+
+/*****************************************
+                About Image              
+*****************************************/
+.about__image {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__image__profile {
+  width: 21rem;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   box-shadow: 0.15rem 0.2rem 0.4rem #00000050;
 }
 
-/* About Desctiption */
-.about-description {
-  width: 65%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-color: inherit;
+/*****************************************
+          Breakpoints Bootstrap          
+*****************************************/
+
+@media screen and (max-width: 1360px) {
+  .about__description p {
+    font-size: var(--font-paragraph);
+  }
+  .about__image__profile {
+    width: 19rem;
+  }
 }
 
-/* Skills Section */
-.about-skills {
-  width: 100%;
-  columns: 3;
-  margin: 1rem 0 0 0;
-}
-.list-skills {
-  padding: 0;
-  list-style: none;
-  margin: 0 0 0.7rem 0;
-  font-size: var(--size-paragraph);
-  font-family: var(--font-paragraph);
-  opacity: var(--opacity);
-}
-
-/* ****************************************
-          Breakpoints Bootstrap
-**************************************** */
-
-/*xl - Bootstrap*/
+/*extra large - OKOK*/
 @media screen and (max-width: 1200px) {
-  /* About Section */
-  .about-container {
+  .about__container {
     height: auto;
-    flex-direction: column;
-    padding: 4rem var(--padding-x);
+    padding: 3rem var(--padding-x);
+    flex-direction: column-reverse;
   }
 
-  /* About Desctiption */
-  .about-description {
+  .about__description {
     width: 100%;
-    padding: 3rem 0 0 0;
+    margin-top: 2rem;
   }
 
-  /* About Image */
-  .about-image {
+  .about__skills {
+    margin-top: 2rem;
+  }
+
+  .about__image {
     width: 100%;
-  }
-  .image-profile {
-    width: 13rem;
-  }
-}
-
-/*lg - Bootstrap*/
-@media screen and (max-width: 992px) {
-  /* About Section */
-  .about-container {
-    height: calc(100vh - var(--height-header));
     justify-content: center;
-    align-items: center;
+  }
+  .about__image__profile {
+    width: 12rem;
   }
 }
 
-/*md - Bootstrap*/
+/*large - OKOK*/
+@media screen and (max-width: 992px) {
+}
+
+/*medium - OKOK*/
 @media screen and (max-width: 768px) {
 }
 
-/*sm - Bootstrap*/
+/*small - OKOK*/
 @media screen and (max-width: 576px) {
-  /* About Section */
-  .about-container {
-    height: auto;
-    flex-direction: column;
-    padding: 4rem var(--padding-x);
-  }
-  /* About Desctiption */
-  .about-description {
-    padding: 2rem 0 0 0;
-  }
-
-  /* About Image  */
-  .image-profile {
-    width: 12rem;
-  }
-
-  /* Skills Section */
-  .about-skills {
-    columns: 2;
+  .about__skills {
+    margin-top: 1rem;
   }
 }
 
-/* xsm - Bootstrap */
+/*extra small - OKOK*/
 @media screen and (max-width: 360px) {
-  /* About Image  */
-  .image-profile {
+  .about__image__profile {
     width: 11rem;
   }
 }

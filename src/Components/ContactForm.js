@@ -3,26 +3,38 @@ import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 import Row from "react-bootstrap/Row";
-import "../Components/CSS/ContactForm.css";
-import "../Components/CSS/CustomeProperties.css";
 
-export default function ContactForm() {
+function ContactForm() {
   const [validated, setValidated] = useState(false);
 
   const handleSubmit = (event) => {
+    const $formInput = document.querySelectorAll("form [required]");
+    const $btnSubmit = document.querySelector(".form__button");
+
     const form = event.currentTarget;
+
     if (form.checkValidity() === false) {
       event.preventDefault();
       event.stopPropagation();
+
+      $formInput.forEach((inputs) => {
+        inputs.classList.add("form__invalid");
+      });
     }
+
+    if (validated) {
+      $btnSubmit.textContent = "Enviando mensaje";
+    }
+
     setValidated(true);
   };
 
   return (
-    <main className="contact-container">
-      <section className="contact-form animate__animated animate__fadeInUp">
+    <main className="contact__container">
+      <section className="contact__form animate__animated animate__fadeIn">
         <Form
-          action="https://formsubmit.co/chavezofficial2015@gmail.com"
+          className="form"
+          action="https://formsubmit.co/mmedinasv.dev@gmail.com"
           method="POST"
           noValidate
           validated={validated}
@@ -32,8 +44,8 @@ export default function ContactForm() {
             <Form.Group as={Col} md="12" controlId="validationCustom01">
               <Form.Control
                 name="name"
-                required
                 type="text"
+                required
                 placeholder="Nombre"
               />
             </Form.Group>
@@ -52,8 +64,8 @@ export default function ContactForm() {
             <Form.Group as={Col} md="12" controlId="validationCustom03">
               <Form.Control
                 name="subject"
-                required
                 type="text"
+                required
                 placeholder="Asunto"
               />
             </Form.Group>
@@ -69,7 +81,7 @@ export default function ContactForm() {
               />
             </Form.Group>
           </Row>
-          <Button className="btn-form mt-2" type="submit">
+          <Button className="form__button mt-2" type="submit">
             Enviar mensaje
           </Button>
 
@@ -84,3 +96,5 @@ export default function ContactForm() {
     </main>
   );
 }
+
+export default ContactForm;

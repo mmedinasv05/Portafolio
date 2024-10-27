@@ -22,7 +22,7 @@ export const projectList = [
     alt: "Fun Weather",
     web: "https://mmedinasv05.github.io/Weather-App/",
     github: "https://github.com/mmedinasv05/Weather-App",
-    tecnology: "HTML, CSS, Javascript, Responsive Design",
+    tecnology: ["HTML", "CSS", "Javascript"],
   },
   {
     id: 2,
@@ -31,7 +31,7 @@ export const projectList = [
     alt: "Story HTML",
     web: "https://mmedinasv05.github.io/Story-HTML/",
     github: "https://github.com/mmedinasv05/Story-HTML",
-    tecnology: "HTML, CSS, Javascript, Responsive Design",
+    tecnology: ["HTML", "CSS", "Javascript"],
   },
   {
     id: 3,
@@ -40,7 +40,7 @@ export const projectList = [
     alt: "Commerce",
     web: "https://mmedinasv05.github.io/Landing-Page-Ecommerce-App/",
     github: "https://github.com/mmedinasv05/Landing-Page-Ecommerce-App",
-    tecnology: "HTML, CSS, Javascript, Responsive Design",
+    tecnology: ["HTML", "CSS", "Javascript"],
   },
   {
     id: 4,
@@ -49,7 +49,7 @@ export const projectList = [
     alt: "Bitlab Academy",
     web: "https://mmedinasv05.github.io/Lading-Page-Bitlab/",
     github: "https://github.com/mmedinasv05/Lading-Page-Bitlab",
-    tecnology: "HTML, CSS, Javascript, Responsive Design",
+    tecnology: ["HTML", "CSS", "Javascript"],
   },
   {
     id: 5,
@@ -58,15 +58,15 @@ export const projectList = [
     alt: "Amazon Lite",
     web: "https://mmedinasv05.github.io/Landing-page-Amazon/",
     github: "https://github.com/mmedinasv05/Landing-page-Amazon",
-    tecnology: "HTML, CSS, Javascript, Responsive Design",
+    tecnology: ["HTML", "CSS", "Javascript"],
   },
   {
     id: 6,
-    title: "Portafolio.",
+    title: "Portafolio Web.",
     image: project6,
     alt: "Portafolio",
     web: "https://mmedinasv05.github.io/Portafolio/",
     github: "https://github.com/mmedinasv05/Portafolio",
-    tecnology: "React, Responsive Design",
+    tecnology: ["React", "Bootstrap"],
   },
 ];

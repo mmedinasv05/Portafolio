@@ -1,23 +1,23 @@
 .link-cv {
   display: inline-block;
-  width: 200px;
-  height: 45px;
+  width: 13rem;
+  height: 3rem;
   background-color: var(--blue);
-  border-radius: 0.25rem;
+  border-radius: 0.35rem;
   margin-top: 0rem;
   color: var(--white);
   text-decoration: none;
   cursor: pointer;
   font-family: var(--font-paragraph);
   font-size: var(--size-paragraph);
-  border: 1px solid var(--blue);
+  border: thin solid var(--blue);
   transition: all 0.3s;
   display: flex;
   overflow: hidden;
 }
 
 .link-cv .text-cv {
-  width: 150px;
+  width: 9.35rem;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -28,7 +28,7 @@
   transition: all 0.3s;
 }
 .link-cv .icon-cv {
-  width: 50px;
+  width: 3.15rem;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -36,7 +36,7 @@
   border-top-right-radius: inherit;
   border-bottom-right-radius: inherit;
   font-size: 1rem;
-  border-left: 1px solid #bbb;
+  border-left: thin solid #bbb;
   transition: all 0.3s;
 }
 .link-cv:hover .text-cv {
@@ -53,12 +53,15 @@
 /* ****************************************
           Breakpoints Bootstrap
 **************************************** */
+@media screen and (max-width: 1360px) {
+  .link-cv {
+    width: 12rem;
+    height: 40px;
+  }
+}
 
 /* XL- Done */
 @media screen and (max-width: 1200px) {
-  .link-cv {
-    height: 42px;
-  }
 }
 
 /* Large - Done */
@@ -72,7 +75,7 @@
 /* SM - Done */
 @media screen and (max-width: 576px) {
   .link-cv {
-    height: 50px;
+    height: 3.13rem;
   }
 }
 

@@ -1,5 +1,5 @@
-import "./CSS/CustomeProperties.css";
-
-export default function Paragraph({ content }) {
+function Paragraph({ content }) {
   return <p className="paragraph">{content}</p>;
 }
+
+export default Paragraph;
