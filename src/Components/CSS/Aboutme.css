@@ -25,6 +25,7 @@
 .about__description p {
   font-size: 1.01rem;
 }
+
 .about__skills {
   columns: 2;
 }
@@ -45,7 +46,7 @@
 }
 
 .about__image__profile {
-  width: 21rem;
+  width: 20rem;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   box-shadow: 0.15rem 0.2rem 0.4rem #00000050;
 }

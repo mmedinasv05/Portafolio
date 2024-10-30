@@ -1,7 +1,7 @@
 import Paragraph from "./Paragraph";
 import ListSkills from "./ListSkills";
 import { SKILLS } from "./Assets/data";
-import Manu from "./Image/home-image-min.webp";
+import Manu from "./Image/about-image-min.webp";
 
 function Aboutme() {
   return (

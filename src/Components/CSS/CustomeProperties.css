@@ -79,7 +79,7 @@
 /*medium*/
 @media screen and (max-width: 768px) {
   :root {
-    --size-title-h2: 1.7rem;
+    --size-title-h2: 1.9rem;
     --padding-x: 1.5rem;
     --height-footer: 15vh;
   }
@@ -89,7 +89,7 @@
 @media screen and (max-width: 576px) {
   :root {
     --padding-x: 1rem;
-    --size-title-h1: 1.75rem;
+    --size-title-h1: 1.9rem;
   }
 }
 

@@ -46,11 +46,11 @@
   opacity: var(--opacity);
 }
 .menu-links:hover {
-  color: var(--pink);
+  color: var(--blue);
   opacity: 1;
 }
 .active {
-  color: var(--pink);
+  color: var(--blue);
   opacity: 1;
 }
 .header-prhase {

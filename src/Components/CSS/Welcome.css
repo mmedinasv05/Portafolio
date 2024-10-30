@@ -12,8 +12,14 @@
   flex-direction: column;
   text-align: center;
 }
+.home__image {
+  width: 12rem;
+  border-radius: 71% 29% 70% 30% / 30% 54% 46% 70%;
+  box-shadow: 0.15rem 0.2rem 0.4rem #00000050;
+}
+
 .home__content {
-  margin: 1rem 0;
+  margin-top: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,11 +28,17 @@
 .home__title {
   font-family: var(--font-title);
   font-size: var(--size-title-h1);
-  margin-bottom: 0.2rem;
+  margin: 0;
 }
 .home__content p {
-  font-size: 1.02rem;
   margin-bottom: 0.5rem;
+}
+
+.home__curriculum {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 /* ****************************************
@@ -57,7 +69,7 @@
 /*small - OKOK*/
 @media screen and (max-width: 576px) {
   .home__container {
-    padding: 0 var(--padding-x) 2rem var(--padding-x);
+    padding: 0 var(--padding-x) 3rem var(--padding-x);
   }
   .home__content {
     width: 100%;

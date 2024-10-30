@@ -5,17 +5,29 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
 export default function Curriculum() {
+  document.addEventListener("click", (e) => {
+    if (e.target.matches(".link__cv")) {
+      e.target.textContent = "Descargando...";
+
+      setTimeout(() => {
+        e.target.style.display = "none";
+        document
+          .querySelector(".curriculum__message")
+          .classList.remove("hidden__message");
+      }, 1500);
+    }
+  });
+
   return (
     <a
       href={CV}
-      id="link-cv"
-      className="link-cv"
+      className="link__cv"
       download="Curriculum Manuel Chavez"
       title="Descargar Curriculum"
     >
-      <span className="text-cv">Curriculum</span>
-      <span className="icon-cv">
-        <FontAwesomeIcon icon={faDownload} />
+      Curriculum
+      <span className="link__icon__section">
+        <FontAwesomeIcon icon={faDownload} className="link__icon" />
       </span>
     </a>
   );
