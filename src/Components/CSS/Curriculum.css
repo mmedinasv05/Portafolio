@@ -26,7 +26,7 @@
 }
 
 .curriculum__message {
-  background-color: #253cd980;
+  background-color: #253cd990;
   padding: 0.75rem 2rem;
   text-align: center;
   border-radius: 0.35rem;
@@ -42,47 +42,45 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   position: absolute;
   right: 0;
   height: 100%;
   width: 20%;
-
   border-left: thin solid var(--white);
   border-top-right-radius: inherit;
   border-top-right-radius: inherit;
 }
-.link__icon {
-}
 
-/* ****************************************
-          Breakpoints Bootstrap
-**************************************** */
+/*****************************************
+                Breakpoints           
+*****************************************/
+
+/*PENDIENTE*/
 @media screen and (max-width: 1360px) {
-  .link-cv {
-    width: 12rem;
-    height: 40px;
+  .link__cv {
+    height: 2.5rem;
   }
 }
 
-/* XL- Done */
 @media screen and (max-width: 1200px) {
+  .link__cv {
+    width: 12rem;
+    padding: 0 1.5rem;
+  }
 }
-/* Large - Done */
+
 @media screen and (max-width: 992px) {
 }
 
-/* Medium - Done */
 @media screen and (max-width: 768px) {
 }
 
-/* SM - Done */
 @media screen and (max-width: 576px) {
-  .link-cv {
-    height: 3.13rem;
+  .link__cv {
+    width: 13rem;
+    padding: 0 2.2rem;
   }
 }
 
-/* Extra SM - Done */
 @media screen and (max-width: 360px) {
 }

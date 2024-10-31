@@ -1,19 +1,14 @@
-/* Home Section */
 .home__container {
-  width: 100%;
-  max-width: var(--max-width);
   height: calc(100vh - var(--height-header));
   background-color: var(--white);
-  padding: 0 var(--padding-x);
-  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  text-align: center;
 }
+
 .home__image {
-  width: 12rem;
+  width: 11rem;
   border-radius: 71% 29% 70% 30% / 30% 54% 46% 70%;
   box-shadow: 0.15rem 0.2rem 0.4rem #00000050;
 }
@@ -30,43 +25,43 @@
   font-size: var(--size-title-h1);
   margin: 0;
 }
-.home__content p {
-  margin-bottom: 0.5rem;
-}
-
 .home__curriculum {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 0.75rem;
 }
 
-/* ****************************************
-          Breakpoints Bootstrap
-**************************************** */
+/*****************************************
+                Breakpoints           
+*****************************************/
 
 @media screen and (max-width: 1360px) {
 }
 
-/*extra large - OKOK*/
 @media screen and (max-width: 1200px) {
+  .home__image {
+    width: 10rem;
+  }
+
   .home__content p {
     font-size: var(--font-paragraph);
   }
 }
 
-/*large - OKOK*/
 @media screen and (max-width: 992px) {
-  .home__content {
-    width: 80%;
+  .home__image {
+    width: 11rem;
   }
 }
 
-/*medium - OKOK*/
 @media screen and (max-width: 768px) {
+  .home__content {
+    text-align: center;
+  }
 }
 
-/*small - OKOK*/
 @media screen and (max-width: 576px) {
   .home__container {
     padding: 0 var(--padding-x) 3rem var(--padding-x);
@@ -76,6 +71,5 @@
   }
 }
 
-/*extra small - OKOK*/
 @media screen and (max-width: 360px) {
 }

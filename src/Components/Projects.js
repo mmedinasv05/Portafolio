@@ -4,7 +4,7 @@ import { projectList } from "./Assets/data";
 
 function Projects() {
   return (
-    <main className="potfolio__container">
+    <main className="potfolio__container container__section">
       <header className="portfolio__title animate__animated animate__fadeIn">
         <Paragraph content="En 2020 comencé a realizar proyectos a nivel personal para poder reforzar mis conocimientos y así poco a poco ir mejorando mis habilidades y sobre todo poder ganar experiencia a través de nuevos retos." />
       </header>

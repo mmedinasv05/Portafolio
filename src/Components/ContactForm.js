@@ -27,7 +27,7 @@ function ContactForm() {
   };
 
   return (
-    <main className="contact__container">
+    <main className="contact__container container__section">
       <section className="contact__form animate__animated animate__fadeIn">
         <Form
           className="form"

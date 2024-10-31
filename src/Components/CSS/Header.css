@@ -1,9 +1,6 @@
 /*  Header Section  */
 .header-section {
-  width: 100%;
-  max-width: var(--max-width);
   height: var(--height-header);
-  padding: 0 var(--padding-x);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -12,7 +9,7 @@
   z-index: 999;
   background-color: var(--white);
   transition: background-color 0.1s;
-  margin: 0 auto;
+
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
 }
 
@@ -61,26 +58,19 @@
   background-color: var(--white);
 }
 
-/* ****************************************
-          Breakpoints Bootstrap
-**************************************** */
+/*****************************************
+                Breakpoints           
+*****************************************/
 
-/*xl - Bootstrap*/
 @media screen and (max-width: 1360px) {
-  /* Header Brand */
   .header-brand {
     width: 8.5rem !important;
   }
 }
 
-/*xl - Bootstrap*/
 @media screen and (max-width: 1200px) {
-  /* Header Menu */
-  .menu-links {
-  }
 }
 
-/*lg - Bootstrap*/
 @media screen and (max-width: 992px) {
   .header-section {
     flex-direction: row;
@@ -181,7 +171,6 @@
   }
 }
 
-/*md - Bootstrap*/
 @media screen and (max-width: 768px) {
   .header-menu {
     gap: 3.5rem;
@@ -194,7 +183,6 @@
   }
 }
 
-/*sm - Bootstrap*/
 @media screen and (max-width: 576px) {
   .header-brand {
     width: 9.5rem;
@@ -213,6 +201,5 @@
   }
 }
 
-/* xsm - Bootstrap */
 @media screen and (max-width: 360px) {
 }

@@ -1,12 +1,9 @@
 .loader__container {
-  width: 100%;
-  max-width: var(--max-width);
   height: calc(100vh - var(--height-header));
-  margin: 0 auto;
+  background-color: var(--white);
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--white);
 }
 
 .lds-roller,

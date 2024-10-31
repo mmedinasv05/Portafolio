@@ -1,43 +1,11 @@
-/*****************************************
-              About Container             
-*****************************************/
 .about__container {
-  width: 100%;
-  max-width: var(--max-width);
   height: calc(100vh - var(--height-header));
   background-color: var(--white);
-  padding: 0 var(--padding-x);
-  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/*****************************************
-            About Description            
-*****************************************/
-.about__description {
-  width: 70%;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem 0;
-}
-.about__description p {
-  font-size: 1.01rem;
-}
-
-.about__skills {
-  columns: 2;
-}
-.list__skills {
-  margin-bottom: 0.5rem;
-  padding: 0;
-  list-style: none;
-}
-
-/*****************************************
-                About Image              
-*****************************************/
 .about__image {
   width: 30%;
   display: flex;
@@ -48,11 +16,30 @@
 .about__image__profile {
   width: 20rem;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-  box-shadow: 0.15rem 0.2rem 0.4rem #00000050;
+  box-shadow: 0.15rem 0.2rem 0.4rem #00000070;
+}
+
+.about__description {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.about__description p {
+  font-size: 1.01rem;
+}
+
+.about__skills {
+  columns: 3;
+}
+.list__skills {
+  margin-bottom: 0.5rem;
+  padding: 0;
+  list-style: none;
 }
 
 /*****************************************
-          Breakpoints Bootstrap          
+                Breakpoints           
 *****************************************/
 
 @media screen and (max-width: 1360px) {
@@ -64,7 +51,6 @@
   }
 }
 
-/*extra large - OKOK*/
 @media screen and (max-width: 1200px) {
   .about__container {
     height: auto;
@@ -74,11 +60,7 @@
 
   .about__description {
     width: 100%;
-    margin-top: 2rem;
-  }
-
-  .about__skills {
-    margin-top: 2rem;
+    padding-top: 2rem;
   }
 
   .about__image {
@@ -86,28 +68,27 @@
     justify-content: center;
   }
   .about__image__profile {
-    width: 12rem;
+    width: 11rem;
   }
 }
 
-/*large - OKOK*/
 @media screen and (max-width: 992px) {
-}
-
-/*medium - OKOK*/
-@media screen and (max-width: 768px) {
-}
-
-/*small - OKOK*/
-@media screen and (max-width: 576px) {
   .about__skills {
     margin-top: 1rem;
   }
 }
 
-/*extra small - OKOK*/
-@media screen and (max-width: 360px) {
-  .about__image__profile {
-    width: 11rem;
+@media screen and (max-width: 768px) {
+  .about__container {
+    height: auto;
   }
+  .about__skills {
+    columns: 2;
+  }
+}
+
+@media screen and (max-width: 576px) {
+}
+
+@media screen and (max-width: 360px) {
 }

@@ -34,7 +34,7 @@ const DATA = [
 
 function Footer() {
   return (
-    <footer className="footer__container">
+    <footer className="footer__container container__section">
       <Paragraph content="2024 Manuel Chavez, Rights Reserved." />
       <nav className="footer__icons">
         {DATA.map((icon) => {

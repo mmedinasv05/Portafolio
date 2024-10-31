@@ -1,24 +1,12 @@
-/* ****************************************
-              Portfolio Container
-**************************************** */
 .potfolio__container {
-  width: 100%;
-  max-width: var(--max-width);
   background-color: var(--white);
   padding: 2rem var(--padding-x);
-  margin: 0 auto;
 }
 
-/* ****************************************
-              Portfolio Title
-**************************************** */
 .portfolio__title {
   margin-bottom: 2rem;
 }
 
-/* ****************************************
-              Portfolio Content
-**************************************** */
 .portfolio__content {
   width: 100%;
   display: flex;
@@ -81,7 +69,6 @@
   border-radius: 0.25rem;
   font-size: 0.9rem;
 }
-
 .card__tecnology__links {
   position: absolute;
   top: 5%;
@@ -108,22 +95,18 @@
   }
 }
 
-/*extra large - OKOK*/
 @media screen and (max-width: 1200px) {
   .card {
-    width: 49%;
+    width: 48.5%;
   }
 }
 
-/*large - OKOK*/
 @media screen and (max-width: 992px) {
 }
 
-/*medium - OKOK*/
 @media screen and (max-width: 768px) {
 }
 
-/*small - OKOK*/
 @media screen and (max-width: 576px) {
   .card {
     width: 100%;
@@ -138,7 +121,6 @@
   }
 }
 
-/*extra small - OKOK*/
 @media screen and (max-width: 360px) {
   .card__icons {
     font-size: 1.6rem;

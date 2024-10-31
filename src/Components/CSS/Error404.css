@@ -1,46 +1,36 @@
-/* Not Found Section */
 .notfound__container {
-  width: 100%;
-  max-width: var(--max-width);
   height: calc(100vh - var(--height-header));
   background-color: var(--white);
-  padding: 0 var(--padding-x);
-  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .notfound__image {
-  width: 32rem;
+  width: 30rem;
   height: auto;
 }
 
-/* ****************************************
-          Breakpoints Bootstrap
-**************************************** */
+/*****************************************
+                Breakpoints           
+*****************************************/
 
 @media screen and (max-width: 1360px) {
 }
 
-/*extra large*/
 @media screen and (max-width: 1200px) {
 }
 
-/*large*/
 @media screen and (max-width: 992px) {
 }
 
-/*medium*/
 @media screen and (max-width: 768px) {
 }
 
-/*small*/
 @media screen and (max-width: 576px) {
   .notfound__image {
     width: 100%;
   }
 }
 
-/*extra small */
 @media screen and (max-width: 360px) {
 }

@@ -1,13 +1,13 @@
 import "../Components/CSS/Welcome.css";
 import "../Components/CSS/CustomeProperties.css";
-import Avatar from "./Image/home-image-min.jpg";
+import Avatar from "./Image/home-image-min.webp";
 //import Curriculum from "./Curriculum";
 import Paragraph from "./Paragraph";
 import Curriculum from "./Curriculum";
 
 export default function Welcome() {
   return (
-    <main className="home__container">
+    <main className="home__container container__section">
       <img
         src={Avatar}
         alt="Avatar Manuel Chávez"
