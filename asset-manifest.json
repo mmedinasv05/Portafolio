@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Portafolio/static/css/main.05d17d61.chunk.css",
-    "main.js": "/Portafolio/static/js/main.05923e76.chunk.js",
-    "main.js.map": "/Portafolio/static/js/main.05923e76.chunk.js.map",
+    "main.css": "/Portafolio/static/css/main.d7c898e2.chunk.css",
+    "main.js": "/Portafolio/static/js/main.7128d20c.chunk.js",
+    "main.js.map": "/Portafolio/static/js/main.7128d20c.chunk.js.map",
     "runtime-main.js": "/Portafolio/static/js/runtime-main.a987bd42.js",
     "runtime-main.js.map": "/Portafolio/static/js/runtime-main.a987bd42.js.map",
     "static/css/2.1471b3b0.chunk.css": "/Portafolio/static/css/2.1471b3b0.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.9088d485.chunk.js.map": "/Portafolio/static/js/3.9088d485.chunk.js.map",
     "index.html": "/Portafolio/index.html",
     "static/css/2.1471b3b0.chunk.css.map": "/Portafolio/static/css/2.1471b3b0.chunk.css.map",
-    "static/css/main.05d17d61.chunk.css.map": "/Portafolio/static/css/main.05d17d61.chunk.css.map",
+    "static/css/main.d7c898e2.chunk.css.map": "/Portafolio/static/css/main.d7c898e2.chunk.css.map",
     "static/js/2.de304497.chunk.js.LICENSE.txt": "/Portafolio/static/js/2.de304497.chunk.js.LICENSE.txt",
-    "static/media/1-min.a9113b50.webp": "/Portafolio/static/media/1-min.a9113b50.webp",
-    "static/media/2-min.385ea881.webp": "/Portafolio/static/media/2-min.385ea881.webp",
-    "static/media/3-min.b6b2494d.webp": "/Portafolio/static/media/3-min.b6b2494d.webp",
-    "static/media/4-min.7ca27253.webp": "/Portafolio/static/media/4-min.7ca27253.webp",
-    "static/media/5-min.6851e229.webp": "/Portafolio/static/media/5-min.6851e229.webp",
-    "static/media/6-min.2a01a665.webp": "/Portafolio/static/media/6-min.2a01a665.webp",
+    "static/media/1-min.c6f23fe6.webp": "/Portafolio/static/media/1-min.c6f23fe6.webp",
+    "static/media/2-min.ece0379a.webp": "/Portafolio/static/media/2-min.ece0379a.webp",
+    "static/media/3-min.72e8fe48.webp": "/Portafolio/static/media/3-min.72e8fe48.webp",
+    "static/media/4-min.379e54a3.webp": "/Portafolio/static/media/4-min.379e54a3.webp",
+    "static/media/5-min.06ac1c98.webp": "/Portafolio/static/media/5-min.06ac1c98.webp",
+    "static/media/6-min.1ddede15.webp": "/Portafolio/static/media/6-min.1ddede15.webp",
     "static/media/about-image-min.b3c58148.webp": "/Portafolio/static/media/about-image-min.b3c58148.webp",
     "static/media/brand1-min.d22e045e.webp": "/Portafolio/static/media/brand1-min.d22e045e.webp",
     "static/media/home-image-min.f3bc8295.webp": "/Portafolio/static/media/home-image-min.f3bc8295.webp"
@@ -28,7 +28,7 @@
     "static/js/runtime-main.a987bd42.js",
     "static/css/2.1471b3b0.chunk.css",
     "static/js/2.de304497.chunk.js",
-    "static/css/main.05d17d61.chunk.css",
-    "static/js/main.05923e76.chunk.js"
+    "static/css/main.d7c898e2.chunk.css",
+    "static/js/main.7128d20c.chunk.js"
   ]
 }
