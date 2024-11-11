@@ -14,6 +14,9 @@ function ContactForm() {
     const form = event.currentTarget;
 
     if (form.checkValidity() === false) {
+      event.preventDefault();
+      event.stopPropagation();
+
       $formInput.forEach((inputs) => {
         inputs.classList.add("form__invalid");
       });

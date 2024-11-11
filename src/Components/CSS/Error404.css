@@ -4,6 +4,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.notfound__container h1 {
+  font-size: 6rem;
+}
+.notfound__container h2 {
+  font-size: 3rem;
+}
+.notfound__container h2,
+.notfound__container h1 {
+  font-family: var(--font-title);
+  color: var(--gray);
+  opacity: var(--opacity);
+  margin: 0;
+  line-height: 1;
 }
 .notfound__image {
   width: 30rem;

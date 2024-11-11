@@ -1,43 +1,14 @@
-import "../Components/CSS/CustomeProperties.css";
 import "../Components/CSS/Footer.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faInstagram,
-  faLinkedin,
-  faGithub,
-} from "@fortawesome/free-brands-svg-icons";
 import Paragraph from "./Paragraph";
-
-const DATA = [
-  {
-    id: 1,
-    icon: faInstagram,
-    url: "https://www.instagram.com/__manuelchavez/",
-    title: "Instagram",
-    styles: "instagram",
-  },
-  {
-    id: 2,
-    icon: faLinkedin,
-    url: "https://www.linkedin.com/in/manuel-humberto-chavez/",
-    title: "Linkedin",
-    styles: "linkedin",
-  },
-  {
-    id: 3,
-    icon: faGithub,
-    url: "https://github.com/mmedinasv05",
-    title: "Github",
-    styles: "github",
-  },
-];
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { socialMedia } from "./Assets/data";
 
 function Footer() {
   return (
     <footer className="footer__container container__section">
       <Paragraph content="2024 Manuel Chavez, Rights Reserved." />
       <nav className="footer__icons">
-        {DATA.map((icon) => {
+        {socialMedia.map((icon) => {
           return (
             <a
               className="icons__link"

@@ -6,11 +6,11 @@
   --height-footer: 14vh; /*OK*/
   --max-width: 85rem; /*OK*/
   --padding-x: 2.5rem; /*OK*/
-  --size-title-h1: 2.5rem; /*OK*/
+  --size-title-h1: 2.7rem; /*OK*/
   --size-title-h2: 1.8rem; /*OK*/
   --size-menu: 1rem; /*OK*/
   --size-paragraph: 1rem; /*OK*/
-  --line-height: 1.7; /*OK*/
+  --line-height: 1.8; /*OK*/
   --opacity: 0.8; /*OK*/
 
   /* Typography */
@@ -63,44 +63,41 @@
 
 @media screen and (max-width: 1360px) {
   :root {
-    --size-title-h1: 2rem;
+    --size-title-h1: 2.5rem;
     --size-title-h2: 1.6rem;
     --padding-x: 2rem;
   }
 }
 
-/*xl - Bootstrap*/
 @media screen and (max-width: 1200px) {
+  :root {
+    --size-title-h1: 2.3rem;
+  }
 }
 
-/*lg - Bootstrap*/
 @media screen and (max-width: 992px) {
   :root {
-    --height-header: 10vh;
     --height-footer: 12vh;
     --size-menu: 2rem;
   }
 }
 
-/*medium*/
 @media screen and (max-width: 768px) {
   :root {
-    --size-title-h2: 1.7rem;
     --padding-x: 1.5rem;
     --height-footer: 15vh;
   }
 }
 
-/*small*/
 @media screen and (max-width: 576px) {
   :root {
     --size-title-h1: 2rem;
+    --size-title-h2: 1.8rem;
     --padding-x: 1rem;
     --height-footer: 16vh;
   }
 }
 
-/*extra small */
 @media screen and (max-width: 360px) {
   :root {
     --size-title-h1: 1.7rem;

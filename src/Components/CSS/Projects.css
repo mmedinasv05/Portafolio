@@ -1,6 +1,6 @@
 .potfolio__container {
   background-color: var(--white);
-  padding: 2rem var(--padding-x);
+  padding: 2rem var(--padding-x) !important;
 }
 
 .portfolio__title {
@@ -20,7 +20,7 @@
   width: 32%;
   box-shadow: 0 0.25rem 0.9rem 0.25rem rgba(0 0 0 /10%);
   position: relative;
-  border-radius: 0.5rem !important;
+  border-radius: 0.25rem !important;
 }
 
 .card__image__content {
@@ -30,6 +30,7 @@
 .card__image {
   width: 100%;
   height: 100%;
+  display: block;
   transition: transform 0.5s ease;
 }
 .card:hover .card__image {
@@ -40,9 +41,9 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(0 0 0 /70%);
-  color: var(--white);
   padding: 0 0 1.5rem 1rem;
+  background-color: rgba(0 0 0 /80%);
+  color: var(--white);
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
@@ -59,16 +60,16 @@
 
 .card__tecnologys {
   display: flex;
-  gap: 0.5rem;
+  gap: 0.3rem;
 }
 .card__tecnologys p {
   color: var(--black) !important;
-  background-color: #efefef !important;
+  background-color: #fff !important;
   opacity: 1;
-  padding: 0.1rem 0.7rem;
+  padding: 0.05rem 0.7rem;
   border-radius: 0.25rem;
-  font-size: 0.9rem;
 }
+
 .card__tecnology__links {
   position: absolute;
   top: 5%;
@@ -90,9 +91,6 @@
 **************************************** */
 
 @media screen and (max-width: 1360px) {
-  .card__tecnologys p {
-    padding: 0.05rem 0.7rem;
-  }
 }
 
 @media screen and (max-width: 1200px) {

@@ -1,27 +1,8 @@
+import "../Components/CSS/Header.css";
 import React, { useRef } from "react";
 import { NavLink } from "react-router-dom";
+import { dataMenu } from "./Assets/data";
 import Brand from "./Image/brand1-min.webp";
-import "../Components/CSS/Header.css";
-import "../Components/CSS/CustomeProperties.css";
-
-const iconMenu = [
-  {
-    path: "/",
-    title: "Inicio",
-  },
-  {
-    path: "/acerca",
-    title: "Acerca",
-  },
-  {
-    path: "/proyectos",
-    title: "Proyectos",
-  },
-  {
-    path: "/contacto",
-    title: "Contacto",
-  },
-];
 
 export default function Header() {
   const $btnMenu = useRef(),
@@ -57,7 +38,7 @@ export default function Header() {
       </section>
 
       <nav className="header-menu" ref={$boxMenu}>
-        {iconMenu.map((link, index) => {
+        {dataMenu.map((link, index) => {
           return (
             <NavLink
               key={index}

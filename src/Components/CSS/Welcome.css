@@ -5,32 +5,26 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  row-gap: 1rem;
 }
 
 .home__image {
-  width: 11rem;
+  width: 12rem;
   border-radius: 71% 29% 70% 30% / 30% 54% 46% 70%;
   box-shadow: 0.15rem 0.2rem 0.4rem #00000050;
 }
 
 .home__content {
-  margin-top: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: center;
 }
 .home__title {
   font-family: var(--font-title);
   font-size: var(--size-title-h1);
   margin: 0;
-}
-.home__curriculum {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 0.75rem;
 }
 
 /*****************************************
@@ -44,30 +38,17 @@
   .home__image {
     width: 10rem;
   }
-
-  .home__content p {
-    font-size: var(--font-paragraph);
-  }
 }
 
 @media screen and (max-width: 992px) {
-  .home__image {
-    width: 11rem;
-  }
 }
 
 @media screen and (max-width: 768px) {
-  .home__content {
-    text-align: center;
-  }
 }
 
 @media screen and (max-width: 576px) {
   .home__container {
     padding: 0 var(--padding-x) 3rem var(--padding-x);
-  }
-  .home__content {
-    width: 100%;
   }
 }
 

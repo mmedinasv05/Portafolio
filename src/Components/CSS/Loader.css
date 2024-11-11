@@ -1,5 +1,5 @@
 .loader__container {
-  height: calc(100vh - var(--height-header));
+  height: calc(100vh - (var(--height-header) + var(--height-footer)));
   background-color: var(--white);
   display: flex;
   justify-content: center;
