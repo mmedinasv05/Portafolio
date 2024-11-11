@@ -35,9 +35,6 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .home__image {
-    width: 10rem;
-  }
 }
 
 @media screen and (max-width: 992px) {
